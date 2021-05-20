@@ -1,0 +1,48 @@
+# Translation of Plugins - WooCommerce Grid / List toggle - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - WooCommerce Grid / List toggle - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-04-25 14:45:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - WooCommerce Grid / List toggle - Stable (latest release)\n"
+
+#: woocommerce-grid-list-toggle.php:70
+msgid "Choose which format products should display in by default."
+msgstr "Välj vilket format produkter ska visas som standard."
+
+#: woocommerce-grid-list-toggle.php:69
+msgid "Grid / List default"
+msgstr "Rutnät/lista standard"
+
+#. Author URI of the plugin/theme
+msgid "http://jameskoster.co.uk"
+msgstr "http://jameskoster.co.uk"
+
+#. Author of the plugin/theme
+msgid "jameskoster"
+msgstr "jameskoster"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Grid / List toggle"
+msgstr "WooCommerce Grid / List toggle"
+
+#: woocommerce-grid-list-toggle.php:125
+msgid "List view"
+msgstr "Listvy"
+
+#: woocommerce-grid-list-toggle.php:124
+msgid "Grid view"
+msgstr "Rutnätsvy"
+
+#: woocommerce-grid-list-toggle.php:77
+msgid "List"
+msgstr "Lista"
+
+#: woocommerce-grid-list-toggle.php:76
+msgid "Grid"
+msgstr "Rutnät"

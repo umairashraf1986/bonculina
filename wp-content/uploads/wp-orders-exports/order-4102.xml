@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4102</OrderId>
+  <OrderTime>07:20:13</OrderTime>
+  <OrderDate>2020-09-26</OrderDate>
+  <ShippingFullName>Crister MATTSSON</ShippingFullName>
+  <ShippingAddress1>Stapelgränd 2</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Sigtuna</ShippingCity>
+  <ShippingPostcode>19331</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>1291</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>1069</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001272912</ShipmentNumber>
+</Order>

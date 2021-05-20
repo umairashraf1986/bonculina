@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4219</OrderId>
+  <OrderTime>08:46:47</OrderTime>
+  <OrderDate>2020-10-02</OrderDate>
+  <ShippingFullName>Georgos Magiras</ShippingFullName>
+  <ShippingAddress1>Hovslagargatan 29</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Upplands Väsby</ShippingCity>
+  <ShippingPostcode>19431</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>2452</Id>
+      <Name>Lasagne</Name>
+      <ProductId>2850</ProductId>
+      <SKU>218IT9012801</SKU>
+      <Quantity>2</Quantity>
+      <Price>65</Price>
+      <Subtotal>130</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>130</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>2453</Id>
+      <Name>Pennepasta med lax</Name>
+      <ProductId>1906</ProductId>
+      <SKU>218IT9012807</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>2454</Id>
+      <Name>Chilli Con Carne</Name>
+      <ProductId>2857</ProductId>
+      <SKU>210GB90203555</SKU>
+      <Quantity>2</Quantity>
+      <Price>55</Price>
+      <Subtotal>110</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>110</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>2455</Id>
+      <Name>Kyckling Tikka Masala</Name>
+      <ProductId>2859</ProductId>
+      <SKU>224GB90203501</SKU>
+      <Quantity>2</Quantity>
+      <Price>55</Price>
+      <Subtotal>110</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>110</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>2456</Id>
+      <Name>Kyckling Karahi</Name>
+      <ProductId>2855</ProductId>
+      <SKU>232GB90203553</SKU>
+      <Quantity>2</Quantity>
+      <Price>55</Price>
+      <Subtotal>110</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>110</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>2457</Id>
+      <Name>Marockansk lammgryta</Name>
+      <ProductId>2818</ProductId>
+      <SKU>214GB90203565</SKU>
+      <Quantity>2</Quantity>
+      <Price>65</Price>
+      <Subtotal>130</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>130</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>2458</Id>
+      <Name>Skaldjursrisotto med zucchini</Name>
+      <ProductId>2844</ProductId>
+      <SKU>418IT9012816</SKU>
+      <Quantity>2</Quantity>
+      <Price>65</Price>
+      <Subtotal>130</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>130</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>2459</Id>
+      <Name>Coq Au Vin</Name>
+      <ProductId>2835</ProductId>
+      <SKU>226GB90203557</SKU>
+      <Quantity>3</Quantity>
+      <Price>65</Price>
+      <Subtotal>195</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>195</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001284547</ShipmentNumber>
+</Order>

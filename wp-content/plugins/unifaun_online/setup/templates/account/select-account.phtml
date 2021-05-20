@@ -1,0 +1,56 @@
+<?php if (empty($error)) { ?>
+    <?php if (!empty($accounts)) { ?>
+<p><?php echo __("You have <em>at least one</em> account already.", 'msunifauonline'); ?></p>
+<p><?php echo __('Select the account you want to use to request a ERP-connection.', 'msunifaunonline'); ?></p>
+<form method="post" action="?page=msunifaun_setup&route=account">
+    <input type="hidden" name="account_orgno" value="<?php echo $orgNo; ?>" />
+    <ul class="existing-accounts">
+        <?php
+        $first = true;
+        foreach ($accounts as $account)
+        {
+            printf(
+                '<li>
+                <label>
+                <input required="required" type="radio" value="%s" name="account_userid"%s />
+                <strong>%s</strong> (%s)
+                </label>
+                </li>',
+                (!empty($account['userId'])
+                    ? $account['userId']
+                    : ''),
+                ($first ? ' checked="checked"' : ''),
+                (!empty($account['companyName'])
+                    ? $account['companyName']
+                    : '-'),
+                (!empty($account['orgNo'])
+                    ? $account['orgNo']
+                    : '-')
+            );
+            $first = false;
+        }
+        ?>
+    </ul>
+    <input class="button button-primary" type="submit" value="<?php echo __('Select a ERP-connection', 'msunifaunonline'); ?>" />
+    <input type="hidden" name="unifaun_setup_nonce" value="<?php echo wp_create_nonce('unifaun_setup_nonce'); ?>" />
+</form>
+<?php } else { ?>
+<p><?php echo __("You don't have an account yet.", 'msunifauonline'); ?></p>
+<form method="post" action="?page=msunifaun_setup&route=account">
+    <input type="hidden" name="account_orgno" value="<?php echo $orgNo; ?>" />
+    <input type="hidden" name="account_userid" value="-" />
+    <input class="button button-primary" type="submit" value="<?php echo __('Create a new account', 'msunifaunonline'); ?>" />
+    <input type="hidden" name="unifaun_setup_nonce" value="<?php echo wp_create_nonce('unifaun_setup_nonce'); ?>" />
+</form>
+    <?php } ?>
+<?php } else { ?>
+<p>
+    <?php printf(__('Failed with communicating with Unifaun, error: %s', 'msunifaunonline'), $error); ?>
+</p>
+<?php } ?>
+<p>
+    <hr />
+    <a href="?page=msunifaun_setup&route=<?php echo $route; ?>">
+        <?php echo __('Go back', 'msunifaunonline'); ?>
+    </a>
+</p>

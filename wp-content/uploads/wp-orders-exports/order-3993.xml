@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>3993</OrderId>
+  <OrderTime>21:28:10</OrderTime>
+  <OrderDate>2020-08-31</OrderDate>
+  <ShippingFullName>Kjell Reidar Ahlén</ShippingFullName>
+  <ShippingAddress1>Engelbrektsvägen 22</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Vallentuna</ShippingCity>
+  <ShippingPostcode>18646</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>685</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>0</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001232605</ShipmentNumber>
+</Order>

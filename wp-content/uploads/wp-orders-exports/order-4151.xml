@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4151</OrderId>
+  <OrderTime>11:08:41</OrderTime>
+  <OrderDate>2020-09-29</OrderDate>
+  <ShippingFullName>Jonathan Tomkinson</ShippingFullName>
+  <ShippingAddress1>Seminariegatan 11/1202 Lght</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Uppsala</ShippingCity>
+  <ShippingPostcode>75228</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>1648</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>855</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1669</Id>
+      <Name>Trendy paketet - 20 måltider</Name>
+      <ProductId>2883</ProductId>
+      <SKU>EPTREN</SKU>
+      <Quantity>1</Quantity>
+      <Price>1099</Price>
+      <Subtotal>1099</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>879</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001278326</ShipmentNumber>
+</Order>

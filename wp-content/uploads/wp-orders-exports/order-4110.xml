@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4110</OrderId>
+  <OrderTime>17:33:00</OrderTime>
+  <OrderDate>2020-09-26</OrderDate>
+  <ShippingFullName>Birgitta Holmström</ShippingFullName>
+  <ShippingAddress1>Björnbärsstigen 32 Lgh 1102</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Kungsängen</ShippingCity>
+  <ShippingPostcode>19634</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>1358</Id>
+      <Name>Tagliatellepasta med köttfärssås</Name>
+      <ProductId>2861</ProductId>
+      <SKU>218IT9012802</SKU>
+      <Quantity>2</Quantity>
+      <Price>55</Price>
+      <Subtotal>110</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>110</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1359</Id>
+      <Name>Köttfärslimpa med gräddsås</Name>
+      <ProductId>2853</ProductId>
+      <SKU>223GB90203563</SKU>
+      <Quantity>2</Quantity>
+      <Price>65</Price>
+      <Subtotal>130</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>130</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1360</Id>
+      <Name>Köttbullar i gräddsås</Name>
+      <ProductId>2838</ProductId>
+      <SKU>223GB90203562</SKU>
+      <Quantity>2</Quantity>
+      <Price>65</Price>
+      <Subtotal>130</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>130</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1361</Id>
+      <Name>Revbensstek med chipotle BBQ-sås</Name>
+      <ProductId>2816</ProductId>
+      <SKU>224GB90203548</SKU>
+      <Quantity>4</Quantity>
+      <Price>75</Price>
+      <Subtotal>300</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>300</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001273024</ShipmentNumber>
+</Order>

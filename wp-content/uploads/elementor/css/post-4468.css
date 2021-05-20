@@ -1,0 +1,22 @@
+.elementor-4468 .elementor-element.elementor-element-5b983984 > .elementor-container{max-width:1140px;}.elementor-4468 .elementor-element.elementor-element-5b983984{border-style:solid;border-width:1px 0px 0px 0px;border-color:#02010114;transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:10px 0px 10px 0px;}.elementor-4468 .elementor-element.elementor-element-5b983984 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-4468 .elementor-element.elementor-element-15d6f42c > .elementor-container{max-width:1140px;}.elementor-4468 .elementor-element.elementor-element-15d6f42c{border-style:solid;border-width:10px 0px 0px 0px;border-color:var( --e-global-color-primary );transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:0px;margin-bottom:0px;padding:60px 0px 60px 0px;}.elementor-4468 .elementor-element.elementor-element-15d6f42c > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-4468 .elementor-element.elementor-element-1bcb8904.elementor-column > .elementor-column-wrap > .elementor-widget-wrap{justify-content:center;}.elementor-4468 .elementor-element.elementor-element-1bcb8904 > .elementor-column-wrap > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-4468 .elementor-element.elementor-element-5e42c273{font-family:"FS Lucas Regular", Sans-serif;}:root{--page-title-display:none;}/* Start custom CSS for section, class: .elementor-element-15d6f42c */.flower-effect:before {
+    content: '';
+    width: 150px;
+    height: 1px;
+    background-color: rgba(0,0,0,.08);
+    position: absolute;
+    top: 16.25px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: -120px;
+}
+.flower-effect:after {
+    content: '';
+    width: 150px;
+    height: 1px;
+    background-color: rgba(0,0,0,.08);
+    position: absolute;
+    top: 16.25px;
+    right: 50%;
+    transform: translateX(50%);
+    margin-right: -120px;
+}/* End custom CSS */

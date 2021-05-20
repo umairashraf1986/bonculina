@@ -1,0 +1,13 @@
+.lds-spinner {
+    display: inline-block;
+    position: relative;
+    top:7px;
+}
+.parent_div{
+    margin-right:10px;
+    float:left;
+}
+.child_div{
+    float:left;
+    margin-right:5px;
+}

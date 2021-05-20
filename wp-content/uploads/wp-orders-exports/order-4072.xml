@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4072</OrderId>
+  <OrderTime>08:36:00</OrderTime>
+  <OrderDate>2020-09-19</OrderDate>
+  <ShippingFullName>Alexandra Petrovic</ShippingFullName>
+  <ShippingAddress1>Styrmansgatan 9</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Stockholm</ShippingCity>
+  <ShippingPostcode>11454</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>1183</Id>
+      <Name>Cannelloni med ricottaost och spenat</Name>
+      <ProductId>2864</ProductId>
+      <SKU>218IT9012805</SKU>
+      <Quantity>2</Quantity>
+      <Price>55</Price>
+      <Subtotal>110</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>110</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1184</Id>
+      <Name>Vegetarisk grönsakslasagne</Name>
+      <ProductId>2858</ProductId>
+      <SKU>224GB90203518</SKU>
+      <Quantity>2</Quantity>
+      <Price>55</Price>
+      <Subtotal>110</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>110</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1185</Id>
+      <Name>Marockansk vegetarisk gryta</Name>
+      <ProductId>2856</ProductId>
+      <SKU>214GB90203567</SKU>
+      <Quantity>3</Quantity>
+      <Price>55</Price>
+      <Subtotal>165</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>165</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1186</Id>
+      <Name>Trofiepasta med pestosås</Name>
+      <ProductId>2870</ProductId>
+      <SKU>418IT9012812</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>55</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001261790</ShipmentNumber>
+</Order>

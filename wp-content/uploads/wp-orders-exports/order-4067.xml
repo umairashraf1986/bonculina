@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4067</OrderId>
+  <OrderTime>21:15:18</OrderTime>
+  <OrderDate>2020-09-16</OrderDate>
+  <ShippingFullName>Lena Ternau-Mannberg</ShippingFullName>
+  <ShippingAddress1>Engelbrektsvägen 153</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Vallentuna</ShippingCity>
+  <ShippingPostcode>18646</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>1128</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>962</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001258716</ShipmentNumber>
+</Order>

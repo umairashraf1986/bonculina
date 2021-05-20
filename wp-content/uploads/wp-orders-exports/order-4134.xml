@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4134</OrderId>
+  <OrderTime>15:19:21</OrderTime>
+  <OrderDate>2020-09-28</OrderDate>
+  <ShippingFullName>Roger Nilsson</ShippingFullName>
+  <ShippingAddress1>Larsbergsvägen 53 Lgh 1101</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Lidingö</ShippingCity>
+  <ShippingPostcode>18138</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>1570</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>962</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001276611</ShipmentNumber>
+</Order>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4043</OrderId>
+  <OrderTime>16:02:22</OrderTime>
+  <OrderDate>2020-09-10</OrderDate>
+  <ShippingFullName>Christina Hemmingsson</ShippingFullName>
+  <ShippingAddress1>Sysslomansgatan 20 A</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Uppsala</ShippingCity>
+  <ShippingPostcode>75313</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>919</Id>
+      <Name>Ostgratinerad blomkål med couscous</Name>
+      <ProductId>2873</ProductId>
+      <SKU>240GB90203542</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>55</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>920</Id>
+      <Name>Tortellini Panna Prosciutto</Name>
+      <ProductId>2878</ProductId>
+      <SKU>418IT9012813</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>55</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>921</Id>
+      <Name>Kyckling Tikka Masala</Name>
+      <ProductId>2859</ProductId>
+      <SKU>224GB90203501</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>55</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>922</Id>
+      <Name>Kyckling Korma</Name>
+      <ProductId>2860</ProductId>
+      <SKU>224GB90203529</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>55</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>923</Id>
+      <Name>Skaldjursrisotto med zucchini</Name>
+      <ProductId>2844</ProductId>
+      <SKU>418IT9012816</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001248458</ShipmentNumber>
+</Order>

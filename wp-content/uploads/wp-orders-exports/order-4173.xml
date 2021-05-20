@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4173</OrderId>
+  <OrderTime>04:58:54</OrderTime>
+  <OrderDate>2020-09-30</OrderDate>
+  <ShippingFullName>Milos Herman</ShippingFullName>
+  <ShippingAddress1>Dalstigen 14</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Saltsjöbaden</ShippingCity>
+  <ShippingPostcode>13337</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>1963</Id>
+      <Name>Veggie paketet - 20 måltider</Name>
+      <ProductId>2884</ProductId>
+      <SKU>EPVEG</SKU>
+      <Quantity>1</Quantity>
+      <Price>999</Price>
+      <Subtotal>999</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>899</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1971</Id>
+      <Name>Kyckling Karahi</Name>
+      <ProductId>2855</ProductId>
+      <SKU>232GB90203553</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>50</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1972</Id>
+      <Name>Kyckling Tikka Masala</Name>
+      <ProductId>2859</ProductId>
+      <SKU>224GB90203501</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>50</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1973</Id>
+      <Name>Pennepasta med lax</Name>
+      <ProductId>1906</ProductId>
+      <SKU>218IT9012807</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>58</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001279178</ShipmentNumber>
+</Order>

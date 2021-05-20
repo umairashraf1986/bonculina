@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4204</OrderId>
+  <OrderTime>11:00:22</OrderTime>
+  <OrderDate>2020-10-01</OrderDate>
+  <ShippingFullName>Anders Berg</ShippingFullName>
+  <ShippingAddress1>Spånga Kyrkväg 423</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Spånga</ShippingCity>
+  <ShippingPostcode>16356</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>2275</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>1069</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001282995</ShipmentNumber>
+</Order>

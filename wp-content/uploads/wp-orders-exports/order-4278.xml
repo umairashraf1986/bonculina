@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4278</OrderId>
+  <OrderTime>16:56:28</OrderTime>
+  <OrderDate>2020-10-06</OrderDate>
+  <ShippingFullName>Mattias Edquist</ShippingFullName>
+  <ShippingAddress1>Essinge Brogata 39</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Stockholm</ShippingCity>
+  <ShippingPostcode>11261</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>3019</Id>
+      <Name>Tagliatellepasta med köttfärssås</Name>
+      <ProductId>2861</ProductId>
+      <SKU>218IT9012802</SKU>
+      <Quantity>2</Quantity>
+      <Price>55</Price>
+      <Subtotal>110</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>110</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3020</Id>
+      <Name>Chilli Con Carne</Name>
+      <ProductId>2857</ProductId>
+      <SKU>210GB90203555</SKU>
+      <Quantity>3</Quantity>
+      <Price>55</Price>
+      <Subtotal>165</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>165</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3021</Id>
+      <Name>Marockansk vegetarisk gryta</Name>
+      <ProductId>2856</ProductId>
+      <SKU>214GB90203567</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>55</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3022</Id>
+      <Name>Boeuf Bourguignon</Name>
+      <ProductId>2820</ProductId>
+      <SKU>226GB90203546</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001291007</ShipmentNumber>
+</Order>

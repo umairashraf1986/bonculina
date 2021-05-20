@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4378</OrderId>
+  <OrderTime>17:26:41</OrderTime>
+  <OrderDate>2020-10-14</OrderDate>
+  <ShippingFullName>Paul Klemets</ShippingFullName>
+  <ShippingAddress1>Turebergs Allé 46</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Sollentuna</ShippingCity>
+  <ShippingPostcode>19164</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>3931</Id>
+      <Name>Kyckling Tikka Masala</Name>
+      <ProductId>2859</ProductId>
+      <SKU>224GB90203501</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>55</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3932</Id>
+      <Name>Kyckling Karahi</Name>
+      <ProductId>2855</ProductId>
+      <SKU>232GB90203553</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>55</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3933</Id>
+      <Name>Coq Au Vin</Name>
+      <ProductId>2835</ProductId>
+      <SKU>226GB90203557</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3934</Id>
+      <Name>Pennepasta med lax</Name>
+      <ProductId>1906</ProductId>
+      <SKU>218IT9012807</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3935</Id>
+      <Name>Skaldjursrisotto med zucchini</Name>
+      <ProductId>2844</ProductId>
+      <SKU>418IT9012816</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001305155</ShipmentNumber>
+</Order>

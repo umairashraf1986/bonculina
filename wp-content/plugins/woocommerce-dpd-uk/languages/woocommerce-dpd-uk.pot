@@ -1,0 +1,740 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce DPD UK\n"
+"POT-Creation-Date: 2017-09-05 17:49+0200\n"
+"PO-Revision-Date: 2017-09-05 17:51+0200\n"
+"Last-Translator: Maciej Swoboda <maciej.swoboda@gmail.com>\n"
+"Language-Team: Maciej Swoboda <support@wpdesk.pl>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-WPHeader: woocommerce-dpd-uk.php\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: classes/wpdesk\n"
+
+#: classes/class-dpd-uk-api.php:105 classes/class-dpd-uk-api.php:202
+#: classes/class-dpd-uk-api.php:229
+#, php-format
+msgid "DPD UK API message: %s"
+msgstr ""
+
+#: classes/class-flexible-printing-integration.php:47
+#, php-format
+msgid "Printing error: %s"
+msgstr ""
+
+#: classes/class-flexible-printing-integration.php:108
+#: classes/views/order-metabox-content.php:226
+#: classes/views/order-metabox-content.php:244
+#, php-format
+msgid "Print on: %s"
+msgstr ""
+
+#: classes/class-flexible-shipping-hooks.php:32
+#: classes/class-flexible-shipping-shipment.php:134
+#: classes/class-shipping-method.php:21 classes/class-shipping-method.php:25
+msgid "DPD UK"
+msgstr ""
+
+#: classes/class-flexible-shipping-hooks.php:76
+#: classes/views/order-metabox-content.php:8
+msgid "Service"
+msgstr ""
+
+#: classes/class-flexible-shipping-hooks.php:78
+msgid "List of DPD services available in this shipping zone."
+msgstr ""
+
+#: classes/class-flexible-shipping-hooks.php:84
+#: classes/views/order-metabox-content.php:82
+msgid "Liability"
+msgstr ""
+
+#: classes/class-flexible-shipping-hooks.php:85
+msgid "Check to add extended liability"
+msgstr ""
+
+#: classes/class-flexible-shipping-hooks.php:88
+msgid "Liability amount will automatically filled with order total."
+msgstr ""
+
+#: classes/class-flexible-shipping-hooks.php:92
+#: classes/views/order-metabox-content.php:141
+msgid "Reference 1"
+msgstr ""
+
+#: classes/class-flexible-shipping-hooks.php:94
+msgid "Order [order_number]"
+msgstr ""
+
+#: classes/class-flexible-shipping-hooks.php:95
+msgid ""
+"Notes on the label. Available shortcodes <code>[order_number]</code>, "
+"<code>[shop_name]</code>, <code>[shop_url]</code>."
+msgstr ""
+
+#: classes/class-flexible-shipping-hooks.php:98
+#: classes/views/order-metabox-content.php:158
+msgid "Reference 2"
+msgstr ""
+
+#: classes/class-flexible-shipping-hooks.php:100
+msgid "[shop_name]"
+msgstr ""
+
+#: classes/class-flexible-shipping-hooks.php:101
+msgid ""
+"Notes on the label. Available shortcodes [order_number], [shop_name], "
+"[shop_url]."
+msgstr ""
+
+#: classes/class-flexible-shipping-hooks.php:105
+#: classes/views/order-metabox-content.php:175
+msgid "Reference 3"
+msgstr ""
+
+#: classes/class-flexible-shipping-hooks.php:107
+msgid "[shop_url]"
+msgstr ""
+
+#: classes/class-flexible-shipping-hooks.php:108
+msgid ""
+"Notes on the label. Available shortcodes <code>[order_number]</code>, "
+"[shop_name], [shop_url]."
+msgstr ""
+
+#: classes/class-flexible-shipping-hooks.php:112
+#: classes/views/order-metabox-content.php:192
+msgid "Parcel description"
+msgstr ""
+
+#: classes/class-flexible-shipping-hooks.php:178
+msgid "None"
+msgstr ""
+
+#: classes/class-flexible-shipping-shipment.php:142
+msgid "Shipping saved."
+msgstr ""
+
+#: classes/class-flexible-shipping-shipment.php:147
+msgid "Shipping created."
+msgstr ""
+
+#: classes/class-flexible-shipping-shipment.php:153
+msgid "Shipping canceled."
+msgstr ""
+
+#: classes/class-flexible-shipping-shipment.php:159
+msgid "Unknown action: \""
+msgstr ""
+
+#: classes/class-flexible-shipping-shipment.php:259
+#, php-format
+msgid "DPD UK Shipment %s was created."
+msgstr ""
+
+#: classes/class-flexible-shipping-shipment.php:265
+#, php-format
+msgid "Invalid status: %s. Package already created?"
+msgstr ""
+
+#: classes/class-flexible-shipping-shipment.php:343
+#, php-format
+msgid "DPD UK API error: %s"
+msgstr ""
+
+#: classes/class-flexible-shipping-shipment.php:360
+#, php-format
+msgid ""
+"Invalid shipment status: %s. Shipment already canceled or manifest created?"
+msgstr ""
+
+#: classes/class-flexible-shipping-shipment.php:374
+#, php-format
+msgid "DPD UK Shipment %s deleted."
+msgstr ""
+
+#: classes/class-flexible-shipping-shipment.php:452
+#, php-format
+msgid "Label unavailable for status %s."
+msgstr ""
+
+#: classes/class-flexible-shipping-shipment.php:534
+#, php-format
+msgid "Order %s"
+msgstr ""
+
+#: classes/class-shipping-method.php:22
+msgid ""
+"DPD UK WooCommerce Integration. <a href=\"https://www.wpdesk.net/docs/"
+"woocommerce-dpd-uk-docs/?utm_source=dpd-uk-"
+"settings&utm_medium=link&utm_campaign=dpd-uk-docs-link\" target=\"_blank"
+"\">Refer to the instruction manual &rarr;</a>"
+msgstr ""
+
+#: classes/class-shipping-method.php:101
+#, php-format
+msgid "DPD UK API Message: %s"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:40
+msgid "PARCEL SUNDAY"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:41
+msgid "FREIGHT PARCEL SUNDAY"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:42
+msgid "PALLET SUNDAY"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:43
+msgid "EXPRESSPAK SUNDAY"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:44
+msgid "DPD TWO DAY"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:45
+msgid "DPD NEXT DAY"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:46
+msgid "DPD 12:00"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:47
+msgid "DPD 10:30"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:48
+msgid "PARCEL SATURDAY"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:49
+msgid "PARCEL SATURDAY 12:00"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:50
+msgid "PARCEL SATURDAY 10:30"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:52
+msgid "PARCEL SUNDAY 12:00"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:53
+msgid "FREIGHT PARCEL SUNDAY 12:00"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:54
+msgid "EXPRESSPAK DPD NEXT DAY"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:55
+msgid "EXPRESSPAK DPD 12:00"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:56
+msgid "EXPRESSPAK DPD 10:30"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:57
+msgid "EXPRESSPAK SATURDAY"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:58
+msgid "EXPRESSPAK SATURDAY 12:00"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:59
+msgid "EXPRESSPAK SATURDAY 10:30"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:60
+msgid "EXPRESSPAK SUNDAY 12:00"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:61
+msgid "PALLET SUNDAY 12:00"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:62
+msgid "PALLET DPD TWO DAY"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:63
+msgid "PALLET DPD NEXT DAY"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:64
+msgid "PALLET DPD 12:00"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:65
+msgid "PALLET DPD 10:30"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:66
+msgid "PALLET SATURDAY"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:67
+msgid "PALLET SATURDAY 12:00"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:68
+msgid "PALLET SATURDAY 10:30"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:69
+msgid "FREIGHT PARCEL DPD TWO DAY"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:70
+msgid "FREIGHT PARCEL DPD NEXT DAY"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:71
+msgid "FREIGHT PARCEL DPD 12:00"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:72
+msgid "FREIGHT DPD 10:30"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:73
+msgid "FREIGHT PARCEL SATURDAY"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:74
+msgid "FREIGHT PARCEL SATURDAY 12:00"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:75
+msgid "FREIGHT PARCEL SATURDAY 10:30"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:82
+msgid "Parcel, DPD Classic"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:83
+msgid "Expresspak, DPD Classic"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:84
+#: classes/class-woocommerce-dpd-uk.php:90
+msgid "Air Express"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:85
+#: classes/class-woocommerce-dpd-uk.php:91
+msgid "Air Classic"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:97
+msgid "Koperta"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:98
+msgid "Paczka"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:99
+msgid "Paleta"
+msgstr ""
+
+#: classes/class-woocommerce-dpd-uk.php:172
+msgid "Order status changed automatically  - DPD UK plugin."
+msgstr ""
+
+#: classes/settings-dpd-uk.php:26
+#, php-format
+msgid "To change printing settings %sclilck here%s."
+msgstr ""
+
+#: classes/settings-dpd-uk.php:29
+msgid "Printing settings will be available after enabling and saving settings."
+msgstr ""
+
+#: classes/settings-dpd-uk.php:36
+#, php-format
+msgid ""
+"Automatically print labels (without downloading the file) or save to cloud "
+"or local drive. %sDownload Flexible Printing &rarr;%s"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:45
+msgid "DPD account"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:47
+msgid "Enter MyDPD account details."
+msgstr ""
+
+#: classes/settings-dpd-uk.php:50
+msgid "Username"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:57
+msgid "Password"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:65
+msgid "Account number"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:72
+msgid "Creating Shipments"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:76
+msgid "Create shipments"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:80
+msgid "Manually"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:81
+msgid "Automatically"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:83
+msgid ""
+"Choose to create shipments manually or automatically based on the order "
+"status."
+msgstr ""
+
+#: classes/settings-dpd-uk.php:87
+msgid "Order status"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:91
+msgid "Select order status for automatic shipment creation."
+msgstr ""
+
+#: classes/settings-dpd-uk.php:96
+msgid "Complete order"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:98
+msgid "Enable"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:100
+msgid "Automatically change order status to completed after creating shipment."
+msgstr ""
+
+#: classes/settings-dpd-uk.php:104
+msgid "Printing options"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:108
+msgid "Label format"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:111
+msgid "HTML"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:112
+msgid "CLP"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:113
+msgid "EPL"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:118
+msgid "Automatic printing"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:119
+msgid "Enable automatic printing"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:126
+msgid "Email notifications"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:130
+msgid "Tracking number"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:131
+msgid "Add tracking link to customer emails"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:133
+msgid ""
+"Add DPD tracking number and link to the WooCommerce confirmation emails."
+msgstr ""
+
+#: classes/settings-dpd-uk.php:138
+msgid "Sender details"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:140
+msgid "Sender details are required to create shipments and list services."
+msgstr ""
+
+#: classes/settings-dpd-uk.php:143
+msgid "Organisation"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:150
+msgid "Name and surname"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:157
+msgid "Street"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:164
+msgid "Property"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:168
+msgid "Postcode"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:175
+msgid "Town"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:179
+msgid "Locality"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:183
+msgid "County"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:187
+msgid "Country"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:195
+msgid "Phone"
+msgstr ""
+
+#: classes/settings-dpd-uk.php:202
+msgid "E-mail"
+msgstr ""
+
+#: classes/views/order-metabox-content.php:28
+msgid "Services not available: "
+msgstr ""
+
+#: classes/views/order-metabox-content.php:38
+msgid "Number of packages"
+msgstr ""
+
+#: classes/views/order-metabox-content.php:60
+msgid "Total weight (kg)"
+msgstr ""
+
+#: classes/views/order-metabox-content.php:99
+msgid "Liability value"
+msgstr ""
+
+#: classes/views/order-metabox-content.php:124
+#: templates/woocommerce/shipping-method-after.php:2
+msgid "Delivery instructions"
+msgstr ""
+
+#: classes/views/order-metabox-content.php:208
+msgid "Shipment: "
+msgstr ""
+
+#: classes/views/order-metabox-content.php:211
+msgid "Get label"
+msgstr ""
+
+#: classes/views/order-metabox-content.php:256
+msgid "Create"
+msgstr ""
+
+#: classes/views/order-metabox-content.php:257
+msgid "Save"
+msgstr ""
+
+#: templates/woocommerce/email_after_order_table.php:13
+#: templates/woocommerce/order_details_after_order_table.php:14
+msgid "Shipment"
+msgstr ""
+
+#: templates/woocommerce/email_after_order_table.php:18
+#: templates/woocommerce/order_details_after_order_table.php:20
+msgid "Track shipment: "
+msgstr ""
+
+#: woocommerce-dpd-uk.php:113
+msgid "Wskazany punkt odbioru nie istnieje!"
+msgstr ""
+
+#: woocommerce-dpd-uk.php:142
+msgid ""
+"Plugin WooCommerce DPD UK requires WP Desk Helper plugin in version 1.3 or "
+"higher."
+msgstr ""
+
+#: woocommerce-dpd-uk.php:154
+msgid ""
+"Plugin WooCommerce DPD UK requires Flexible Shipping  plugin in version "
+"1.9.2 or higher."
+msgstr ""
+
+#: woocommerce-dpd-uk.php:167
+#, php-format
+msgid ""
+"Plugin WooCommerce DPD UK requires Flexible Shipping plugin. <a href=\"%s"
+"\">Install Flexible Shipping plugin →</a>"
+msgstr ""
+
+#: woocommerce-dpd-uk.php:173
+#, php-format
+msgid ""
+"Plugin WooCommerce DPD UK requires Flexible Shipping plugin. <a href=\"%s"
+"\">Enable Flexible Shipping plugin →</a>"
+msgstr ""
+
+#: woocommerce-dpd-uk.php:189 woocommerce-dpd-uk.php:195
+msgid "Settings"
+msgstr ""
+
+#: woocommerce-dpd-uk.php:190
+msgid "Docs"
+msgstr ""
+
+#: woocommerce-dpd-uk.php:191
+msgid "Support"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce DPD UK"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.wpdesk.net/product/dpd-uk-woocommerce/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "WooCommerce DPD UK integration."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Desk"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.wpdesk.net/"
+msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "Flexible Shipping PRO requires Flexible Shipping plugin. <a href=\"%s"
+#~| "\">Activate Flexible Shipping →</a>"
+#~ msgid ""
+#~ "Wtyczka WooCommerce DPD wymaga wtyczki Flexible Shipping. <a href=\"%s"
+#~ "\">Włącz Flexible Shipping →</a>"
+#~ msgstr ""
+#~ "Flexible Shipping PRO wymaga wtyczki Flexible Shipping. <a href=\"%s"
+#~ "\">Włącz Flexible Shipping →</a>"
+
+#~ msgid "Maximum cost"
+#~ msgstr "Maksymalny koszt"
+
+#~ msgid ""
+#~ "Set a maximum cost of shipping. This will override the costs configured "
+#~ "below."
+#~ msgstr ""
+#~ "Ustaw maksymalny koszt wysyłki. To nadpisze koszty ustawione w regułach."
+
+#~ msgid "Lowest cost"
+#~ msgstr "Najniższy koszt"
+
+#~ msgid "Highest cost"
+#~ msgstr "Najwyższy koszt"
+
+#~ msgid "Item"
+#~ msgstr "Sztuka"
+
+#~ msgid "Cart line item"
+#~ msgstr "Pozycja w koszyku"
+
+#~ msgid "All products"
+#~ msgstr "Wszystkie produkty"
+
+#~ msgid "Any class (must be set)"
+#~ msgstr "Dowolna klasa (musi być ustawiona)"
+
+#~ msgid ""
+#~ "An Unexpected HTTP Error occurred during the API request.</p> <p><a href="
+#~ "\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+#~ msgstr ""
+#~ "Wystąpił nieoczekiwany błąd HTTP podczas zapytania API.</p> <p><a "
+#~ "href=„?” onclick=„document.location.reload(); return false;”>Spróbuj "
+#~ "ponownie</a>"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "Wystąpił nieznany błąd"
+
+#~ msgid "Additional cost"
+#~ msgstr "Dodatkowy koszt"
+
+#~ msgid "Enter additional shipping cost based on the Value field."
+#~ msgstr "Wpisz dodatkowy koszt bazujący na polu Wartość."
+
+#~ msgid "Value"
+#~ msgstr "Wartość"
+
+#~ msgid "Value for additional cost."
+#~ msgstr "Wartość dodatkowego kosztu."
+
+#~ msgid "Select shipping class that the rule applies to."
+#~ msgstr "Wybierz klasę wysyłkową, do której ma być stosowana reguła."
+
+#~ msgid "Stop"
+#~ msgstr "Zatrzymaj"
+
+#~ msgid "When this rule is matched stop calculating the following rules."
+#~ msgstr ""
+#~ "Jeśli zostanie spełniona wybrana reguła, zatrzymaj obliczanie kolejnych "
+#~ "reguł."
+
+#~ msgid "Cancel"
+#~ msgstr "Anuluj"
+
+#~ msgid "When this rule is matched do not show it in the checkout."
+#~ msgstr ""
+#~ "Jeśli zostanie spełniona wybrana reguła, nie pokazuj jej w zamówieniu."
+
+#~ msgid "Redirecting. If page not redirects click %s here %s."
+#~ msgstr ""
+#~ "Przekierowywanie. Jeśli strona nie przekierowuje cię automatycznie, "
+#~ "kliknij %s tu %s."
+
+#~ msgid "Flexible Shipping PRO"
+#~ msgstr "Flexible Shipping PRO"
+
+#~ msgid ""
+#~ "Extends the free version of Flexible Shipping by adding advanced pro "
+#~ "features."
+#~ msgstr ""
+#~ "Rozszerza bezpłatną wersję Flexible Shipping poprzez dodanie "
+#~ "zaawansowanych ustawień."

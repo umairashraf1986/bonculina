@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4363</OrderId>
+  <OrderTime>12:41:48</OrderTime>
+  <OrderDate>2020-10-13</OrderDate>
+  <ShippingFullName>Tobias Larsson</ShippingFullName>
+  <ShippingAddress1>Lindåsvägen 1d</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Södertälje</ShippingCity>
+  <ShippingPostcode>15270</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>3739</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>962</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001302695</ShipmentNumber>
+</Order>

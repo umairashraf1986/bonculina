@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4227</OrderId>
+  <OrderTime>16:29:09</OrderTime>
+  <OrderDate>2020-10-03</OrderDate>
+  <ShippingFullName>Max Delér</ShippingFullName>
+  <ShippingAddress1>Ektorpsvägen 11 Lgh 1311</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Nacka</ShippingCity>
+  <ShippingPostcode>13145</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>2536</Id>
+      <Name>Trendy paketet - 20 måltider</Name>
+      <ProductId>2883</ProductId>
+      <SKU>EPTREN</SKU>
+      <Quantity>1</Quantity>
+      <Price>1099</Price>
+      <Subtotal>1099</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>989</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001285254</ShipmentNumber>
+</Order>

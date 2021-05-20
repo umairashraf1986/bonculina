@@ -1,0 +1,11 @@
+<p>
+    <?php echo __('Select which area to setup below.', 'msunifaunonline'); ?>
+</p>
+<ul class="areas">
+    <?php if (!$hasAccount) { ?>
+    <li class="account">
+        <a href="?page=msunifaun_setup&route=account"><?php echo __('Account', 'msunifaunonline'); ?></a>
+        <p><?php echo __('Choose this option if you need a ERP-connection or a new account.', 'msunifaunonline'); ?></p>
+    </li>
+    <?php } ?>
+</ul>

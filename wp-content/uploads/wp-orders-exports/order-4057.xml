@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4057</OrderId>
+  <OrderTime>21:52:36</OrderTime>
+  <OrderDate>2020-09-13</OrderDate>
+  <ShippingFullName>Ingabritt Salje</ShippingFullName>
+  <ShippingAddress1>Torpvägen 18</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Upplands Väsby</ShippingCity>
+  <ShippingPostcode>19465</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>1047</Id>
+      <Name>Chilli Con Carne</Name>
+      <ProductId>2857</ProductId>
+      <SKU>210GB90203555</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>50</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1048</Id>
+      <Name>Coq Au Vin</Name>
+      <ProductId>2835</ProductId>
+      <SKU>226GB90203557</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>59</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1049</Id>
+      <Name>Köttfärslimpa med gräddsås</Name>
+      <ProductId>2853</ProductId>
+      <SKU>223GB90203563</SKU>
+      <Quantity>2</Quantity>
+      <Price>65</Price>
+      <Subtotal>130</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>115</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1050</Id>
+      <Name>Kålpudding med kokt potatis</Name>
+      <ProductId>2854</ProductId>
+      <SKU>223GB90203549</SKU>
+      <Quantity>2</Quantity>
+      <Price>65</Price>
+      <Subtotal>130</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>116</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1051</Id>
+      <Name>Pannbiff med karamelliserad lök</Name>
+      <ProductId>2837</ProductId>
+      <SKU>223GB90203569</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>59</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1052</Id>
+      <Name>Ostgratinerad blomkål med couscous</Name>
+      <ProductId>2873</ProductId>
+      <SKU>240GB90203542</SKU>
+      <Quantity>2</Quantity>
+      <Price>55</Price>
+      <Subtotal>110</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>99</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1053</Id>
+      <Name>Tortellini Panna Prosciutto</Name>
+      <ProductId>2878</ProductId>
+      <SKU>418IT9012813</SKU>
+      <Quantity>2</Quantity>
+      <Price>55</Price>
+      <Subtotal>110</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>99</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1054</Id>
+      <Name>Kyckling Karahi</Name>
+      <ProductId>2855</ProductId>
+      <SKU>232GB90203553</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>50</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1055</Id>
+      <Name>Cannelloni med ricottaost och spenat</Name>
+      <ProductId>2864</ProductId>
+      <SKU>218IT9012805</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>50</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1056</Id>
+      <Name>Trofiepasta med pestosås</Name>
+      <ProductId>2870</ProductId>
+      <SKU>418IT9012812</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>50</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001251096</ShipmentNumber>
+</Order>

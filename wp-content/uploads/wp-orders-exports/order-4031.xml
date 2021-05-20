@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4031</OrderId>
+  <OrderTime>11:01:39</OrderTime>
+  <OrderDate>2020-09-07</OrderDate>
+  <ShippingFullName>lars lekander</ShippingFullName>
+  <ShippingAddress1>Tegelvägen 2</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Vallentuna</ShippingCity>
+  <ShippingPostcode>18635</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>853</Id>
+      <Name>Revbensstek med chipotle BBQ-sås</Name>
+      <ProductId>2816</ProductId>
+      <SKU>224GB90203548</SKU>
+      <Quantity>2</Quantity>
+      <Price>75</Price>
+      <Subtotal>150</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>150</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>854</Id>
+      <Name>Boeuf Bourguignon</Name>
+      <ProductId>2820</ProductId>
+      <SKU>226GB90203546</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001241604</ShipmentNumber>
+</Order>

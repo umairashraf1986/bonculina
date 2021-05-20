@@ -1,0 +1,130 @@
+*** Pay360 Gateway Changelog ***
+
+2020.11.26 - version 2.2.1
+ * Fix: Hosted+IMA: Hash was not properly verified with orders over 1k
+ * WC 4.7 support
+
+2019.11.26 - version 2.2.0
+ * New: System status options added
+ * Tweak: Better flow when switching between integration types
+ * Tweak: Refactor the scripts loading for better maintenance
+ * Tweak: Clarify the Capture payment process. Added another "Capture Payment" button to clearly display the feature
+ * Tweak: Updated the VD Updater
+ * Tweak: Replace the debug method handle with the correct "pay360" value
+ * Tweak: Don't use the deprecated WC_Pay360::add_debug_log, instead use the WC_Pay360_Debug::add_debug_log
+ * Update the WC Compat class
+ * WC 3.8 support
+ * Dropped WC 2.5 support
+
+2018.12.13 - version 2.1.4
+ * Fix: Hosted Cashier: Use the correct countryCode format ISO-3166-1
+ * Fix: Hosted Cashier: Add the correct state format
+
+2018.12.06 - version 2.1.3
+ * Refactor: Logger class to improve debug logging
+ * Fix: Display error messages correctly
+
+2018.10.09 - version 2.1.2
+ * Fix: Hosted Cashier: Set 'registered' prop to false on requests with guest customer
+ * Fix: Hosted Cashier: Request error messages were not displayed properly.
+ * Fix: Hosted Cashier: Request description is limited to 255 characters
+
+2018.07.24 - version 2.1.1
+ * Fix: Hosted and Hosted IMA response will not properly work if subscriptions are enabled.
+
+2018.06.19 - version 2.1.0
+ * New: Support for WC Subscriptions plugin
+ * New: Support for WC Pre-Orders plugin
+ * New: GDRP Privacy Policy support for erasure and export.
+ * WC 3.4 checks
+ * Dropped WC 2.4 support
+
+2018.02.13 - version 2.0.3
+ * Tweak: Hosted Cashier API: Return HTTP status 200 on a transaction response.
+
+2018.01.30 - version 2.0.2
+ * WC 3.3 Compatibility checks
+
+2017.11.02 - version 2.0.1
+ * Fix: Possible errors with autoloader when changing servers
+ * Tweak: Don't log complete hash string
+
+2017.09.13 - version 2.0.0
+ * Re-brand plugin from PayPoint to Pay360.
+ * New: Added support for Pay360 Hosted Cashier API. Features include:
+ 	- Capture payments
+ 	- Deferred payments
+ 	- iFrame or complete redirect
+ 	- Capture a previously deferred payment
+ 	- Refunds support
+ 	- Payment page skin selection
+ 	- 3D Security
+ * Update: Dropped compatibility for WC 2.3
+ * Update: Required Minimum PHP version > 5.3
+ * Updated compatibility class to support WC 3.1
+ * Changed text domain to "woocommerce-gateway-pay360".
+
+2017.04.27 - version 1.2.6
+ * WC 3.0 support checks and amendments
+
+2016.06.13 - version 1.2.5
+ * Added hooks and filters to allow for outside modifications of request and extra actions on response.
+ * Tweak: Save the transaction code to the order on successful hosted payment.
+
+2016.04.04 - version 1.2.4
+ * Removed PHP Strict standard notices.
+
+2015.11.30 - version 1.2.3
+ * Tweak: Response that fails validation before payment status check, will place the order in "Failed" status.
+
+2015.08.14 - version 1.2.2
+ * Tweak: We now check if the response has a test_status = true, instead of not "live". Allows to more consistent behavior, when the parameter is not present.
+
+2015.08.06 - version 1.2.1
+ * WC 2.4 support checked.
+ * Updated Compat class.
+ * Tweak: Added placeholder in password fields, to let merchant know that the password won't appear in the field.
+ * Tweak: Use the specific method for request api urls.
+
+2015.03.20 - version 1.2
+ * Refactored plugin for maintainability and feature additions.
+ * Hosted: Send shipping address with transaction.
+ * Hosted: More details to the order parameter, to help with PayPal integration.
+ * Hosted: Added Transaction types. Sale and Authorization Only.
+ * WC 2.3 compatibility check
+ * Changed text domain to "woocommerce-gateway-paypoint"
+
+2014.01.21 - version 1.1
+ * Pay360 Hosted: added order items details to the request.
+ * WC 2.1 Support
+
+2013.10.04 - version 1.0.9
+ * Tweak: Added a filter for the payment form arguments.
+
+2013.08.25 - version 1.0.8
+ * Pay360 Hosted: Added support for 3D secure.
+
+2013.06.25 - version 1.0.7
+ * Pay360 Hosted: separated remote password and digest key options.
+
+2013.06.22 - version 1.0.6
+ * Added option to enable/disable Pay360 order confirmation email to the cardholder.
+
+2013.05.06 - version 1.0.5
+ * Modified the hash for PP Hosted response.
+
+2013.04.30 - version 1.0.4
+ * Fixed issue with order not completing. WC 2.0+ PP Hosted.
+
+2013.02.15 - version 1.0.3
+ * Removed not needed method reference.
+ * Better transition from 1.6 to 2.0
+
+2013.02.07 - version 1.0.2
+ * WC 2.0 Support
+
+2012.12.05 - version 1.0.1
+ * Updater
+
+2012.06.14 - version 1.0
+ * First Release

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4393</OrderId>
+  <OrderTime>15:09:15</OrderTime>
+  <OrderDate>2020-10-15</OrderDate>
+  <ShippingFullName>Mats Ullerstig</ShippingFullName>
+  <ShippingAddress1>Beckomberga Allé 8</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Bromma</ShippingCity>
+  <ShippingPostcode>16861</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>4077</Id>
+      <Name>Kyckling Korma</Name>
+      <ProductId>2860</ProductId>
+      <SKU>224GB90203529</SKU>
+      <Quantity>3</Quantity>
+      <Price>55</Price>
+      <Subtotal>165</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>149</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>4078</Id>
+      <Name>Kyckling Karahi</Name>
+      <ProductId>2855</ProductId>
+      <SKU>232GB90203553</SKU>
+      <Quantity>3</Quantity>
+      <Price>55</Price>
+      <Subtotal>165</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>149</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>4079</Id>
+      <Name>Lasagne</Name>
+      <ProductId>2850</ProductId>
+      <SKU>218IT9012801</SKU>
+      <Quantity>3</Quantity>
+      <Price>65</Price>
+      <Subtotal>195</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>174</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>4080</Id>
+      <Name>Boeuf Bourguignon</Name>
+      <ProductId>2820</ProductId>
+      <SKU>226GB90203546</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>59</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>4081</Id>
+      <Name>Revbensstek med chipotle BBQ-sås</Name>
+      <ProductId>2816</ProductId>
+      <SKU>224GB90203548</SKU>
+      <Quantity>2</Quantity>
+      <Price>75</Price>
+      <Subtotal>150</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>135</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>4082</Id>
+      <Name>Tortellini Panna Prosciutto</Name>
+      <ProductId>2878</ProductId>
+      <SKU>418IT9012813</SKU>
+      <Quantity>2</Quantity>
+      <Price>55</Price>
+      <Subtotal>110</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>99</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>4083</Id>
+      <Name>Spagetti Carbonara</Name>
+      <ProductId>2867</ProductId>
+      <SKU>419IT9012811</SKU>
+      <Quantity>2</Quantity>
+      <Price>55</Price>
+      <Subtotal>110</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>99</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>4084</Id>
+      <Name>Trofiepasta med pestosås</Name>
+      <ProductId>2870</ProductId>
+      <SKU>418IT9012812</SKU>
+      <Quantity>2</Quantity>
+      <Price>55</Price>
+      <Subtotal>110</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>99</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>4085</Id>
+      <Name>Cannelloni med ricottaost och spenat</Name>
+      <ProductId>2864</ProductId>
+      <SKU>218IT9012805</SKU>
+      <Quantity>2</Quantity>
+      <Price>55</Price>
+      <Subtotal>110</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>99</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001307109</ShipmentNumber>
+</Order>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4229</OrderId>
+  <OrderTime>17:18:42</OrderTime>
+  <OrderDate>2020-10-03</OrderDate>
+  <ShippingFullName>KEVIN ALAMARVDASHTI</ShippingFullName>
+  <ShippingAddress1>Tussmötevägen 134C</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Enskede</ShippingCity>
+  <ShippingPostcode>12264</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>2551</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>962</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001285256</ShipmentNumber>
+</Order>

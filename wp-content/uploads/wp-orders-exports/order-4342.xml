@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4342</OrderId>
+  <OrderTime>21:08:22</OrderTime>
+  <OrderDate>2020-10-11</OrderDate>
+  <ShippingFullName>Maryam Engelbrecht</ShippingFullName>
+  <ShippingAddress1>Stavgårdsgatan 69</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Bromma</ShippingCity>
+  <ShippingPostcode>16756</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>3594</Id>
+      <Name>Cannelloni med ricottaost och spenat</Name>
+      <ProductId>2864</ProductId>
+      <SKU>218IT9012805</SKU>
+      <Quantity>4</Quantity>
+      <Price>55</Price>
+      <Subtotal>220</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>220</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3595</Id>
+      <Name>Kyckling Korma</Name>
+      <ProductId>2860</ProductId>
+      <SKU>224GB90203529</SKU>
+      <Quantity>4</Quantity>
+      <Price>55</Price>
+      <Subtotal>220</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>220</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3596</Id>
+      <Name>Lasagne</Name>
+      <ProductId>2850</ProductId>
+      <SKU>218IT9012801</SKU>
+      <Quantity>4</Quantity>
+      <Price>65</Price>
+      <Subtotal>260</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>260</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3597</Id>
+      <Name>Pannbiff med karamelliserad lök</Name>
+      <ProductId>2837</ProductId>
+      <SKU>223GB90203569</SKU>
+      <Quantity>4</Quantity>
+      <Price>65</Price>
+      <Subtotal>260</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>260</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3598</Id>
+      <Name>Boeuf Bourguignon</Name>
+      <ProductId>2820</ProductId>
+      <SKU>226GB90203546</SKU>
+      <Quantity>4</Quantity>
+      <Price>65</Price>
+      <Subtotal>260</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>260</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001297452</ShipmentNumber>
+</Order>

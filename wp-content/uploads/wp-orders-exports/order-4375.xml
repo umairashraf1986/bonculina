@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4375</OrderId>
+  <OrderTime>12:46:37</OrderTime>
+  <OrderDate>2020-10-14</OrderDate>
+  <ShippingFullName>Lars Gunnar Erik Thunblad</ShippingFullName>
+  <ShippingAddress1>Åkervägen 27 Lgh 2102</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Bålsta</ShippingCity>
+  <ShippingPostcode>74636</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>3871</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>1069</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001304954</ShipmentNumber>
+</Order>

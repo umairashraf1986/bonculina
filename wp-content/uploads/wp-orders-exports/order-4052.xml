@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4052</OrderId>
+  <OrderTime>11:53:27</OrderTime>
+  <OrderDate>2020-09-13</OrderDate>
+  <ShippingFullName>Karin Hillenius</ShippingFullName>
+  <ShippingAddress1>Lustgårdsgatan 12</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Stockholm</ShippingCity>
+  <ShippingPostcode>11218</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>1038</Id>
+      <Name>Kyckling Korma</Name>
+      <ProductId>2860</ProductId>
+      <SKU>224GB90203529</SKU>
+      <Quantity>2</Quantity>
+      <Price>55</Price>
+      <Subtotal>110</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>99</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1039</Id>
+      <Name>Chilli Con Carne</Name>
+      <ProductId>2857</ProductId>
+      <SKU>210GB90203555</SKU>
+      <Quantity>2</Quantity>
+      <Price>55</Price>
+      <Subtotal>110</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>99</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1040</Id>
+      <Name>Revbensstek med chipotle BBQ-sås</Name>
+      <ProductId>2816</ProductId>
+      <SKU>224GB90203548</SKU>
+      <Quantity>2</Quantity>
+      <Price>75</Price>
+      <Subtotal>150</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>135</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1041</Id>
+      <Name>Marockansk lammgryta</Name>
+      <ProductId>2818</ProductId>
+      <SKU>214GB90203565</SKU>
+      <Quantity>2</Quantity>
+      <Price>65</Price>
+      <Subtotal>130</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>117</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1042</Id>
+      <Name>Lasagne</Name>
+      <ProductId>2850</ProductId>
+      <SKU>218IT9012801</SKU>
+      <Quantity>2</Quantity>
+      <Price>65</Price>
+      <Subtotal>130</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>117</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1043</Id>
+      <Name>Skaldjursrisotto med zucchini</Name>
+      <ProductId>2844</ProductId>
+      <SKU>418IT9012816</SKU>
+      <Quantity>2</Quantity>
+      <Price>65</Price>
+      <Subtotal>130</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>117</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1044</Id>
+      <Name>Cannelloni med ricottaost och spenat</Name>
+      <ProductId>2864</ProductId>
+      <SKU>218IT9012805</SKU>
+      <Quantity>2</Quantity>
+      <Price>55</Price>
+      <Subtotal>110</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>99</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001250889</ShipmentNumber>
+</Order>

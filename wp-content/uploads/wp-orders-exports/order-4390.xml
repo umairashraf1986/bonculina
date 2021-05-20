@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4390</OrderId>
+  <OrderTime>08:26:51</OrderTime>
+  <OrderDate>2020-10-15</OrderDate>
+  <ShippingFullName>Eric Werkestam</ShippingFullName>
+  <ShippingAddress1>Armégatan 25 Lgh 1103</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Solna</ShippingCity>
+  <ShippingPostcode>17171</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>4052</Id>
+      <Name>Veggie paketet - 20 måltider</Name>
+      <ProductId>2884</ProductId>
+      <SKU>EPVEG</SKU>
+      <Quantity>1</Quantity>
+      <Price>999</Price>
+      <Subtotal>999</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>999</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001306293</ShipmentNumber>
+</Order>

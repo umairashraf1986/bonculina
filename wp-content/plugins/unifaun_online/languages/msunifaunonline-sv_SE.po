@@ -1,0 +1,1112 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Unifaun Online\n"
+"POT-Creation-Date: 2020-01-27 10:13+0100\n"
+"PO-Revision-Date: 2020-01-27 10:19+0100\n"
+"Last-Translator: \n"
+"Language-Team: Mediastrategi Sverige AB\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: languages\n"
+"X-Poedit-SearchPathExcluded-1: .git\n"
+
+#: class.php:116 wordpress.php:910
+msgid "Items"
+msgstr ""
+
+#: class.php:232 class.php:388 class.php:414 includes/form_fields.php:358
+msgid "None"
+msgstr ""
+
+#: class.php:236
+msgid "Custom"
+msgstr ""
+
+#: class.php:240
+msgid "Unspecified package (PK)"
+msgstr ""
+
+#: class.php:244 class.php:288
+msgid "Carton (CT)"
+msgstr ""
+
+#: class.php:248
+msgid "Pallet (Z01)"
+msgstr ""
+
+#: class.php:252
+msgid "Half pallet (Z02)"
+msgstr ""
+
+#: class.php:256 class.php:304
+msgid "Box (BX)"
+msgstr ""
+
+#: class.php:260
+msgid "Europallet (EP)"
+msgstr ""
+
+#: class.php:264
+msgid "Packet (PA)"
+msgstr ""
+
+#: class.php:268
+msgid "Pallet (PLL)"
+msgstr ""
+
+#: class.php:272
+msgid "Pallet (PE)"
+msgstr ""
+
+#: class.php:276
+msgid "Parcel (PC)"
+msgstr ""
+
+#: class.php:280
+msgid "Other Pallets (XP)"
+msgstr ""
+
+#: class.php:284
+msgid "Case (CS)"
+msgstr ""
+
+#: class.php:292
+msgid "Unpacked or unpackaged (NE)"
+msgstr ""
+
+#: class.php:296
+msgid "One-way pallet (OP)"
+msgstr ""
+
+#: class.php:300
+msgid "Pallet or CP Pallet (PAL)"
+msgstr ""
+
+#: class.php:308
+msgid "DHL Pall (701)"
+msgstr ""
+
+#: class.php:312
+msgid "DHL Halvpall (702)"
+msgstr ""
+
+#: class.php:316
+msgid "Other (ZZ)"
+msgstr ""
+
+#: class.php:476
+msgid "Product Categories"
+msgstr ""
+
+#: class.php:480
+msgid "Product Names"
+msgstr ""
+
+#: class.php:484 includes/form_fields.php:359
+msgid "Product SKUs"
+msgstr ""
+
+#: class.php:488
+msgid "Empty"
+msgstr ""
+
+#: includes/form_fields.php:6
+msgid "General"
+msgstr ""
+
+#: includes/form_fields.php:10
+msgid "Control method here."
+msgstr ""
+
+#: includes/form_fields.php:16
+msgid "Enabled"
+msgstr ""
+
+#: includes/form_fields.php:25
+msgid "Pacsoft Online uses another format for tracking-links."
+msgstr ""
+
+#: includes/form_fields.php:29
+msgid "Pacsoft Online"
+msgstr ""
+
+#: includes/form_fields.php:37
+msgid ""
+"Ignore sending package dimensions to Unifaun when they are calculated "
+"automatically"
+msgstr ""
+
+#: includes/form_fields.php:41
+msgid "Ignore calculated dimensions"
+msgstr ""
+
+#: includes/form_fields.php:48
+msgid "Debug"
+msgstr ""
+
+#: includes/form_fields.php:53
+msgid ""
+"Enable verbose order shiping information in admin and information logging."
+msgstr ""
+
+#: includes/form_fields.php:60
+msgid "Include tracking link in e-mails"
+msgstr ""
+
+#: includes/form_fields.php:70
+msgid "API Credentials"
+msgstr ""
+
+#: includes/form_fields.php:76
+msgid "Enter your credentials to the Unifaun Online REST API."
+msgstr ""
+
+#: includes/form_fields.php:82
+msgid "Key Id"
+msgstr ""
+
+#: includes/form_fields.php:89
+msgid "Key Secret"
+msgstr ""
+
+#: includes/form_fields.php:96
+msgid "User Id"
+msgstr ""
+
+#: includes/form_fields.php:103
+msgid "Quick Id"
+msgstr ""
+
+#: includes/form_fields.php:112
+msgid "Custom Region Selector"
+msgstr ""
+
+#: includes/form_fields.php:118
+msgid "You can optionally show a custom region selector in checkout."
+msgstr ""
+
+#: includes/form_fields.php:124
+msgid "Show title"
+msgstr ""
+
+#: includes/form_fields.php:131
+msgid "ZIP code selector"
+msgstr ""
+
+#: includes/form_fields.php:139
+msgid "Automatic Updates"
+msgstr ""
+
+#: includes/form_fields.php:143
+msgid "Do receive automatic updates, enter your license here."
+msgstr ""
+
+#: includes/form_fields.php:149
+msgid "Username"
+msgstr ""
+
+#: includes/form_fields.php:156
+msgid "Password"
+msgstr ""
+
+#: includes/form_fields.php:164
+msgid "Print Options"
+msgstr ""
+
+#: includes/form_fields.php:168
+msgid "Set your printing options here."
+msgstr ""
+
+#: includes/form_fields.php:174
+msgid "target1Media"
+msgstr ""
+
+#: includes/form_fields.php:181
+msgid "target1XOffset"
+msgstr ""
+
+#: includes/form_fields.php:188
+msgid "target1YOffset"
+msgstr ""
+
+#: includes/form_fields.php:195
+msgid "target2Media"
+msgstr ""
+
+#: includes/form_fields.php:202
+msgid "target2XOffset"
+msgstr ""
+
+#: includes/form_fields.php:209
+msgid "target2YOffset"
+msgstr ""
+
+#: includes/form_fields.php:216
+msgid "target3Media"
+msgstr ""
+
+#: includes/form_fields.php:223
+msgid "target3XOffset"
+msgstr ""
+
+#: includes/form_fields.php:230
+msgid "target3YOffset"
+msgstr ""
+
+#: includes/form_fields.php:237
+msgid "target4Media"
+msgstr ""
+
+#: includes/form_fields.php:244
+msgid "target4XOffset"
+msgstr ""
+
+#: includes/form_fields.php:251
+msgid "target4YOffset"
+msgstr ""
+
+#: includes/form_fields.php:259
+msgid "Options"
+msgstr ""
+
+#: includes/form_fields.php:263
+msgid "Set your additional options here."
+msgstr ""
+
+#: includes/form_fields.php:269
+msgid "Id"
+msgstr ""
+
+#: includes/form_fields.php:279
+msgid "From Email"
+msgstr ""
+
+#: includes/form_fields.php:287 includes/form_fields.php:314
+#: includes/form_fields.php:328
+msgid ""
+"Dynamic values are available here with the code: <code><ul><li>"
+"$consignee_address_1</li><li>$consignee_address_2</li><li>$consignee_city</"
+"li><li>$consignee_company</li><li>$consignee_country</li><li>"
+"$customer_mobile</li><li>$consignee_name</li><li>$consignee_postcode</li><li>"
+"$consignee_state</li><li>$customer_email</li><li>$order_id</li><li>"
+"$order_number</li><li>$order_subtotal</li></ul></code>"
+msgstr ""
+
+#: includes/form_fields.php:293
+msgid "Message"
+msgstr ""
+
+#: includes/form_fields.php:300
+msgid ""
+"Dynamic values are available here with the code: <code><ul><li>"
+"$consignee_address_1</li><li>$consignee_address_2</li><li>$consignee_city</"
+"li><li>$consignee_company</li><li>$consignee_country</li><li>"
+"$customer_mobile</li><li>$consignee_name</li><li>$consignee_postcode</li><li>"
+"$consignee_state</li><li>$customer_email</li><li>$order_id</li><li>"
+"$order_number</li><li>$order_subtotal</li><li>$package_number</li></ul></"
+"code>"
+msgstr ""
+
+#: includes/form_fields.php:306
+msgid "To Email"
+msgstr ""
+
+#: includes/form_fields.php:320
+msgid "Error To Email"
+msgstr ""
+
+#: includes/form_fields.php:334
+msgid "Language Code"
+msgstr ""
+
+#: includes/form_fields.php:344
+msgid "Send Email"
+msgstr ""
+
+#: includes/form_fields.php:352
+msgid "Dynamic Reference Prefix 1"
+msgstr ""
+
+#: includes/form_fields.php:364
+msgid "Custom Reference Prefix 2"
+msgstr ""
+
+#: includes/form_fields.php:376
+msgid "Parcel Contents"
+msgstr ""
+
+#: includes/instance_form_fields.php:3 includes/instance_form_fields.php:163
+msgid "Enter a cost (excl. tax) or sum, e.g. <code>10.00 * [qty]</code>."
+msgstr ""
+
+#: includes/instance_form_fields.php:5 includes/instance_form_fields.php:167
+msgid ""
+"Use <code>[qty]</code> for the number of items, <br/><code>[cost]</code> for "
+"the total cost of items, and <code>[fee percent=\"10\" min_fee=\"20\" "
+"max_fee=\"\"]</code> for percentage based fees."
+msgstr ""
+
+#: includes/instance_form_fields.php:10
+msgid "This is displayed to customers in checkout"
+msgstr ""
+
+#: includes/instance_form_fields.php:14
+msgid "Method title"
+msgstr ""
+
+#: includes/instance_form_fields.php:17
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/instance_form_fields.php:27
+msgid "Service"
+msgstr ""
+
+#: includes/instance_form_fields.php:36
+msgid ""
+"Dynamic values are available and can be used in expressions: <code>"
+"$customer_mobile</code> <br /><code>$customer_email</code> <br /><code>"
+"$order_subtotal</code> <br /><code>$consignee_name</code> <br /><code>"
+"$consignee_company</code> <br /><code>$consignee_address_1</code> <br /"
+"><code>$consignee_address_2</code> <br /><code>$consignee_postcode</code> "
+"<br /><code>$consignee_state</code> <br /><code>$consignee_city</code> <br /"
+"><code>$consignee_country</code>"
+msgstr ""
+
+#: includes/instance_form_fields.php:41
+msgid "Add-ons"
+msgstr ""
+
+#: includes/instance_form_fields.php:49
+msgid "Available Addons"
+msgstr ""
+
+#: includes/instance_form_fields.php:57
+msgid ""
+"If this is enabled, shipments will only be saved at your service-provider "
+"and you need to finalize them there."
+msgstr ""
+
+#: includes/instance_form_fields.php:62
+msgid "Create Stored Shipments"
+msgstr ""
+
+#: includes/instance_form_fields.php:71
+msgid ""
+"Note that not all shipping services support both turn and return shipments."
+msgstr ""
+
+#: includes/instance_form_fields.php:73
+msgid "Return shipment"
+msgstr ""
+
+#: includes/instance_form_fields.php:74
+msgid "Turn shipment"
+msgstr ""
+
+#: includes/instance_form_fields.php:75
+msgid "Turn and return shipment"
+msgstr ""
+
+#: includes/instance_form_fields.php:78
+msgid "Shipment Type"
+msgstr ""
+
+#: includes/instance_form_fields.php:85
+msgid "Automation enabled"
+msgstr ""
+
+#: includes/instance_form_fields.php:89
+msgid ""
+"Automation will automatically process orders with the status below if "
+"enabled."
+msgstr ""
+
+#: includes/instance_form_fields.php:95
+msgid "Automatically process shipping for orders."
+msgstr ""
+
+#: includes/instance_form_fields.php:102
+msgid "Automation orders status"
+msgstr ""
+
+#: includes/instance_form_fields.php:108
+msgid "Automatically process orders with this status."
+msgstr ""
+
+#: includes/instance_form_fields.php:117
+msgid "Free shipping support"
+msgstr ""
+
+#: includes/instance_form_fields.php:121
+msgid "Support free shipping coupons for this method."
+msgstr ""
+
+#: includes/instance_form_fields.php:131
+msgid "Custom Pick Up Location"
+msgstr ""
+
+#: includes/instance_form_fields.php:141
+msgid "Tax status"
+msgstr ""
+
+#: includes/instance_form_fields.php:149
+msgid "Taxable"
+msgstr ""
+
+#: includes/instance_form_fields.php:160
+msgid "Cost"
+msgstr ""
+
+#: includes/instance_form_fields.php:178
+msgid ""
+"If you product dimension unit does not match this there will be automatic "
+"conversion for packages."
+msgstr ""
+
+#: includes/instance_form_fields.php:183
+msgid "m"
+msgstr ""
+
+#: includes/instance_form_fields.php:184
+msgid "cm"
+msgstr ""
+
+#: includes/instance_form_fields.php:185
+msgid "mm"
+msgstr ""
+
+#: includes/instance_form_fields.php:186
+msgid "in"
+msgstr ""
+
+#: includes/instance_form_fields.php:187
+msgid "yd"
+msgstr ""
+
+#: includes/instance_form_fields.php:190
+msgid "Package dimension unit"
+msgstr ""
+
+#: includes/instance_form_fields.php:199
+msgid ""
+"If you product weight unit does not match this there will be automatic "
+"conversion for packages."
+msgstr ""
+
+#: includes/instance_form_fields.php:204
+msgid "kg"
+msgstr ""
+
+#: includes/instance_form_fields.php:205
+msgid "g"
+msgstr ""
+
+#: includes/instance_form_fields.php:206
+msgid "lbs"
+msgstr ""
+
+#: includes/instance_form_fields.php:207
+msgid "oz"
+msgstr ""
+
+#: includes/instance_form_fields.php:210
+msgid "Package weight unit"
+msgstr ""
+
+#: includes/instance_form_fields.php:218
+msgid "Package minimum weight"
+msgstr ""
+
+#: includes/instance_form_fields.php:225
+msgid "Select a package type that your transport service supports."
+msgstr ""
+
+#: includes/instance_form_fields.php:230
+msgid "Package type"
+msgstr ""
+
+#: includes/instance_form_fields.php:240
+msgid ""
+"If you can't find your package type in the list above enter it here and "
+"select Custom in the field above"
+msgstr ""
+
+#: includes/instance_form_fields.php:245
+msgid "Custom Package Type"
+msgstr ""
+
+#: includes/instance_form_fields.php:252
+msgid ""
+"Some services want i.e. length to be the largest dimension, you can solve "
+"this by using this option."
+msgstr ""
+
+#: includes/instance_form_fields.php:257
+msgid "Force package largest dimension"
+msgstr ""
+
+#: includes/instance_form_fields.php:264 includes/instance_form_fields.php:284
+#: includes/instance_form_fields.php:304 wordpress.php:969
+msgid "No"
+msgstr ""
+
+#: includes/instance_form_fields.php:265 includes/instance_form_fields.php:285
+#: includes/instance_form_fields.php:305 includes/instance_form_fields.php:376
+#: wordpress.php:1174 wordpress.php:1219
+msgid "Height"
+msgstr ""
+
+#: includes/instance_form_fields.php:266 includes/instance_form_fields.php:286
+#: includes/instance_form_fields.php:306 includes/instance_form_fields.php:388
+#: wordpress.php:1175 wordpress.php:1220
+msgid "Length"
+msgstr ""
+
+#: includes/instance_form_fields.php:267 includes/instance_form_fields.php:287
+#: includes/instance_form_fields.php:307 includes/instance_form_fields.php:364
+#: wordpress.php:1178 wordpress.php:1222
+msgid "Width"
+msgstr ""
+
+#: includes/instance_form_fields.php:272
+msgid ""
+"Some services want i.e. width to be the medium dimension, you can solve this "
+"by using this option."
+msgstr ""
+
+#: includes/instance_form_fields.php:277
+msgid "Force package medium dimension"
+msgstr ""
+
+#: includes/instance_form_fields.php:292
+msgid ""
+"Some services want i.e. height to be the smallest dimension, you can solve "
+"this by using this option."
+msgstr ""
+
+#: includes/instance_form_fields.php:297
+msgid "Force package smallest dimension"
+msgstr ""
+
+#: includes/instance_form_fields.php:312
+msgid "If this specific method uses a different quick-id, specify it here."
+msgstr ""
+
+#: includes/instance_form_fields.php:317
+msgid "Custom Quick Id"
+msgstr ""
+
+#: includes/instance_form_fields.php:324
+msgid ""
+"This data will be merged with shipment data before sent to service-provider, "
+"you can use following variables in this code: <br /><code>$customer_mobile</"
+"code> <br /><code>$customer_email</code> <br /><code>$order_subtotal</code> "
+"<br /><code>$consignee_name</code> <br /><code>$consignee_company</code> "
+"<br /><code>$consignee_address_1</code> <br /><code>$consignee_address_2</"
+"code> <br /><code>$consignee_postcode</code> <br /><code>$consignee_state</"
+"code> <br /><code>$consignee_city</code> <br /><code>$consignee_country</"
+"code>’"
+msgstr ""
+
+#: includes/instance_form_fields.php:329
+msgid "Extra shipment data in JSON format"
+msgstr ""
+
+#: includes/instance_form_fields.php:337
+msgid "Availability logic"
+msgstr ""
+
+#: includes/instance_form_fields.php:341
+msgid "Use settings below to control when this method should be available."
+msgstr ""
+
+#: includes/instance_form_fields.php:347 includes/instance_form_fields.php:359
+#: includes/instance_form_fields.php:371 includes/instance_form_fields.php:383
+#: includes/instance_form_fields.php:395 includes/instance_form_fields.php:407
+msgid ""
+"Allows intervalls, i.e.:<br /><strong>25</strong> means only carts that is "
+"exactly 25<br /><strong>-25</strong> means only carts that is below 25<br /"
+"><strong>25-30</strong> means only carts that is 25 or higher but still "
+"below 30"
+msgstr ""
+
+#: includes/instance_form_fields.php:352 wordpress.php:1177 wordpress.php:1221
+msgid "Weight"
+msgstr ""
+
+#: includes/instance_form_fields.php:400 wordpress.php:1176
+msgid "Volume"
+msgstr ""
+
+#: includes/instance_form_fields.php:412
+msgid "Cart Subtotal"
+msgstr ""
+
+#: includes/instance_form_fields.php:418
+msgid "Customs"
+msgstr ""
+
+#: includes/instance_form_fields.php:422
+msgid ""
+"Select the customs documents you want to request from Unifaun. Make sure to "
+"use a service that supports this and specify what product attribute contains "
+"the product HS code."
+msgstr ""
+
+#: includes/instance_form_fields.php:428
+msgid "Select what product custom attribute contains the HS Code "
+msgstr ""
+
+#: includes/instance_form_fields.php:433
+msgid "HS Code Attribute"
+msgstr ""
+
+#: includes/instance_form_fields.php:443
+msgid "Enter field for storage for product HS Code "
+msgstr ""
+
+#: includes/instance_form_fields.php:448
+msgid "HS Code Field"
+msgstr ""
+
+#: includes/instance_form_fields.php:456
+msgid "Select what product custom attribute contains the origin country "
+msgstr ""
+
+#: includes/instance_form_fields.php:461
+msgid "Product Origin Country Attribute"
+msgstr ""
+
+#: includes/instance_form_fields.php:471
+msgid "Enter field for storage of product origin country "
+msgstr ""
+
+#: includes/instance_form_fields.php:476
+msgid "Product Origin Country Field"
+msgstr ""
+
+#: includes/instance_form_fields.php:484
+msgid "Select the custom product-attribute used to specify customs value"
+msgstr ""
+
+#: includes/instance_form_fields.php:489
+msgid "Product Customs Value Attribute"
+msgstr ""
+
+#: includes/instance_form_fields.php:499
+msgid "Enter field for storage of product customs value"
+msgstr ""
+
+#: includes/instance_form_fields.php:504
+msgid "Product Customs Value Field"
+msgstr ""
+
+#: includes/instance_form_fields.php:536
+msgid "Shipping class costs"
+msgstr ""
+
+#: includes/instance_form_fields.php:540
+#, php-format
+msgid ""
+"These costs can optionally be added based on the <a href=\"%s\">product "
+"shipping class</a>."
+msgstr ""
+
+#: includes/instance_form_fields.php:552
+#, php-format
+msgid "\"%s\" shipping class cost"
+msgstr ""
+
+#: includes/instance_form_fields.php:556 includes/instance_form_fields.php:565
+msgid "N/A"
+msgstr ""
+
+#: includes/instance_form_fields.php:563
+msgid "No shipping class cost"
+msgstr ""
+
+#: includes/instance_form_fields.php:571
+msgid "Calculation type"
+msgstr ""
+
+#: includes/instance_form_fields.php:576
+msgid "Per class: Charge shipping for each shipping class individually"
+msgstr ""
+
+#: includes/instance_form_fields.php:577
+msgid "Per order: Charge shipping for the most expensive shipping class"
+msgstr ""
+
+#: includes/instance_form_fields.php:604
+msgid "Limit to product categories"
+msgstr ""
+
+#: includes/instance_form_fields.php:608
+msgid ""
+"Select the product categories that every product in package needs to belong "
+"to make this method available."
+msgstr ""
+
+#: includes/instance_form_fields.php:631
+msgid "Limit to shipping classes"
+msgstr ""
+
+#: includes/instance_form_fields.php:635
+msgid ""
+"Select the shipping classes that every product in package needs to belong to "
+"make this method available."
+msgstr ""
+
+#: includes/shipment.php:413
+#, php-format
+msgid "Succeeded with processing shipment for package %d (%d)."
+msgstr ""
+
+#: includes/shipment.php:468
+#, php-format
+msgid ""
+"Failed with processing shipment for package %d \"/shipments POST\". Status: "
+"(%d), Errors: %s"
+msgstr ""
+
+#: includes/shipment.php:545
+msgid ""
+"Missing API Key Id, API Key Secret, User Id or Quick Id. Check your plug-in "
+"settings."
+msgstr ""
+
+#: includes/shipment.php:622
+#, php-format
+msgid "Specific carrier logic file \"%s\" exists"
+msgstr ""
+
+#: includes/shipment.php:632
+#, php-format
+msgid "Class for specific carrier logic exists \"%s\""
+msgstr ""
+
+#: includes/shipment.php:642
+#, php-format
+msgid ""
+"%s - data after applying specific carrier logic \"%s\" and shipment \"%s\""
+msgstr ""
+
+#: includes/shipment.php:653
+#, php-format
+msgid "Class for specific carrier logic does not exists \"%s\" in \"%s\""
+msgstr ""
+
+#: includes/shipment.php:985
+#, php-format
+msgid "Request generated no parcels, parcels: %s, order-items: %s"
+msgstr ""
+
+#: unifaun_online.php:31
+msgid "Can't find WooCommerce, is it installed and activated?"
+msgstr ""
+
+#: woocommerce.php:113 woocommerce.php:137
+msgid "Click here to track your order shipment"
+msgstr "Klicka här för att spåra leveransen för din order"
+
+#: woocommerce.php:123 woocommerce.php:147
+#, php-format
+msgid "Click here to track your package %d shipment"
+msgstr "Klicka här för att spåra leverans för paket %d"
+
+#: woocommerce.php:527
+msgid "Get options"
+msgstr ""
+
+#: woocommerce.php:530
+msgid "Customize pick-up"
+msgstr "Anpassa utlämningsställe"
+
+#: woocommerce.php:534
+msgid "Enter your zip code.."
+msgstr "Ange ditt postnummer.."
+
+#: wordpress.php:105
+msgid "Download shipping labels"
+msgstr ""
+
+#: wordpress.php:109
+msgid "Process shipping"
+msgstr ""
+
+#: wordpress.php:210 wordpress.php:262
+#, php-format
+msgid "Downloading <a target=\"_blank\" href=\"%s\">labels</a> in new window.."
+msgstr ""
+
+#: wordpress.php:277
+#, php-format
+msgid "Failed to find PDF merge library at %s."
+msgstr ""
+
+#: wordpress.php:326
+#, php-format
+msgid "Downloading <a target=\"_blank\" href=\"%s\">label</a> in new window.."
+msgstr ""
+
+#: wordpress.php:336
+#, php-format
+msgid "Failed to find shipping label for order %s."
+msgstr ""
+
+#: wordpress.php:351
+#, php-format
+msgid "Failed to find shipping labels for orders %s."
+msgstr ""
+
+#: wordpress.php:380
+#, php-format
+msgid "Bulk process completed, %d items processed."
+msgstr ""
+
+#: wordpress.php:389
+msgid "Bulk process completed, no items processed."
+msgstr ""
+
+#: wordpress.php:435 wordpress.php:438
+msgid "Download Shipping Labels"
+msgstr ""
+
+#: wordpress.php:441 wordpress.php:444
+msgid "Process Shipping"
+msgstr ""
+
+#: wordpress.php:699
+#, php-format
+msgid "Succeeded in changing orders package %d shipping method."
+msgstr ""
+
+#: wordpress.php:710
+#, php-format
+msgid "Failed with changing orders package %d shipping method."
+msgstr ""
+
+#: wordpress.php:745
+msgid "Succeeded in adding shipping method to order."
+msgstr ""
+
+#: wordpress.php:754
+msgid "Failed with adding shipping method to order."
+msgstr ""
+
+#: wordpress.php:765
+msgid "Failed with loading order."
+msgstr ""
+
+#: wordpress.php:814
+msgid "Process Order"
+msgstr ""
+
+#: wordpress.php:816
+msgid "Save Order"
+msgstr ""
+
+#: wordpress.php:875
+#, php-format
+msgid "Updated order package %d custom parcels."
+msgstr ""
+
+#: wordpress.php:941
+msgid "Method"
+msgstr ""
+
+#: wordpress.php:967
+msgid "Used for Order"
+msgstr ""
+
+#: wordpress.php:970
+msgid "Yes"
+msgstr ""
+
+#: wordpress.php:983
+msgid "Status"
+msgstr ""
+
+#: wordpress.php:985
+msgid "Not processed"
+msgstr ""
+
+#: wordpress.php:986
+msgid "Processed"
+msgstr ""
+
+#: wordpress.php:992
+msgid "Shipment Errors"
+msgstr ""
+
+#: wordpress.php:1000
+msgid "Agent"
+msgstr ""
+
+#: wordpress.php:1014
+msgid "Agent Service"
+msgstr ""
+
+#: wordpress.php:1023
+msgid "Create Request"
+msgstr ""
+
+#: wordpress.php:1030
+msgid "Create - HTTP Response Code"
+msgstr ""
+
+#: wordpress.php:1037
+msgid "Create - HTTP Response Body"
+msgstr ""
+
+#: wordpress.php:1044
+msgid "Create - Decoded Response"
+msgstr ""
+
+#: wordpress.php:1064
+msgid "Shipments:"
+msgstr ""
+
+#: wordpress.php:1065
+msgid "Shipment:"
+msgstr ""
+
+#: wordpress.php:1071
+msgid "Number"
+msgstr ""
+
+#: wordpress.php:1075 wordpress.php:1138
+msgid "Tracking Link"
+msgstr ""
+
+#: wordpress.php:1076 wordpress.php:1139
+msgid "Click here to open"
+msgstr ""
+
+#: wordpress.php:1082
+msgid "Labels"
+msgstr ""
+
+#: wordpress.php:1083 wordpress.php:1344 wordpress.php:1366
+msgid "Label"
+msgstr ""
+
+#: wordpress.php:1086 wordpress.php:1113 wordpress.php:1127
+msgid "Download"
+msgstr ""
+
+#: wordpress.php:1103
+msgid "Shipment Number"
+msgstr ""
+
+#: wordpress.php:1112
+msgid "Shipping Label"
+msgstr ""
+
+#: wordpress.php:1122
+msgid "Additional Labels"
+msgstr ""
+
+#: wordpress.php:1172
+msgid "Summary:"
+msgstr ""
+
+#: wordpress.php:1173 wordpress.php:1218
+msgid "Contents"
+msgstr ""
+
+#: wordpress.php:1211
+msgid "Parcels"
+msgstr ""
+
+#: wordpress.php:1215
+msgid "Customize Parcels"
+msgstr ""
+
+#: wordpress.php:1216
+msgid "Quantity"
+msgstr ""
+
+#: wordpress.php:1216
+msgid "Qty"
+msgstr ""
+
+#: wordpress.php:1217
+msgid "Package Type"
+msgstr ""
+
+#: wordpress.php:1217
+msgid "PT"
+msgstr ""
+
+#: wordpress.php:1218
+msgid "Txt"
+msgstr ""
+
+#: wordpress.php:1219
+msgid "Hth"
+msgstr ""
+
+#: wordpress.php:1220
+msgid "Lth"
+msgstr ""
+
+#: wordpress.php:1221
+msgid "Wght"
+msgstr ""
+
+#: wordpress.php:1222
+msgid "Wth"
+msgstr ""
+
+#: wordpress.php:1224
+msgid "+"
+msgstr ""
+
+#: wordpress.php:1226
+msgid "-"
+msgstr ""
+
+#: wordpress.php:1236 wordpress.php:1387
+msgid "Process"
+msgstr ""
+
+#: wordpress.php:1239
+msgid "Re-process"
+msgstr ""
+
+#: wordpress.php:1244
+msgid "Save"
+msgstr ""
+
+#: wordpress.php:1277
+msgid "Unifaun Online"
+msgstr ""
+
+#: wordpress.php:1337
+#, php-format
+msgid "Label %d-%d"
+msgstr ""
+
+#: wordpress.php:1339 wordpress.php:1342
+#, php-format
+msgid "Label %d"
+msgstr ""
+
+#: wordpress.php:1353
+#, php-format
+msgid "Tracking %d"
+msgstr ""
+
+#: wordpress.php:1354 wordpress.php:1372
+msgid "Tracking"
+msgstr ""

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4125</OrderId>
+  <OrderTime>19:34:33</OrderTime>
+  <OrderDate>2020-09-27</OrderDate>
+  <ShippingFullName>Madelene Axelsson</ShippingFullName>
+  <ShippingAddress1>Nygårdsvägen 6</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Klagshamn</ShippingCity>
+  <ShippingPostcode>21853</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>1471</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>1069</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001274032</ShipmentNumber>
+</Order>

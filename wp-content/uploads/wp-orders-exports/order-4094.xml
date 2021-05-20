@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4094</OrderId>
+  <OrderTime>12:09:38</OrderTime>
+  <OrderDate>2020-09-25</OrderDate>
+  <ShippingFullName>Christian Rose</ShippingFullName>
+  <ShippingAddress1>Fortgatan 15</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Västra Frölunda</ShippingCity>
+  <ShippingPostcode>42676</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>1268</Id>
+      <Name>Falafel med couscous</Name>
+      <ProductId>3174</ProductId>
+      <SKU>214GB90203559</SKU>
+      <Quantity>2</Quantity>
+      <Price>65</Price>
+      <Subtotal>130</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>115</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1269</Id>
+      <Name>Ostgratinerad blomkål med couscous</Name>
+      <ProductId>2873</ProductId>
+      <SKU>240GB90203542</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>50</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1270</Id>
+      <Name>Trofiepasta med pestosås</Name>
+      <ProductId>2870</ProductId>
+      <SKU>418IT9012812</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>50</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1271</Id>
+      <Name>Vegetarisk grönsakslasagne</Name>
+      <ProductId>2858</ProductId>
+      <SKU>224GB90203518</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>50</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1272</Id>
+      <Name>Marockansk vegetarisk gryta</Name>
+      <ProductId>2856</ProductId>
+      <SKU>214GB90203567</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>50</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1273</Id>
+      <Name>Auberginelasagne</Name>
+      <ProductId>2847</ProductId>
+      <SKU>419IT9012817</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>58</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1274</Id>
+      <Name>Skaldjursrisotto med zucchini</Name>
+      <ProductId>2844</ProductId>
+      <SKU>418IT9012816</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>59</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1275</Id>
+      <Name>Pennepasta med lax</Name>
+      <ProductId>1906</ProductId>
+      <SKU>218IT9012807</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>59</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001272699</ShipmentNumber>
+</Order>

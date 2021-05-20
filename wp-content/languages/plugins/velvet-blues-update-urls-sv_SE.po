@@ -1,0 +1,214 @@
+# Translation of Plugins - Velvet Blues Update URLs - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Velvet Blues Update URLs - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-06-14 09:20:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Velvet Blues Update URLs - Stable (latest release)\n"
+
+#. Author URI of the plugin
+msgid "http://www.velvetblues.com/"
+msgstr "http://www.velvetblues.com/"
+
+#. Author of the plugin
+msgid "VelvetBlues.com"
+msgstr "VelvetBlues.com"
+
+#. Description of the plugin
+msgid "This plugin <strong>updates all urls in your website</strong> by replacing old urls with new urls. To get started: 1) Click the \"Activate\" link to the left of this description, and 2) Go to your <a href=\"tools.php?page=velvet-blues-update-urls.php\">Update URLs</a> page to use it."
+msgstr "Detta tillägg <strong>uppdaterar alla URL:er på din webbplats</strong> genom att ersätta gamla URL med nya. Börja med att: 1) Klicka på länken ”Aktivera” till vänster om denna beskrivning och 2) Gå sedan till sidan <a href=\"tools.php?page=velvet-blues-update-urls.php\">Uppdatera URL</a> för att använda det."
+
+#. Plugin URI of the plugin
+msgid "http://www.velvetblues.com/web-development-blog/wordpress-plugin-update-urls/"
+msgstr "http://www.velvetblues.com/web-development-blog/wordpress-plugin-update-urls/"
+
+#. Plugin Name of the plugin
+msgid "Velvet Blues Update URLs"
+msgstr "Velvet Blues Update URLs"
+
+#: velvet-blues-update-urls.php:301
+msgid "We will backup your website and move it for $75 OR update your URLs for only $29."
+msgstr "Vi säkerhetskopierar din webbplats och flyttar den för 75 USD ELLER uppdaterar dina URL:er för endast 29 USD."
+
+#: velvet-blues-update-urls.php:293
+msgid "Get support at the %s plugin page%s."
+msgstr "Få support via %stilläggets sida%s."
+
+#: velvet-blues-update-urls.php:292
+msgid "Need help?"
+msgstr "Behöver du hjälp?"
+
+#: velvet-blues-update-urls.php:287
+msgid "Update URLs NOW"
+msgstr "Uppdatera URL:er NU"
+
+#: velvet-blues-update-urls.php:281
+msgid "Learn More."
+msgstr "Lär dig mer."
+
+#: velvet-blues-update-urls.php:279
+msgid "GUIDs for posts should only be changed on development sites."
+msgstr "GUID för inlägg bör endast ändras på utvecklingsinstallationer."
+
+#: velvet-blues-update-urls.php:277
+msgid "Update ALL GUIDs"
+msgstr "Uppdatera alla GUID"
+
+#: velvet-blues-update-urls.php:272
+msgid "URLs in custom fields and meta boxes"
+msgstr "URL i anpassade fält och meta-rutor"
+
+#: velvet-blues-update-urls.php:267
+msgid "images, documents, general media"
+msgstr "bilder, dokument, allmän media"
+
+#: velvet-blues-update-urls.php:265
+msgid "URLs for attachments"
+msgstr "URL för bilagor"
+
+#: velvet-blues-update-urls.php:260
+msgid "URLs in links"
+msgstr "URL:er i länkar"
+
+#: velvet-blues-update-urls.php:255
+msgid "URLs in excerpts"
+msgstr "URL:er i utdrag"
+
+#: velvet-blues-update-urls.php:250
+msgid "posts, pages, custom post types, revisions"
+msgstr "inlägg, sidor, anpassade inläggstyper, tidigare versioner"
+
+#: velvet-blues-update-urls.php:248
+msgid "URLs in page content"
+msgstr "URL:er i sidinnehåll"
+
+#: velvet-blues-update-urls.php:241
+msgid "Choose which URLs should be updated"
+msgstr "Välj vilka URL som ska uppdateras"
+
+#: velvet-blues-update-urls.php:232
+msgid "New Site Address"
+msgstr "Ny webbplatsadress"
+
+#: velvet-blues-update-urls.php:229
+msgid "New URL"
+msgstr "Ny URL"
+
+#: velvet-blues-update-urls.php:223
+msgid "Old Site Address"
+msgstr "Gammal webbplatsadress"
+
+#: velvet-blues-update-urls.php:220
+msgid "Old URL"
+msgstr "Gammal URL"
+
+#: velvet-blues-update-urls.php:215
+msgid "Enter your URLs in the fields below"
+msgstr "Ange dina URL:er i fälten nedan"
+
+#: velvet-blues-update-urls.php:213 velvet-blues-update-urls.php:239
+msgid "Step"
+msgstr "Steg"
+
+#: velvet-blues-update-urls.php:210
+msgid "You may need to restore it if incorrect URLs are entered in the fields below."
+msgstr "Du kan behöva återställa det om felaktiga URL:er matats in i nedanstående fält."
+
+#: velvet-blues-update-urls.php:208
+msgid "WE RECOMMEND THAT YOU BACKUP YOUR WEBSITE."
+msgstr "VI REKOMMENDERAR ATT DU SÄKERHETSKOPIERAR DIN WEBBPLATS."
+
+#: velvet-blues-update-urls.php:206
+msgid "After moving a website, %s lets you fix old URLs in content, excerpts, links, and custom fields."
+msgstr "Efter att du flyttat en webbplats låter dig %s rätta gamla URL:er i innehåll, utdragstexter, länkar och anpassade fält."
+
+#: velvet-blues-update-urls.php:198
+msgid "Please enter values for both the old url and the new url."
+msgstr "Ange värden för båda gammal och ny URL."
+
+#: velvet-blues-update-urls.php:190
+msgid "The safer, easier way to pay online!"
+msgstr "Det säkrare, enklare sättet att betala online!"
+
+#: velvet-blues-update-urls.php:189
+msgid "If you found our plugin useful, %s please consider donating"
+msgstr "Donera gärna om du haft %s nytta av tillägget"
+
+#: velvet-blues-update-urls.php:182
+msgid "Results"
+msgstr "Resultat"
+
+#: velvet-blues-update-urls.php:176
+msgid "Success! Your URLs have been updated."
+msgstr "Klart! Dina URL:er har uppdaterats."
+
+#: velvet-blues-update-urls.php:165
+msgid "ERROR: Something may have gone wrong."
+msgstr "FEL: Något kan ha gått fel."
+
+#: velvet-blues-update-urls.php:151
+msgid "We will backup your website and move it for $75 OR simply update your URLs for only $39."
+msgstr "Vi säkerhetskopierar din webbplats och flyttar den för 75 USD ELLER uppdaterar bara dina URL:er för endast 39 USD."
+
+#: velvet-blues-update-urls.php:151 velvet-blues-update-urls.php:299
+msgid "Contact us at"
+msgstr "Kontakta oss på"
+
+#: velvet-blues-update-urls.php:151 velvet-blues-update-urls.php:297
+msgid "Want us to do it for you?"
+msgstr "Vill du att vi ska göra det åt dig?"
+
+#: velvet-blues-update-urls.php:151
+msgid "This happens if a URL is incorrect OR if it is not found in the content. Check your URLs and try again."
+msgstr "Detta händer om en URL är felaktig ELLER om den inte hittas i innehållet. Kontrollera dina URL:er och försök igen."
+
+#: velvet-blues-update-urls.php:151
+msgid "Why do the results show 0 URLs updated?"
+msgstr "Varför säger resultatet att 0 URL:er uppdaterats?"
+
+#: velvet-blues-update-urls.php:135
+msgid "Please select at least one checkbox."
+msgstr "Välj minst en kryssruta."
+
+#: velvet-blues-update-urls.php:135 velvet-blues-update-urls.php:167
+#: velvet-blues-update-urls.php:198
+msgid "Your URLs have not been updated."
+msgstr "Dina URL:er har inte uppdaterats."
+
+#: velvet-blues-update-urls.php:123
+msgid "Please try again."
+msgstr "Var vänlig försök igen."
+
+#: velvet-blues-update-urls.php:123 velvet-blues-update-urls.php:135
+#: velvet-blues-update-urls.php:198
+msgid "ERROR"
+msgstr "FEL"
+
+#: velvet-blues-update-urls.php:48
+msgid "GUIDs"
+msgstr "GUIDs"
+
+#: velvet-blues-update-urls.php:47
+msgid "Custom Fields"
+msgstr "Anpassade fält"
+
+#: velvet-blues-update-urls.php:46
+msgid "Links"
+msgstr "Länkar"
+
+#: velvet-blues-update-urls.php:45
+msgid "Attachments"
+msgstr "Bilagor"
+
+#: velvet-blues-update-urls.php:44
+msgid "Excerpts"
+msgstr "Utdrag"
+
+#: velvet-blues-update-urls.php:43
+msgid "Content Items (Posts, Pages, Custom Post Types, Revisions)"
+msgstr "Innehållsobjekt (inlägg, sidor, anpassade inläggstyper, versioner)"

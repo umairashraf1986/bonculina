@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>3746</OrderId>
+  <ShippingFullName>Ludivine Conrardy</ShippingFullName>
+  <ShippingAddress1>Österlånggatan 16</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Stockholm</ShippingCity>
+  <ShippingPostcode>11131</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>217</Id>
+      <Name>Spagetti Carbonara</Name>
+      <ProductId>2867</ProductId>
+      <SKU>Spaghetti alla carbonara</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>55</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>218</Id>
+      <Name>Trofiepasta med basilika sås</Name>
+      <ProductId>2870</ProductId>
+      <SKU>Trofie con salsa al basilico</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>55</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>219</Id>
+      <Name>Ostgratinerad blomkål med couscous</Name>
+      <ProductId>2873</ProductId>
+      <SKU>240GB90203542</SKU>
+      <Quantity>10</Quantity>
+      <Price>55</Price>
+      <Subtotal>550</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>550</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001143486</ShipmentNumber>
+</Order>

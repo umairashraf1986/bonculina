@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>3718</OrderId>
+  <ShippingFullName>Jalil Khan</ShippingFullName>
+  <ShippingAddress1>Österlånggatan 16</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Stockholm</ShippingCity>
+  <ShippingPostcode>11131</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>199</Id>
+      <Name>Auberginelasagne</Name>
+      <ProductId>2847</ProductId>
+      <SKU>Melanzane Alla Parmigiana</SKU>
+      <Quantity>6</Quantity>
+      <Price>65</Price>
+      <Subtotal>390</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>390</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>200</Id>
+      <Name>Ostgratinerad blomkål med couscous</Name>
+      <ProductId>2873</ProductId>
+      <SKU>240GB90203542</SKU>
+      <Quantity>6</Quantity>
+      <Price>55</Price>
+      <Subtotal>330</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>330</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001142229</ShipmentNumber>
+</Order>

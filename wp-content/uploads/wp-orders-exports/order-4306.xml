@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4306</OrderId>
+  <OrderTime>10:47:35</OrderTime>
+  <OrderDate>2020-10-08</OrderDate>
+  <ShippingFullName>Pia Thorby</ShippingFullName>
+  <ShippingAddress1>Klippgatan 24 A</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Solna</ShippingCity>
+  <ShippingPostcode>17147</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>3291</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>962</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001294400</ShipmentNumber>
+</Order>

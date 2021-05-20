@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4075</OrderId>
+  <OrderTime>22:20:40</OrderTime>
+  <OrderDate>2020-09-20</OrderDate>
+  <ShippingFullName>Birgitta Westphal</ShippingFullName>
+  <ShippingAddress1>Tetorpsvägen 193</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Upplands Väsby</ShippingCity>
+  <ShippingPostcode>19439</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>1200</Id>
+      <Name>Köttfärslimpa med gräddsås</Name>
+      <ProductId>2853</ProductId>
+      <SKU>223GB90203563</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1201</Id>
+      <Name>Lasagne</Name>
+      <ProductId>2850</ProductId>
+      <SKU>218IT9012801</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1202</Id>
+      <Name>Köttbullar i gräddsås</Name>
+      <ProductId>2838</ProductId>
+      <SKU>223GB90203562</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001262707</ShipmentNumber>
+</Order>

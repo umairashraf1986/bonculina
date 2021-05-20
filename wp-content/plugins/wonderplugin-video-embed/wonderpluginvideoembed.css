@@ -1,0 +1,57 @@
+#icon-wonderplugin-videoembed {
+    background: url("images/logo-32.png") no-repeat; 
+}
+
+#welcome-panel {
+	padding: 20px;
+}
+
+ul.wonderplugin-feature-list {
+	list-style-type: disc;
+	margin-left: 24px;
+}
+
+ul.wonderplugin-feature-list li{
+	margin: 8px 0;
+	padding-left: 4px;
+}
+
+.wonderplugin-tutorial-image {
+	text-align: center;
+}
+
+.wonderplugin-tutorial-image img {
+	max-width: 100%;
+	padding: 4px;
+   	border: 1px solid #aaa;
+   	background-color: #ccc;
+}
+
+.wonderplugin-tutorial-table {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.wonderplugin-tutorial-table th {
+	text-align: left;
+}
+
+.wonderplugin-tutorial-table code {
+	padding: 3px 4px;
+    color: #d14;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+}
+
+.wonderplugin-tutorial-table td {
+	padding: 4px;
+}
+
+.wonderplugin-tutorial-table tr:hover {
+    background-color: #fff;
+}
+
+.wonderplugin-tutorial-table tr:hover code {
+    background-color: #fff;
+    border: none;
+}

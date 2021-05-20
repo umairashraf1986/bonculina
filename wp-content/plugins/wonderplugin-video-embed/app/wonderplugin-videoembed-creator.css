@@ -1,0 +1,93 @@
+.wpve-tab-container {
+	margin: 12px auto;
+}
+
+.wpve-tab-label {
+	display: inline-block;
+	font-size: 12px;
+	padding: 8px;
+	background: #e5e5e5;
+	color: #333;
+	cursor: pointer;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.wpve-tab-label-selected {
+  background: #aaa;
+  color: #fff;
+}
+
+.wpve-tab-help {
+	display: inline-block;
+	float: right;
+	padding: 8px;	
+}
+
+.wpve-tab-content {
+	display: none;
+	padding: 8px;
+	border: 1px solid #e5e5e5;
+}
+
+.wpve-tab-content-selected {
+	display: block;
+}
+
+.wpve-video-iframe-container {
+	display: block;
+}
+
+.wpve-video-mp4-container {
+	display: none;
+}
+
+.wpve-tab-container input[type=text] {
+	margin-top: 2px !important;
+	margin-bottom: 2px !important;
+}
+
+.wpve-tab-container input[type=button] {
+	text-align: center;
+}
+
+.wpve-tab-label-primary {
+	font-weight: bold;
+}
+
+.wpve-regular-text {
+	width: 450px;
+}
+
+.wpve-mce-dialog .wpve-tab-label {
+	margin-right: 6px;
+}
+
+.wpve-mce-dialog .wpve-subtab-container  {
+	padding-left: 12px;
+}
+
+.wpve-mce-dialog .wpve-select-file {
+	margin-left: 8px;
+}
+
+.wpve-mce-dialog .wpve-submit-container {
+	text-align: right;
+}
+
+.wpve-mce-dialog .wpve-highlight-title {
+	font-weight: bold;
+}
+
+.wpve-mce-dialog table {
+	width: 100%;
+}
+
+.wpve-mce-dialog table td:first-child {
+	width: 120px;
+}
+
+.wpve-error-msg {
+	display: none;
+	color: #ff0000;
+}

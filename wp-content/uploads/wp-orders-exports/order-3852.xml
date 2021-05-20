@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>3852</OrderId>
+  <ShippingFullName>Jalil Khan</ShippingFullName>
+  <ShippingAddress1>Österlånggatan 16</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Stockholm</ShippingCity>
+  <ShippingPostcode>11131</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>335</Id>
+      <Name>Tagliatellepasta med köttfärssås</Name>
+      <ProductId>2861</ProductId>
+      <SKU>218IT9012802</SKU>
+      <Quantity>12</Quantity>
+      <Price>55</Price>
+      <Subtotal>660</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>660</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001154850</ShipmentNumber>
+</Order>

@@ -1,0 +1,240 @@
+.woocommerce-checkout .msunifaunonline-shipping td {
+    padding: 0;
+    width: 100%;
+}
+.woocommerce-checkout .msunifaunonline-shipping td > strong {
+    color: #434343;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.woocommerce-checkout.msuo-loaded.ajax-loading .custom-region-selector:before {
+    background: #fff;
+    bottom: 0;
+    content: '';
+    left: 0;
+    opacity: 0.9;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.woocommerce-checkout.msuo-loaded.ajax-loading .custom-region-selector:after {
+    background: transparent url('../img/ajax-loader.gif') center center no-repeat scroll;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.woocommerce-checkout.msuo-loaded .custom-region-selector {
+    overflow: hidden;
+    margin-bottom: 15px;
+    position: relative;
+}
+.woocommerce-checkout.msuo-loaded .custom-region-selector .action {
+    background: #862B87;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    float: right;
+    font-size: 14px;
+    line-height: 50px;
+    margin-left: 10px;
+    outline: none;
+    padding: 0 20px;
+    position: static;
+    text-align: center;
+    width: auto;
+}
+.woocommerce-checkout.msuo-loaded .custom-region-selector .wrapper {
+    overflow: hidden;
+}
+.woocommerce-checkout.msuo-loaded .custom-region-selector .wrapper input {
+    background: #fff;
+    border: 1px #cbcbcd solid;
+    border-radius: 5px;
+    box-shadow: none;
+    height: 50px;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.msuo-loaded.woocommerce-checkout .woocommerce-shipping-totals.shipping > td {
+    background: transparent url('../img/unifaun.svg') center bottom no-repeat scroll;
+    background-size: 64px;
+    padding-bottom: 2em;
+}
+
+.woocommerce-checkout .msunifaunonline-shipping .package {
+    background: transparent url('../img/unifaun.svg') center bottom 15px no-repeat scroll;
+    background-size: 75px;
+    border: 1px #cbcbcb solid;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    padding: 0 0 50px 0;
+}
+.msuo-loaded.woocommerce-checkout.msuo-locked .woocommerce-shipping-totals.shipping {
+    opacity: 0.75;
+    pointer-events: none;
+    position: relative;
+}
+.woocommerce-checkout .msunifaunonline-shipping ul#shipping_method {
+    margin: 0;
+    padding: 0;
+}
+.woocommerce-checkout .msunifaunonline-shipping .package > .single,
+.woocommerce-checkout .msunifaunonline-shipping ul#shipping_method > li
+{
+    color: #3c3c3e;
+    font-size: 14px;
+    margin: 0;
+    overflow: hidden;
+    padding: 13px 10px 13px 10px;
+    position: relative;
+}
+.woocommerce-checkout .msunifaunonline-shipping .package > .single,
+.woocommerce-checkout .msunifaunonline-shipping ul#shipping_method > li.selected {
+    background-color: #F5F5F7;
+}
+.woocommerce-checkout .msunifaunonline-shipping .package > .single,
+.woocommerce-checkout .msunifaunonline-shipping ul#shipping_method > li > label
+{
+    color: #3c3c3e;
+    font-weight: 600;
+}
+.woocommerce-checkout .msunifaunonline-shipping .package > .single .price,
+.woocommerce-checkout .msunifaunonline-shipping ul#shipping_method > li > label .price {
+    float: right;
+}
+.woocommerce-checkout .msunifaunonline-shipping .package > .single .price .tax_label,
+.woocommerce-checkout .msunifaunonline-shipping ul#shipping_method > li > label .price .tax_label {
+    display: none;
+}
+.woocommerce-checkout .msunifaunonline-shipping ul#shipping_method > li + li {
+    border-top: 1px solid #e8e8e8;
+}
+.woocommerce-checkout .msunifaunonline-shipping ul#shipping_method > li .shipping-extra {
+    display: none;
+}
+.woocommerce-checkout .msunifaunonline-shipping ul#shipping_method > li .shipping-extra.selected {
+    display: block;
+}
+.msuo-loaded.woocommerce-checkout ul#shipping_method > li .shipping-extra .agents {
+    display: block;
+    margin: 10px 0;
+    padding: 0;
+}
+.msuo-loaded.woocommerce-checkout ul#shipping_method > li .shipping-extra .agents select {
+    width: 100%;
+}
+.woocommerce-checkout .msunifaunonline-shipping ul#shipping_method > li .shipping-extra .addons {
+    background: none;
+    margin: 10px 0;
+    padding: 0;
+}
+.woocommerce-checkout .msunifaunonline-shipping ul#shipping_method > li .shipping-extra .addons .price {
+    margin-left: 5px;
+}
+.woocommerce-checkout .msunifaunonline-shipping ul#shipping_method > li .shipping-extra .agent + .addons {
+    margin-top: 20px;
+}
+.woocommerce-checkout .msunifaunonline-shipping ul#shipping_method > li .shipping-extra .addons label {
+    display: block;
+}
+.woocommerce-checkout .msunifaunonline-shipping ul#shipping_method > li .shipping-extra .addons input[type="text"],
+.woocommerce-checkout .msunifaunonline-shipping ul#shipping_method > li .shipping-extra .addons input[type="email"]
+{
+    width: 100%;
+}
+.woocommerce-checkout .msunifaunonline-shipping ul#shipping_method > li .shipping-extra .addons .addon-fields {
+    display: none;
+}
+.woocommerce-checkout .msunifaunonline-shipping ul#shipping_method > li .shipping-extra .addons .addon-fields input {
+    background: #fff;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    height: 32px;
+    margin: 10px 0;
+}
+.woocommerce-checkout .msunifaunonline-shipping ul#shipping_method > li .shipping-extra .addons .selected + .addon-fields {
+    display: block;
+}
+.msuo-loaded.woocommerce-checkout ul#shipping_method li {
+    position: relative;
+    overflow: hidden;
+}
+.msuo-loaded.woocommerce-checkout ul#shipping_method li .msunifaunonline-service-id {
+    background: transparent none center center no-repeat scroll;
+    background-size: 64px;
+    display: block;
+    float: right;
+    height: 32px;
+    width: 64px;
+}
+
+.msuo-loaded.woocommerce-checkout ul#shipping_method li .msunifaunonline-service-id.msunifaunonline-carrier-id-SBTL
+{
+    background-image: url('../img/db-schenker.svg');
+}
+.msuo-loaded.woocommerce-checkout ul#shipping_method li .msunifaunonline-service-id.msunifaunonline-carrier-id-BCSE,
+.msuo-loaded.woocommerce-checkout ul#shipping_method li .msunifaunonline-service-id.msunifaunonline-carrier-id-BCMSE,
+.msuo-loaded.woocommerce-checkout ul#shipping_method li .msunifaunonline-service-id.msunifaunonline-carrier-id-BOX,
+.msuo-loaded.woocommerce-checkout ul#shipping_method li .msunifaunonline-service-id.msunifaunonline-carrier-id-PNL,
+.msuo-loaded.woocommerce-checkout ul#shipping_method li .msunifaunonline-service-id.msunifaunonline-carrier-id-BP,
+.msuo-loaded.woocommerce-checkout ul#shipping_method li .msunifaunonline-service-id.msunifaunonline-carrier-id-PNLNO
+{
+    background-image: url('../img/bring.svg');
+}
+.msuo-loaded.woocommerce-checkout ul#shipping_method li .msunifaunonline-service-id.msunifaunonline-carrier-id-PBREV,
+.msuo-loaded.woocommerce-checkout ul#shipping_method li .msunifaunonline-service-id.msunifaunonline-carrier-id-DTPG,
+.msuo-loaded.woocommerce-checkout ul#shipping_method li .msunifaunonline-service-id.msunifaunonline-carrier-id-PLAB
+{
+    background-image: url('../img/postnord.svg');
+}
+.msuo-loaded.woocommerce-checkout ul#shipping_method li .msunifaunonline-service-id.msunifaunonline-carrier-id-BEST
+{
+    background-image: url('../img/best-transport.svg');
+}
+.msuo-loaded.woocommerce-checkout ul#shipping_method li .msunifaunonline-service-id.msunifaunonline-carrier-id-DHLAIR,
+.msuo-loaded.woocommerce-checkout ul#shipping_method li .msunifaunonline-service-id.msunifaunonline-carrier-id-DHLROAD,
+.msuo-loaded.woocommerce-checkout ul#shipping_method li .msunifaunonline-service-id.msunifaunonline-carrier-id-DHLEC,
+.msuo-loaded.woocommerce-checkout ul#shipping_method li .msunifaunonline-service-id.msunifaunonline-carrier-id-DHLSPCOD,
+.msuo-loaded.woocommerce-checkout ul#shipping_method li .msunifaunonline-service-id.msunifaunonline-carrier-id-DGF
+{
+    background-image: url('../img/dhl.svg');
+}
+
+@media screen and (min-width: 769px) {
+    .woocommerce-checkout #kco-order-review,
+    .woocommerce-checkout #kco-iframe
+    {
+        width: 50%;
+    }
+}
+
+.woocommerce-cart .msunifaunonline-shipping > td {
+    padding: 0;
+    width: 100%;
+}
+.woocommerce-cart .msunifaunonline-shipping > td > strong {
+    background-color: #f8f8f8;
+    display: block;
+    padding: 1em 1.41575em;
+}
+.woocommerce-cart .msunifaunonline-shipping .package {
+    padding: 1em 1.41575em;
+}
+.woocommerce-cart .msunifaunonline-shipping ul li {
+}
+.woocommerce-cart .msunifaunonline-shipping ul li label .price {
+    float: right;
+}
+.woocommerce-cart .msunifaunonline-shipping ul li label .price .tax_label {
+    display: none;
+}
+.woocommerce-cart .shipping-extra {
+    display: none;
+}

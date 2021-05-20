@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4050</OrderId>
+  <OrderTime>12:56:18</OrderTime>
+  <OrderDate>2020-09-12</OrderDate>
+  <ShippingFullName>Barbro Friberg</ShippingFullName>
+  <ShippingAddress1>Herdevägen 18</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Spånga</ShippingCity>
+  <ShippingPostcode>16355</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>1017</Id>
+      <Name>Kålpudding med kokt potatis</Name>
+      <ProductId>2854</ProductId>
+      <SKU>223GB90203549</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1018</Id>
+      <Name>Köttfärslimpa med gräddsås</Name>
+      <ProductId>2853</ProductId>
+      <SKU>223GB90203563</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1019</Id>
+      <Name>Köttbullar i gräddsås</Name>
+      <ProductId>2838</ProductId>
+      <SKU>223GB90203562</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1020</Id>
+      <Name>Pannbiff med karamelliserad lök</Name>
+      <ProductId>2837</ProductId>
+      <SKU>223GB90203569</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001250203</ShipmentNumber>
+</Order>

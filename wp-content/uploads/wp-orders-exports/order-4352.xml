@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4352</OrderId>
+  <OrderTime>20:03:57</OrderTime>
+  <OrderDate>2020-10-12</OrderDate>
+  <ShippingFullName>Patrik Rosén</ShippingFullName>
+  <ShippingAddress1>Ulriksborgsgatan 7</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Stockholm</ShippingCity>
+  <ShippingPostcode>11218</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>3669</Id>
+      <Name>Tortellini Panna Prosciutto</Name>
+      <ProductId>2878</ProductId>
+      <SKU>418IT9012813</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>55</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3670</Id>
+      <Name>Spagetti Carbonara</Name>
+      <ProductId>2867</ProductId>
+      <SKU>419IT9012811</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>55</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3671</Id>
+      <Name>Kyckling Korma</Name>
+      <ProductId>2860</ProductId>
+      <SKU>224GB90203529</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>55</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3672</Id>
+      <Name>Vegetarisk grönsakslasagne</Name>
+      <ProductId>2858</ProductId>
+      <SKU>224GB90203518</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>55</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3673</Id>
+      <Name>Lasagne</Name>
+      <ProductId>2850</ProductId>
+      <SKU>218IT9012801</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3674</Id>
+      <Name>Revbensstek med chipotle BBQ-sås</Name>
+      <ProductId>2816</ProductId>
+      <SKU>224GB90203548</SKU>
+      <Quantity>1</Quantity>
+      <Price>75</Price>
+      <Subtotal>75</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>75</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001300562</ShipmentNumber>
+</Order>

@@ -1,0 +1,22 @@
+<form method="POST" action="?page=msunifaun_setup&route=<?php echo $route; ?>">
+    <fieldset>
+        <p>
+            <label>
+                <span>
+                    <?php echo __('Enter your organization number', 'msunifaunonline'); ?>
+                </span>
+                <br /><input required="required" type="text" class="regular-text" name="account_orgno" />
+            </label>
+        </p>
+        <input type="hidden" name="unifaun_setup_nonce" value="<?php echo wp_create_nonce('unifaun_setup_nonce'); ?>" />
+        <p>
+            <input class="button button-primary" type="submit" value="<?php echo __('OK', 'msunifaunonline'); ?>" />
+        </p>
+    </fieldset>
+</form>
+<p>
+    <hr />
+    <a href="?page=msunifaun_setup">
+        <?php echo __('Go back to start', 'msunifaunonline'); ?>
+    </a>
+</p>

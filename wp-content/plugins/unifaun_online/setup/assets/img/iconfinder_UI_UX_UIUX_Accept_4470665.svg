@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg style="fill: #367A36;" enable-background="new 0 0 32 32" height="32px" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Guides" />
+    <g id="Mail" />
+    <g id="Cloud" />
+    <g id="Home" />
+    <g id="Back" />
+    <g id="Next" />
+    <g id="Reload" />
+    <g id="Buble" />
+    <g id="Accept">
+        <path d="M16,4C9.3833,4,4,9.3833,4,16s5.3833,12,12,12c6.6172,0,12-5.3833,12-12S22.6172,4,16,4z M16,26c-5.5142,0-10-4.4858-10-10   S10.4858,6,16,6c5.5137,0,10,4.4858,10,10S21.5137,26,16,26z M21.207,12.293c0.3906,0.3906,0.3906,1.0234,0,1.4141l-6.8154,6.8154   l-3.6914-4.9224c-0.3315-0.4419-0.2422-1.0688,0.1997-1.3999c0.4443-0.3315,1.0693-0.2412,1.3999,0.1997l2.3086,3.0776   l5.1846-5.1846C20.1836,11.9023,20.8164,11.9023,21.207,12.293z" />
+    </g>
+    <g id="Reject" />
+    <g id="User" />
+    <g id="Download" />
+    <g id="Upload" />
+    <g id="Camera" />
+    <g id="Notification" />
+    <g id="About" />
+    <g id="Search" />
+    <g id="Cart" />
+    <g id="Sound" />
+    <g id="List" />
+    <g id="Settings" />
+</svg>

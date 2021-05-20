@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4274</OrderId>
+  <OrderTime>06:53:42</OrderTime>
+  <OrderDate>2020-10-06</OrderDate>
+  <ShippingFullName>Theres Åberg</ShippingFullName>
+  <ShippingAddress1>Elins Gård 3</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Göteborg</ShippingCity>
+  <ShippingPostcode>41481</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>2979</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>1069</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3000</Id>
+      <Name>Boeuf Bourguignon</Name>
+      <ProductId>2820</ProductId>
+      <SKU>226GB90203546</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001289555</ShipmentNumber>
+</Order>

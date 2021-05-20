@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4045</OrderId>
+  <OrderTime>09:33:22</OrderTime>
+  <OrderDate>2020-09-11</OrderDate>
+  <ShippingFullName>Majth Elgstrand</ShippingFullName>
+  <ShippingAddress1>Honnörsgatan 5</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Solna</ShippingCity>
+  <ShippingPostcode>17069</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>947</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>962</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001249693</ShipmentNumber>
+</Order>

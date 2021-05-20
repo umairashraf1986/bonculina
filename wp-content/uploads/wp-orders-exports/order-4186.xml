@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4186</OrderId>
+  <OrderTime>15:10:36</OrderTime>
+  <OrderDate>2020-09-30</OrderDate>
+  <ShippingFullName>Piotr Kuczkowski</ShippingFullName>
+  <ShippingAddress1>Gartnerstigen 29</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Hässelby</ShippingCity>
+  <ShippingPostcode>16570</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>2063</Id>
+      <Name>Kyckling Korma</Name>
+      <ProductId>2860</ProductId>
+      <SKU>224GB90203529</SKU>
+      <Quantity>3</Quantity>
+      <Price>55</Price>
+      <Subtotal>165</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>165</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>2064</Id>
+      <Name>Köttfärslimpa med gräddsås</Name>
+      <ProductId>2853</ProductId>
+      <SKU>223GB90203563</SKU>
+      <Quantity>3</Quantity>
+      <Price>65</Price>
+      <Subtotal>195</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>195</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>2065</Id>
+      <Name>Cannelloni med ricottaost och spenat</Name>
+      <ProductId>2864</ProductId>
+      <SKU>218IT9012805</SKU>
+      <Quantity>3</Quantity>
+      <Price>55</Price>
+      <Subtotal>165</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>165</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>2066</Id>
+      <Name>Kålpudding med kokt potatis</Name>
+      <ProductId>2854</ProductId>
+      <SKU>223GB90203549</SKU>
+      <Quantity>3</Quantity>
+      <Price>65</Price>
+      <Subtotal>195</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>195</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>2067</Id>
+      <Name>Lasagne</Name>
+      <ProductId>2850</ProductId>
+      <SKU>218IT9012801</SKU>
+      <Quantity>3</Quantity>
+      <Price>65</Price>
+      <Subtotal>195</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>195</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001281147</ShipmentNumber>
+</Order>

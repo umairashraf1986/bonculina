@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4114</OrderId>
+  <OrderTime>09:20:56</OrderTime>
+  <OrderDate>2020-09-27</OrderDate>
+  <ShippingFullName>Christoffer Bergfors</ShippingFullName>
+  <ShippingAddress1>Torstenssonsgatan 3</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Stockholm</ShippingCity>
+  <ShippingPostcode>11456</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>1385</Id>
+      <Name>Chilli Con Carne</Name>
+      <ProductId>2857</ProductId>
+      <SKU>210GB90203555</SKU>
+      <Quantity>2</Quantity>
+      <Price>55</Price>
+      <Subtotal>110</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>110</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1386</Id>
+      <Name>Revbensstek med chipotle BBQ-sås</Name>
+      <ProductId>2816</ProductId>
+      <SKU>224GB90203548</SKU>
+      <Quantity>1</Quantity>
+      <Price>75</Price>
+      <Subtotal>75</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>75</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1387</Id>
+      <Name>Pannbiff med karamelliserad lök</Name>
+      <ProductId>2837</ProductId>
+      <SKU>223GB90203569</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1388</Id>
+      <Name>Köttbullar i gräddsås</Name>
+      <ProductId>2838</ProductId>
+      <SKU>223GB90203562</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>1389</Id>
+      <Name>Kyckling Karahi</Name>
+      <ProductId>2855</ProductId>
+      <SKU>232GB90203553</SKU>
+      <Quantity>2</Quantity>
+      <Price>55</Price>
+      <Subtotal>110</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>110</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001273130</ShipmentNumber>
+</Order>

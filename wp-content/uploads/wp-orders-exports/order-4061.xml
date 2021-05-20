@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4061</OrderId>
+  <OrderTime>09:21:27</OrderTime>
+  <OrderDate>2020-09-14</OrderDate>
+  <ShippingFullName>Jane Rogin Nilsson</ShippingFullName>
+  <ShippingAddress1>Banérgatan 21</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Stockholm</ShippingCity>
+  <ShippingPostcode>11522</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>1074</Id>
+      <Name>Marockansk lammgryta</Name>
+      <ProductId>2818</ProductId>
+      <SKU>214GB90203565</SKU>
+      <Quantity>2</Quantity>
+      <Price>65</Price>
+      <Subtotal>130</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>117</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001252933</ShipmentNumber>
+</Order>

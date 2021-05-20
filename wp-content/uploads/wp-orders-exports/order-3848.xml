@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>3848</OrderId>
+  <ShippingFullName>Ludivine Conrardy</ShippingFullName>
+  <ShippingAddress1>Österlånggatan 16</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Stockholm</ShippingCity>
+  <ShippingPostcode>11131</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>273</Id>
+      <Name>Trofiepasta med basilika sås</Name>
+      <ProductId>2870</ProductId>
+      <SKU>Trofie con salsa al basilico</SKU>
+      <Quantity>12</Quantity>
+      <Price>55</Price>
+      <Subtotal>660</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>561</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001154729</ShipmentNumber>
+</Order>

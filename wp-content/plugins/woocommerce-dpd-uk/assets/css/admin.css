@@ -1,0 +1,96 @@
+@CHARSET "UTF-8";
+
+div#dpd_uk_settings {
+	display: none;
+}
+
+.dpd_uk_connection_status {
+	display: none;
+}
+
+span.dpd_uk_connection_error {
+	font-weight: bold;
+	color: red;
+}
+
+span.dpd_uk_connection_ok {
+	font-weight: bold;
+	color: green;
+}
+
+.dpd_uk-hidden {
+	display: none;
+}
+
+.dpd_uk-package {
+
+}
+
+.dpd_uk-dimensions label {
+	display: block;
+}
+
+.dpd_uk-dimensions p, .dpd_uk-dimensions p label {
+	display: inline;
+}
+
+.dpd_uk-dimensions p.form-row input {
+	width: 50px;
+}
+
+.dpd_uk-button-add {
+	float: right;
+}
+
+.dpd_uk-button-add-package {
+	float: right;
+}
+
+.dpd_uk-button-delete, .dpd_uk-button-delete-created {
+	color: #a00;
+	vertical-align: top;
+	float: right;
+	font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px 1px;
+    cursor: pointer;
+}
+
+.dpd_uk-button-delete-package {
+	color: #a00;
+	float: right;
+	font-size: 13px;
+	line-height: 26px;
+	height: 28px;
+	margin: 0;
+	padding: 0 10px 1px;
+	cursor: pointer;
+}
+
+.dpd_uk-spinner {
+	float: none;
+}
+
+.dpd_error {
+	color: red;
+	margin: 0 4px 2px 0;
+	cursor: pointer;
+}
+
+a.dpd_uk_error {
+	color: red;
+	margin: 0 4px 2px 0;
+	cursor: pointer;
+}
+
+
+.dpd_uk-print-message {
+	display: block;
+	margin: 10px 0px 10px 0px;
+}
+
+.dpd_uk-package span.optional {
+	display: none;
+}

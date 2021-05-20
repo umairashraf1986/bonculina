@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4218</OrderId>
+  <OrderTime>07:52:07</OrderTime>
+  <OrderDate>2020-10-02</OrderDate>
+  <ShippingFullName>Anne-Maj Jakobsson</ShippingFullName>
+  <ShippingAddress1>Segersjövägen 47</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Uttran</ShippingCity>
+  <ShippingPostcode>14761</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>2447</Id>
+      <Name>Boeuf Bourguignon</Name>
+      <ProductId>2820</ProductId>
+      <SKU>226GB90203546</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>2448</Id>
+      <Name>Pannbiff med karamelliserad lök</Name>
+      <ProductId>2837</ProductId>
+      <SKU>223GB90203569</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>2449</Id>
+      <Name>Köttfärslimpa med gräddsås</Name>
+      <ProductId>2853</ProductId>
+      <SKU>223GB90203563</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>2450</Id>
+      <Name>Coq Au Vin</Name>
+      <ProductId>2835</ProductId>
+      <SKU>226GB90203557</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001284379</ShipmentNumber>
+</Order>

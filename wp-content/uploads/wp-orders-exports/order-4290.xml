@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4290</OrderId>
+  <OrderTime>07:48:25</OrderTime>
+  <OrderDate>2020-10-07</OrderDate>
+  <ShippingFullName>Per Lindberg</ShippingFullName>
+  <ShippingAddress1>Västgötagränd 5 Lgh 1602 6 Trappor</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Stockholm</ShippingCity>
+  <ShippingPostcode>11828</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>3110</Id>
+      <Name>Veggie paketet - 20 måltider</Name>
+      <ProductId>2884</ProductId>
+      <SKU>EPVEG</SKU>
+      <Quantity>1</Quantity>
+      <Price>999</Price>
+      <Subtotal>999</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>999</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001292003</ShipmentNumber>
+</Order>

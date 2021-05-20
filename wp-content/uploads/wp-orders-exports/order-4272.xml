@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4272</OrderId>
+  <OrderTime>20:20:08</OrderTime>
+  <OrderDate>2020-10-05</OrderDate>
+  <ShippingFullName>Tony Köhler</ShippingFullName>
+  <ShippingAddress1>Sandstuguvägen 53</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Uttran</ShippingCity>
+  <ShippingPostcode>14760</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>2934</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>1069</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001289021</ShipmentNumber>
+</Order>

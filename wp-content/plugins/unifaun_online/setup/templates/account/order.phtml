@@ -1,0 +1,15 @@
+<h3 class="order-confirmation"><?php echo __('Your account has been created and your API credentials has been automatically saved in plugin.', 'msunifaunonline'); ?></h3>
+<dl>
+    <dt><?php echo __('Login', 'msunifaunonline'); ?></dt>
+    <dd><?php echo $login; ?></dd>
+    <dt><?php echo __('API Key Id', 'msunifaunonline'); ?></dt>
+    <dd><?php echo $apiKey; ?></dd>
+    <dt><?php echo __('API Key Secret', 'msunifaunonline'); ?></dt>
+    <dd><?php echo $apiSecret; ?></dd>
+</dl>
+<p>
+    <hr />
+    <a href="?page=msunifaun_setup&route=<?php echo $route; ?>">
+        <?php echo __('Go back', 'msunifaunonline'); ?>
+    </a>
+</p>

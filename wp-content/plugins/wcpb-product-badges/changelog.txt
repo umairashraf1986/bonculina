@@ -1,0 +1,83 @@
+*** Product Badges Changelog ***
+
+2021-01-16 - version 2.0.0
+* Added compatability mode setting
+* Added multiple badges per product setting
+* Added settings page and button
+* Added on backorder assignment condition
+* Added notices to dashboard in relation to new settings added
+* Added wp_kses_post() information under code textarea when adding/editing a badge
+* Added WooCommerce 4.8.0 compatibility
+* Added WordPress 5.6 compatibility
+* Changed WordPress up to declaration
+* Changed WooCommerce up to declaration
+* Fixed some text badge options (such as border radius based) do not work on loop pages due to wp_kses_post()
+
+2020-12-03 - version 1.3.0
+* Added availability badges
+* Added general badges
+* Added badge order functionality to allow management of badge display priorities when multiple badges used
+* Added order, type, position, visibility and products columns to badge list with sorting function
+* Added non-sale display option so products not on sale can be targeted for badge display
+* Added out of stock display option so out of stock products can be targeted for badge display
+* Added featured display option so featured products can be targeted for badge display
+* Added load_plugin_textdomain
+* Added various performance improvements including less JavaScript and removal of image based size/positioning calculations
+* Changed badge display funcctionality to reduce non-display issues caused by themes removing WooCommerce image based filters, now only uses the woocommerce_before_shop_loop_item action (loops), woocommerce_blocks_product_grid_item_html filter (blocks) and woocommerce_single_product_image_thumbnail_html filter (product) which are less likely to be removed by a theme
+* Changed badge display functionality so no longer calculates badge position based on image sizes which could potentially give an incorrect position, position is now CSS based after image containers added via JS
+* Changed text badge markup so it does not include the CSS rules if values are empty which can occur if styles have not have been set before (e.g. a new badge)
+* Changed some badge color filter assignments
+* Fixed badge will display as a broken image if it is a image library type and the library image is not selected
+* Fixed badge will display as a broken image if it is a custom image type and the custom image is not uploaded
+* Fixed badges displayed in block editor are not positioned correctly
+* Fixed product block sales flash is not hidden
+* Fixed z-index on badge needs increasing due to some themes setting a high z-index on product images, while keeping low enough to account for sticky headers with higher z-indexes
+* Fixed Flatsome theme uses woocommerce_single_product_image_thumbnail_html on all gallery thumbnails not just the main image, so badges are hidden on the gallery thumbnails in this theme
+* Fixed some themes do not have a relative position on .product so add one but not !important as some themes override this to be absolute
+* Fixed some themes may override width and height of a custom badge image
+* Removed initial badge display hidden and the show of badge via CSS rules, no longer needed due to changes to badge display
+
+2020-11-26 - version 1.2.2
+* Changed upgrade function call to before WooCommerce conditional check
+* Fixed product page magnify icon may position incorrectly when more than 1 image
+* Fixed jQuery may not be defined due to lack of dependency in enqueue on some themes
+* Fixed clear button too wide when selecting text badge colors
+
+2020-11-20 - version 1.2.1
+* Fixed button not clickable in alert which appears when no matching images when filtering image library, replaced alert with text
+* Fixed cyber monday badge incorrectly filters to black friday not cyber monday
+
+2020-11-18 - version 1.2.0
+* Added black friday badges
+* Added cyber monday badges
+* Added general badges
+* Added christmas badges
+* Added valentine badges
+
+2020-11-14 - version 1.1.0
+* Added black friday badges
+* Changed product loops description text to include details on display within WooCommerce product blocks
+
+2020-11-13 - version 1.0.6
+* Added compatibility with all WooCommerce product blocks which use the woocommerce_product_get_image() filter and wc-block-grid container
+* Fixed uncaught error call to a member function get_id() on cart page on some themes
+
+2020-11-10 - version 1.0.5
+* Added WordPress multisite network compatibility
+* Fixed some themes may position badge images incorrectly due to theme absolute positioning
+
+2020-11-01 - version 1.0.4
+* Fixed product badge may not display on product page
+
+2020-10-29 - version 1.0.3
+* Fixed product badges may still apply to sticky add to cart on product pages, added further CSS rule to target product gallery only, loop rule (e.g. for related products) uneffected
+
+2020-10-28 - version 1.0.2
+* Fixed product badges are mistakenly being added to products in widgets, sticky add to cart, etc
+
+2020-10-28 - version 1.0.1
+* Fixed dashboard input fields (e.g. offset field) too wide on lower resolution screens
+* Changed with free gift badge color filter assignment
+
+2020-10-19 - version 1.0.0
+* Initial release

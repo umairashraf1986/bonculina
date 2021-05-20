@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>3726</OrderId>
+  <ShippingFullName>Jalil Khan</ShippingFullName>
+  <ShippingAddress1>Österlånggatan 16</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Stockholm</ShippingCity>
+  <ShippingPostcode>11131</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>202</Id>
+      <Name>Kyckling Korma</Name>
+      <ProductId>2860</ProductId>
+      <SKU>224GB90203529</SKU>
+      <Quantity>4</Quantity>
+      <Price>55</Price>
+      <Subtotal>220</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>220</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>203</Id>
+      <Name>Falafel med couscous</Name>
+      <ProductId>3174</ProductId>
+      <SKU>214GB90203559</SKU>
+      <Quantity>4</Quantity>
+      <Price>65</Price>
+      <Subtotal>260</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>260</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>204</Id>
+      <Name>Ostgratinerad blomkål med couscous</Name>
+      <ProductId>2873</ProductId>
+      <SKU>240GB90203542</SKU>
+      <Quantity>4</Quantity>
+      <Price>55</Price>
+      <Subtotal>220</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>220</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001142241</ShipmentNumber>
+</Order>

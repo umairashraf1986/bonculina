@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4332</OrderId>
+  <OrderTime>09:48:52</OrderTime>
+  <OrderDate>2020-10-11</OrderDate>
+  <ShippingFullName>Jessica Helena Jansson</ShippingFullName>
+  <ShippingAddress1>Karlhovsvägen 5 Lgh 1601</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Södertälje</ShippingCity>
+  <ShippingPostcode>15137</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>3503</Id>
+      <Name>Veggie paketet - 20 måltider</Name>
+      <ProductId>2884</ProductId>
+      <SKU>EPVEG</SKU>
+      <Quantity>1</Quantity>
+      <Price>999</Price>
+      <Subtotal>999</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>899</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001296581</ShipmentNumber>
+</Order>

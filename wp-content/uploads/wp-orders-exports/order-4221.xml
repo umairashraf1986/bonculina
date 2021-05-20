@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4221</OrderId>
+  <OrderTime>10:15:42</OrderTime>
+  <OrderDate>2020-10-02</OrderDate>
+  <ShippingFullName>Agneta Nilsson</ShippingFullName>
+  <ShippingAddress1>Apelsinvägen 17</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Järfälla</ShippingCity>
+  <ShippingPostcode>17557</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>2465</Id>
+      <Name>Trendy paketet - 20 måltider</Name>
+      <ProductId>2883</ProductId>
+      <SKU>EPTREN</SKU>
+      <Quantity>1</Quantity>
+      <Price>1099</Price>
+      <Subtotal>1099</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>989</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001284774</ShipmentNumber>
+</Order>

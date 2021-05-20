@@ -1,0 +1,161 @@
+/* All */
+
+.post-type-wcpb_product_badge * {
+	box-sizing: border-box;
+}
+
+/* Page Title Actions */
+
+#wcrp-rental-products-page-title-actions-info {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 11px;
+	font-style: italic;
+	vertical-align: text-bottom;
+}
+
+/* Meta Boxes */
+
+#wcpb-product-badges-badge .inside,
+#wcpb-product-badges-display .inside {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+}
+
+#wcpb-product-badges-badge .inside > div:first-of-type,
+#wcpb-product-badges-display .inside > div:first-of-type {
+	width: 20%;
+	border-right: 1px solid #ccd0d4;
+	padding: 0 15px 18px 15px;
+}
+
+#wcpb-product-badges-badge .inside > div:not(:first-of-type),
+#wcpb-product-badges-display .inside > div:not(:first-of-type) {
+	width: 80%;
+	padding: 15px;
+}
+
+#wcpb-product-badges-badge .inside > div:first-of-type input:not([type="radio"]),
+#wcpb-product-badges-badge .inside > div:first-of-type select,
+#wcpb-product-badges-display .inside > div:first-of-type input:not([type="radio"]),
+#wcpb-product-badges-display .inside > div:first-of-type select {
+	width: 90%;
+}
+
+#wcpb-product-badges-badge .inside > div:not(:first-of-type) p:first-child,
+#wcpb-product-badges-display .inside > div:not(:first-of-type) p:first-child {
+	margin-top: 0;
+}
+
+#wcpb-product-badges-badge strong,
+#wcpb-product-badges-display strong {
+	margin-bottom: 10px;
+	display: block;
+}
+
+/* Badge > Type > Image library > Expand */
+
+#wcpb-product-badges-badge-image-library-expand {
+	display: none;
+	align-content: start; /* Ensures if less rows than fill container the 2nd row onwards are directly below the above row */
+	flex-wrap: wrap;
+	height: 800px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	position: relative;
+}
+
+#wcpb-product-badges-badge-image-library-expand .wcpb-product-badges-badge-image-library-image {
+	width: 25%;
+	height: 120px;
+	padding: 0 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+#wcpb-product-badges-badge-image-library-expand .wcpb-product-badges-badge-image-library-image > div {
+	border: 1px solid #ccd0d4;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	background-color: #fff;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-origin: content-box;
+	transition: 0.15s;
+}
+
+#wcpb-product-badges-badge-image-library-expand .wcpb-product-badges-badge-image-library-image > div:hover {
+	transform: scale(1.5);
+	box-shadow: 0 0 10px rgba(0,0,0,.25);
+	border: inherit; /* Ensures selected border is used on hover */
+}
+
+/* Badge > Type > Image custom > Expand */
+
+#wcpb-product-badges-badge-image-custom-expand {
+	display: none;
+}
+
+/* Badge > Type > Text > Expand */
+
+#wcpb-product-badges-badge-text-expand {
+	display: none;
+}
+
+#wcpb-product-badges-badge-text-expand > div input:not(.button),
+#wcpb-product-badges-badge-text-expand > div select {
+	width: 80%;
+}
+
+#wcpb-product-badges-badge-text-expand > div {
+	width: 50%;
+}
+
+#wcpb-product-badges-badge-text-expand > div:nth-child(odd) {
+	padding-right: 15px;
+}
+
+/* Badge > Type > Code > Expand */
+
+#wcpb-product-badges-badge-code-expand {
+	display: none;
+}
+
+#wcpb-product-badges-badge-code-expand textarea {
+	width: 100%;
+	height: 600px;
+}
+
+/* Badge > Image library > Filters */
+
+#wcpb-product-badges-badge-image-library-filters {
+	display: none;
+}
+
+#wcpb-product-badges-badge-image-library-filters label {
+	display: block;
+}
+
+#wcpb-product-badges-badge-image-library-filters label:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+/* Display > Products > Specific > Expand */
+
+#wcpb-product-badges-display-products-specific-expand {
+	display: none;
+	margin: -5px -5px 0 -5px;
+}
+
+#wcpb-product-badges-display-products-specific-expand > div {
+	width: 50%;
+	padding: 0 5px;
+}
+
+#wcpb-product-badges-display-products-specific-expand > div .select2 {
+	width: 100% !important;
+}

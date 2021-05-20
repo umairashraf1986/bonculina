@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4322</OrderId>
+  <OrderTime>08:55:29</OrderTime>
+  <OrderDate>2020-10-10</OrderDate>
+  <ShippingFullName>Erik Cleveman</ShippingFullName>
+  <ShippingAddress1>Katarina Västra Kyrkogata 4c</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Stockholm</ShippingCity>
+  <ShippingPostcode>11625</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>3431</Id>
+      <Name>Trendy paketet - 20 måltider</Name>
+      <ProductId>2883</ProductId>
+      <SKU>EPTREN</SKU>
+      <Quantity>1</Quantity>
+      <Price>1099</Price>
+      <Subtotal>1099</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>1099</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001296398</ShipmentNumber>
+</Order>

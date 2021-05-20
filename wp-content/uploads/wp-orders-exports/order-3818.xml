@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>3818</OrderId>
+  <OrderTime>07:08:56</OrderTime>
+  <OrderDate>2020-07-03</OrderDate>
+  <ShippingFullName>[deleted] [deleted]</ShippingFullName>
+  <ShippingAddress1>[deleted]</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>[deleted]</ShippingCity>
+  <ShippingPostcode>[deleted]</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>265</Id>
+      <Name>Trofiepasta med basilika sås</Name>
+      <ProductId>2870</ProductId>
+      <SKU>418IT9012812</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>28</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>266</Id>
+      <Name>Vegetarisk grönsakslasagne</Name>
+      <ProductId>2858</ProductId>
+      <SKU>224GB90203518</SKU>
+      <Quantity>1</Quantity>
+      <Price>55</Price>
+      <Subtotal>55</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>28</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>267</Id>
+      <Name>Kyckling Tikka Masala</Name>
+      <ProductId>2859</ProductId>
+      <SKU>224GB90203501</SKU>
+      <Quantity>2</Quantity>
+      <Price>55</Price>
+      <Subtotal>110</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>55</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>268</Id>
+      <Name>Marockansk vegetarisk gryta</Name>
+      <ProductId>2856</ProductId>
+      <SKU>214GB90203567</SKU>
+      <Quantity>3</Quantity>
+      <Price>55</Price>
+      <Subtotal>165</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>83</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>269</Id>
+      <Name>Auberginelasagne</Name>
+      <ProductId>2847</ProductId>
+      <SKU>419IT9012817</SKU>
+      <Quantity>3</Quantity>
+      <Price>65</Price>
+      <Subtotal>195</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>96</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>270</Id>
+      <Name>Coq Au Vin</Name>
+      <ProductId>2835</ProductId>
+      <SKU>226GB90203557</SKU>
+      <Quantity>2</Quantity>
+      <Price>65</Price>
+      <Subtotal>130</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001153744</ShipmentNumber>
+</Order>

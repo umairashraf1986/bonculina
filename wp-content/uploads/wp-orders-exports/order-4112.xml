@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4112</OrderId>
+  <OrderTime>20:37:31</OrderTime>
+  <OrderDate>2020-09-26</OrderDate>
+  <ShippingFullName>Zebastian Hird</ShippingFullName>
+  <ShippingAddress1>Palanders Väg 84</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Vega</ShippingCity>
+  <ShippingPostcode>13649</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>1363</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>2</Quantity>
+      <Price>1069</Price>
+      <Subtotal>2138</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>2138</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001273028</ShipmentNumber>
+</Order>

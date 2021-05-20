@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4304</OrderId>
+  <OrderTime>17:52:40</OrderTime>
+  <OrderDate>2020-10-07</OrderDate>
+  <ShippingFullName>Curt Olsson</ShippingFullName>
+  <ShippingAddress1>Styrmansgatan 52 5 Trappor</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Stockholm</ShippingCity>
+  <ShippingPostcode>11460</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>3280</Id>
+      <Name>Kålpudding med kokt potatis</Name>
+      <ProductId>2854</ProductId>
+      <SKU>223GB90203549</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3281</Id>
+      <Name>Lasagne</Name>
+      <ProductId>2850</ProductId>
+      <SKU>218IT9012801</SKU>
+      <Quantity>1</Quantity>
+      <Price>65</Price>
+      <Subtotal>65</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>65</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001293070</ShipmentNumber>
+</Order>

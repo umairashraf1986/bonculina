@@ -1,0 +1,1471 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pay360-gateway\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-05 15:42+0300\n"
+"PO-Revision-Date: 2017-10-05 15:42+0300\n"
+"Last-Translator: Ivan Andreev <admin@vanbodevelops.com>\n"
+"Language-Team: admin@vanbodevelops.com\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;esc_html__:1;esc_attr_e:1;"
+"esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/abstracts/class-wc-pay360-abstract-api.php:160 ../includes/api/hosted-cashier/hosted-cashier-service.php:89
+msgid "Payment setup response was not formatted appropriately. Please refresh and try again or contact administrator."
+msgstr ""
+
+#: ../includes/abstracts/class-wc-pay360-abstract-api.php:176 ../includes/api/client.php:269
+#, php-format
+msgid "There was a problem with the request. Error code %s. Error message: %s."
+msgstr ""
+
+#: ../includes/abstracts/class-wc-pay360-abstract-api.php:191 ../includes/api/client.php:284
+#, php-format
+msgid "Error while processing your request. Error message: %s."
+msgstr ""
+
+#: ../includes/abstracts/class-wc-pay360-abstract-request-legacy.php:88
+msgid "Thank you for your order. We are now redirecting you to Pay360 to make payment."
+msgstr ""
+
+#: ../includes/abstracts/class-wc-pay360-abstract-request-legacy.php:132
+msgid "Pay via Pay360"
+msgstr ""
+
+#: ../includes/abstracts/class-wc-pay360-abstract-request-legacy.php:132
+msgid "Cancel order &amp; restore cart"
+msgstr ""
+
+#: ../includes/abstracts/class-wc-pay360-abstract-response-legacy.php:58 ../includes/abstracts/class-wc-pay360-abstract-response.php:66
+#, php-format
+msgid "Transaction ID: %s"
+msgstr ""
+
+#: ../includes/abstracts/class-wc-pay360-abstract-response-legacy.php:61 ../includes/abstracts/class-wc-pay360-abstract-response.php:69
+#, php-format
+msgid "Pay360 payment completed. %s"
+msgstr ""
+
+#: ../includes/abstracts/class-wc-pay360-abstract-response-legacy.php:119
+#: ../includes/abstracts/class-wc-pay360-abstract-response.php:128
+#, php-format
+msgid "The hash security check did not pass. The hashes generated are different. Hash submitted: %s, hash received: %s."
+msgstr ""
+
+#: ../includes/abstracts/class-wc-pay360-abstract-response-legacy.php:142
+#: ../includes/abstracts/class-wc-pay360-abstract-response.php:151
+#, php-format
+msgid "The amount paid (%s) does not match the order total (%s)."
+msgstr ""
+
+#: ../includes/abstracts/class-wc-pay360-abstract-response-legacy.php:163
+#: ../includes/abstracts/class-wc-pay360-abstract-response.php:172
+#, php-format
+msgid "The currency paid in (%s) does not match your store currency (%s)."
+msgstr ""
+
+#: ../includes/abstracts/class-wc-pay360-abstract-response-legacy.php:183
+#: ../includes/abstracts/class-wc-pay360-abstract-response.php:192
+#, php-format
+msgid "The order invoice number does not match. Invoice received: %s, Order invoice: %s"
+msgstr ""
+
+#: ../includes/abstracts/class-wc-pay360-abstract-response-legacy.php:204
+#: ../includes/integrations/hosted/class-wc-pay360-hosted-response.php:143
+msgid "You cannot make test payments when your store is set to live mode."
+msgstr ""
+
+#: ../includes/abstracts/class-wc-pay360-abstract-response.php:211
+msgid "The order is already paid for."
+msgstr ""
+
+#: ../includes/api/cashier/cancels.php:81
+msgid "There was a problem with cancel request. Pay360 response was empty."
+msgstr ""
+
+#: ../includes/api/cashier/captures.php:84
+msgid "There was a problem with capture request. Pay360 response was empty."
+msgstr ""
+
+#: ../includes/api/cashier/cashier-service.php:145
+#, php-format
+msgid "%s request did not receive properly formatted response."
+msgstr ""
+
+#: ../includes/api/cashier/refunds.php:84
+msgid "There was a problem with refund request. Pay360 response was empty."
+msgstr ""
+
+#: ../includes/api/errors/cashier-cancel.php:52
+msgctxt "cashier-cancel-error"
+msgid "Invalid Amount. Amount can not be zero."
+msgstr ""
+
+#: ../includes/api/errors/cashier-cancel.php:53
+msgctxt "cashier-cancel-error"
+msgid "Amount exceeds the original pre-authorised amount"
+msgstr ""
+
+#: ../includes/api/errors/cashier-cancel.php:54
+msgctxt "cashier-cancel-error"
+msgid "Amount is less than the original pre-authorised amount"
+msgstr ""
+
+#: ../includes/api/errors/cashier-capture.php:52
+msgctxt "cashier-capture-error"
+msgid "Invalid Amount"
+msgstr ""
+
+#: ../includes/api/errors/cashier-capture.php:53
+msgctxt "cashier-capture-error"
+msgid "Amount exceeds the original pre-authorised amount"
+msgstr ""
+
+#: ../includes/api/errors/cashier-capture.php:54
+msgctxt "cashier-capture-error"
+msgid "Amount is less than the original pre-authorised amount"
+msgstr ""
+
+#: ../includes/api/errors/cashier-card-lock.php:52
+msgctxt "cashier-capture-error"
+msgid "Bad request. Catch-all condition for an invalid or malformed tokenisation request"
+msgstr ""
+
+#: ../includes/api/errors/cashier-card-lock.php:53
+msgctxt "cashier-capture-error"
+msgid "Missing PAN. No card number was provided"
+msgstr ""
+
+#: ../includes/api/errors/cashier-card-lock.php:54
+msgctxt "cashier-capture-error"
+msgid "Invalid PAN. The card number provided was invalid (non-numeric, or too long or short)"
+msgstr ""
+
+#: ../includes/api/errors/cashier-card-lock.php:55
+msgctxt "cashier-capture-error"
+msgid "Access denied. Catch-all condition for an authentication/authorisation failure"
+msgstr ""
+
+#: ../includes/api/errors/cashier-card-lock.php:56
+msgctxt "cashier-capture-error"
+msgid "Unknown publishable ID. The publishable ID provided was not recognised"
+msgstr ""
+
+#: ../includes/api/errors/cashier-card-lock.php:57
+msgctxt "cashier-capture-error"
+msgid ""
+"Service unavailable. Catch-all condition for unclassified communication or service errors, including connection problems and time outs"
+msgstr ""
+
+#: ../includes/api/errors/cashier-card-lock.php:58
+msgctxt "cashier-capture-error"
+msgid "Internal error. Internal error occurred while issuing the token"
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:52
+msgctxt "cashier-general-error"
+msgid "The API request was not valid."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:53
+msgctxt "cashier-general-error"
+msgid "Unauthorised access. The client address was not configured in the client firewall."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:54
+msgctxt "cashier-general-error"
+msgid "–The server-to-server address was not valid (Internal)."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:55
+msgctxt "cashier-general-error"
+msgid "Access Denied. The connection API credentials do not have permission to use the specified installation."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:56
+msgctxt "cashier-general-error"
+msgid "Unsupported transaction type {transactionType}. The specified operation is not supported on this channel."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:57
+msgctxt "cashier-general-error"
+msgid ""
+"Missing related transaction / Related transaction was not found. Related transaction was not provided / not found / processed by "
+"other merchant."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:58
+msgctxt "cashier-general-error"
+msgid "Suspended transaction has expired. The suspended transaction has expired, so it could not be resumed."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:59
+msgctxt "cashier-general-error"
+msgid "Wrong transaction status for resume – transaction status = {transactionStatus}. This transaction cannot be resumed."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:60
+msgctxt "cashier-general-error"
+msgid "PaRes is not valid\tThis 3DS transaction cannot be resumed, the provided PaRes is not valid."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:61
+msgctxt "cashier-general-error"
+msgid ""
+"CV2 specified as a standalone field is not consistent with the value from the card lock token. CV2 is received as a standalone field "
+"and in card lock token and the values are not consistent."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:62
+msgctxt "cashier-general-error"
+msgid "CV2 is requested on domain / CV2 is requested on Merchant. CV2 is configured as a required field and has not been provided."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:64
+msgctxt "cashier-general-error"
+msgid "No account capable of processing this transaction. No suitable external account."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:65
+msgctxt "cashier-general-error"
+msgid "The related transaction for this operation was not valid for this operation."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:66
+msgctxt "cashier-general-error"
+msgid "Card brand not found. Details of the card could not be determined from the card data source."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:67
+msgctxt "cashier-general-error"
+msgid "The customer does not have an active default card registered. Customer does not have a default card."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:68
+msgctxt "cashier-general-error"
+msgid ""
+"Specified customer not found. Card has no customer / Customer belongs to different Org Unit / Invalid\n"
+"merchant reference."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:70
+msgctxt "cashier-general-error"
+msgid "Specified card not found\tThe merchant card token is not found into the system. Used when updating/removing customers."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:71
+msgctxt "cashier-general-error"
+msgid ""
+"Transaction cancelled because of POST_AUTH Callback failure. Transaction was abandoned because the post-auth callback failed with a "
+"technical error."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:72
+msgctxt "cashier-general-error"
+msgid ""
+"Transaction cancelled because of pre AUTH Callback failure. Transaction was abandoned because the pre-auth callback failed with a "
+"technical error."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:73
+msgctxt "cashier-general-error"
+msgid ""
+"invalid configuration expression\tInvalid configuration in regards to expressions (Invalid expression supplied to the global 3D "
+"secure)."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:74
+msgctxt "cashier-general-error"
+msgid ""
+"Transaction rejected after Three D Secure enrolment. The ThreeDSecure enrolment failed but the process is enforcing 3d secure "
+"enrollment."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:75
+msgctxt "cashier-general-error"
+msgid ""
+"The transaction was rejected because 3DS authentication failed. The ThreeDSecure progressed but the transaction was not authenticated."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:76
+msgctxt "cashier-general-error"
+msgid ""
+"Card operation no longer valid after resume. The CCS has identified that a card operation is no longer valid after the transaction is "
+"resumed."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:77
+msgctxt "cashier-general-error"
+msgid "Card fraud checks failed. The transaction has failed due to the failure of the fraud checks."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:78
+msgctxt "cashier-general-error"
+msgid "Card brand is not supported on this account. The card type could not be determined. It is not supported by the route."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:79
+msgctxt "cashier-general-error"
+msgid "The customer name is missing and is a required field. The customer name is not provided."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:80
+msgctxt "cashier-general-error"
+msgid "The card has already been registered to a customer. The card to be registered already exists."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:81
+msgctxt "cashier-general-error"
+msgid "Invalid gaming territories country conditions. The transaction has failed Gaming territory management rules."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:82
+msgctxt "cashier-general-error"
+msgid "A valid MCC could not be determined."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:83
+msgctxt "cashier-general-error"
+msgid "Max limit exceeded for active cards. The max limit of active cards is reached and no new card can be registered."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:84
+msgctxt "cashier-general-error"
+msgid "Card is in deleted status. The card is in a deleted status."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:85
+msgctxt "cashier-general-error"
+msgid "The custom field value is invalid for the configured type."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:86
+msgctxt "cashier-general-error"
+msgid ""
+"Cannot process two concurrent secondary transactions that refer the same primary transaction\tA secondary transaction is already "
+"processing for this transaction."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:87
+msgctxt "cashier-general-error"
+msgid "Duplicate transaction submitted"
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:88
+msgctxt "cashier-general-error"
+msgid "Invalid or unknown card lock token. Specified card lock token is not recognized by the Tokenization Service."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:89
+msgctxt "cashier-general-error"
+msgid ""
+"Tokenization Service temporarily not available. The Tokenization Service is temporarily unable to process tokenized payments.\n"
+"                                                                                                                                      "
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:91
+msgctxt "cashier-general-error"
+msgid "Merchant not configured for PayPal. The merchant is not configured for PayPal transaction processing."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:92
+msgctxt "cashier-general-error"
+msgid "Installation not configured for PayPal. The installation is not configured for PayPal transaction processing."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:93
+msgctxt "cashier-general-error"
+msgid "PayPal merchant authentication failure. Invalid merchant credentials."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:94
+msgctxt "cashier-general-error"
+msgid "PayPal merchant authorisation failure. You do not have the appropriate permissions to perform this transaction."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:95
+msgctxt "cashier-general-error"
+msgid "PayPal configuration issue"
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:96
+msgctxt "cashier-general-error"
+msgid "Rejected by fraud rules service. The transaction request has been rejected due to a Fraud rule."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:97
+msgctxt "cashier-general-error"
+msgid "Failed to communicate with fraud rules service"
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:98
+msgctxt "cashier-general-error"
+msgid ""
+"The card submitted for referral payout has not been used previously for an authorised payment. This functionality is currently not "
+"enabled on your account."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:99
+msgctxt "cashier-general-error"
+msgid "No such transaction. Provided transaction Id does not exist."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:100
+msgctxt "cashier-general-error"
+msgid "Cancelled by preauth callback. The Preauth callback returned a CANCEL response."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:101
+msgctxt "cashier-general-error"
+msgid "Cancelled by postauth callback. The post auth callback returned a CANCEL response."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:102
+msgctxt "cashier-general-error"
+msgid "Cancelled due to postauth callback error"
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:103
+msgctxt "cashier-general-error"
+msgid "Cancelled due to preauth callback error"
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:104
+msgctxt "cashier-general-error"
+msgid "Cancelled by request\tMerchant cancelled PayPal request"
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:105
+msgctxt "cashier-general-error"
+msgid ""
+"No processing routes are configured for this type of transaction. Internal error within the platform. Failed to communicate with "
+"destination transaction processor. Exception from destination processor."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:106
+msgctxt "cashier-general-error"
+msgid ""
+"Post Auth transaction void failed. The transaction mandated a VOID but this failed at the destination platform. The authoriser "
+"response contains an unsuccessful void response or does not contain a void response at all."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:107
+msgctxt "cashier-general-error"
+msgid "The destination platform is not available."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:108
+msgctxt "cashier-general-error"
+msgid "Downstream PayCash authoriser error. A general error communicating with PayCash authoriser."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:109
+msgctxt "cashier-general-error"
+msgid "Could not perform Three D Secure enrolment check. A general error occurred with the 3DS enrolment check."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:110
+msgctxt "cashier-general-error"
+msgid "PayPal service currently unavailable. Unable to communicate with the PayPal service."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:111
+msgctxt "cashier-general-error"
+msgid "PayPal returned error. Communication with PayPal returned an error."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:112
+msgctxt "cashier-general-error"
+msgid "PayPal timeout. The Express Checkout session has expired. Token value is no longer valid."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:113
+msgctxt "cashier-general-error"
+msgid "PayPal user has not authorised/confirmed/completed. Payment has not been authorised by the user."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:114
+msgctxt "cashier-general-error"
+msgid "Unknown error returned from card check"
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:115
+msgctxt "cashier-general-error"
+msgid "Declined by upstream processor"
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:116
+msgctxt "cashier-general-error"
+msgid ""
+"Suspended pending Three D Secure process\tTransaction was suspended by 3DS enrolment processing. See redirect\n"
+"message in response, can only be resumed with a PARes message."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:118
+msgctxt "cashier-general-error"
+msgid "Suspended by preauth callback. Transaction was suspended by Preauth Callback. Transaction can be resumed to continue processing."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:119
+msgctxt "cashier-general-error"
+msgid ""
+"Suspended for replay by preauth callback. Transaction was suspended by Preauth Callback. Transaction can be resumed to continue "
+"processing."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:120
+msgctxt "cashier-general-error"
+msgid "Suspended by PayPal. The transaction was suspended by PayPal processing"
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:121
+msgctxt "cashier-general-error"
+msgid "Suspended for PayPal redirect retry. The transaction was suspended for PayPal session retry."
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:122
+msgctxt "cashier-general-error"
+msgid "Report Failed"
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:123
+msgctxt "cashier-general-error"
+msgid "Transaction expired by timeout"
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:124
+msgctxt "cashier-general-error"
+msgid "Batch failed, see individual items for reasons"
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:125
+msgctxt "cashier-general-error"
+msgid "Partial batch failure, see individual items for reasons"
+msgstr ""
+
+#: ../includes/api/errors/cashier-general.php:126
+msgctxt "cashier-general-error"
+msgid "Cannot obtain lock within configured timeout"
+msgstr ""
+
+#: ../includes/api/errors/cashier-payments.php:52
+msgctxt "cashier-payments-error"
+msgid "No PAN provided. Card number is not provided."
+msgstr ""
+
+#: ../includes/api/errors/cashier-payments.php:53
+msgctxt "cashier-payments-error"
+msgid "Invalid pan format: {maskedPan} / Card contains non-numeric characters / Invalid card number\tCard number must be numeric only."
+msgstr ""
+
+#: ../includes/api/errors/cashier-payments.php:54
+msgctxt "cashier-payments-error"
+msgid "Invalid pan length: {panLength} / Invalid card length ({panLength})\tCard number must be between 13 and 19 characters."
+msgstr ""
+
+#: ../includes/api/errors/cashier-payments.php:55
+msgctxt "cashier-payments-error"
+msgid "expiryDate is null or empty"
+msgstr ""
+
+#: ../includes/api/errors/cashier-payments.php:56
+msgctxt "cashier-payments-error"
+msgid ""
+"Unknown card type, valid types are {listOfValidTypes}. Payment card type must be one of: ELECTRON, MAESTRO, MC_DEBIT,SWITCH, SOLO,  "
+"MC_CREDIT,  VISA_DEBIT,  VISA_CREDIT, AMEX,  JCB,  LASER, DISCOVER,  DINERS."
+msgstr ""
+
+#: ../includes/api/errors/cashier-payments.php:57
+msgctxt "cashier-payments-error"
+msgid ""
+"CV2 missing or invalid / CV2 missing, and mandatory in your configuration / CV2 missing, but\n"
+"mandatory in this transaction\tCV2 is either missing or not a valid format if present. CV2 must be numeric only."
+msgstr ""
+
+#: ../includes/api/errors/cashier-payments.php:59
+msgctxt "cashier-payments-error"
+msgid "Only one payment method can be used at the same time . Trying to use card as well."
+msgstr ""
+
+#: ../includes/api/errors/cashier-payments.php:60
+msgctxt "cashier-payments-error"
+msgid "Only one payment method can be used at the same time. Trying to use cardToken as well.\t"
+msgstr ""
+
+#: ../includes/api/errors/cashier-payments.php:61
+msgctxt "cashier-payments-error"
+msgid "Only one payment method can be used at the same time. Trying to use fromCustomer as well."
+msgstr ""
+
+#: ../includes/api/errors/cashier-payments.php:62
+msgctxt "cashier-payments-error"
+msgid "Only one payment method can be used at the same time. Trying to use payCash as well."
+msgstr ""
+
+#: ../includes/api/errors/cashier-payments.php:63
+msgctxt "cashier-payments-error"
+msgid "No pan or card lock token provided. No valid card lock token or card number specified."
+msgstr ""
+
+#: ../includes/api/errors/cashier-payments.php:64
+msgctxt "cashier-payments-error"
+msgid "Either card lock token OR card number should be set.\tBoth card lock token and card number are specified. Only one is required."
+msgstr ""
+
+#: ../includes/api/errors/cashier-payments.php:65
+msgctxt "cashier-payments-error"
+msgid "Card lock not available for you. CardLock is not enabled on the account."
+msgstr ""
+
+#: ../includes/api/errors/cashier-payments.php:66
+msgctxt "cashier-payments-error"
+msgid "Merchant has invalid credentials"
+msgstr ""
+
+#: ../includes/api/errors/cashier-refund.php:52
+msgctxt "cashier-refund-error"
+msgid "Invalid Amount. Amount can not be zero."
+msgstr ""
+
+#: ../includes/api/errors/cashier-refund.php:53
+msgctxt "cashier-refund-error"
+msgid "Amount exceeds amount refundable"
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:52
+msgctxt "cashier-validation-error"
+msgid "UserId and Security Key must be specified. Invalid API credentials."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:53
+msgctxt "cashier-validation-error"
+msgid "Installation must be specified."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:54
+msgctxt "cashier-validation-error"
+msgid "Invalid installation / Installation ID must be numeric. Installation id must be numerics only."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:55
+msgctxt "cashier-validation-error"
+msgid "Customer must be specified / Customer details must be specified."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:56
+msgctxt "cashier-validation-error"
+msgid "merchantRef or id must be specified."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:57
+msgctxt "cashier-validation-error"
+msgid "merchantRef and id must not be specified together."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:58
+msgctxt "cashier-validation-error"
+msgid "Customer not found."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:59
+msgctxt "cashier-validation-error"
+msgid "Customer name cannot be null."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:60
+msgctxt "cashier-validation-error"
+msgid "At least one name for the customer must be set."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:61
+msgctxt "cashier-validation-error"
+msgid "paymentClass should be specified."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:62
+msgctxt "cashier-validation-error"
+msgid "Invalid optional post code."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:63
+msgctxt "cashier-validation-error"
+msgid "Invalid URL.\tCallback url does not have a valid URL format."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:64
+msgctxt "cashier-validation-error"
+msgid "Invalid Amount."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:65
+msgctxt "cashier-validation-error"
+msgid "Currency must be specified."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:66
+msgctxt "cashier-validation-error"
+msgid "Unrecognised currency {currencyType}."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:67
+msgctxt "cashier-validation-error"
+msgid "CommerceType must be specified."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:68
+msgctxt "cashier-validation-error"
+msgid "Amount must be specified."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:69
+msgctxt "cashier-validation-error"
+msgid "Amount {amountValue} cannot be negative."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:70
+msgctxt "cashier-validation-error"
+msgid "Amount {amountValue} exceeds the number of fractional digits {digitsNumber} permitted for currency {currencyType}."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:71
+msgctxt "cashier-validation-error"
+msgid "Amount {amountValue} exceeds the maximum number of non-fractional digits {digitsNumber}."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:72
+msgctxt "cashier-validation-error"
+msgid "Cannot {requestedTxnType} a transaction in a different currency ({requiredCurrency}) to the original {originalCurrency})."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:73
+msgctxt "cashier-validation-error"
+msgid "Cannot perform a {requestedTxnType} against a {originalTxnType} transaction."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:74
+msgctxt "cashier-validation-error"
+msgid "Cannot perform a {requestedTxnType} against an incomplete transaction."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:75
+msgctxt "cashier-validation-error"
+msgid "Cannot perform a {requestedTxnType}  against a failed transaction."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:76
+msgctxt "cashier-validation-error"
+msgid "Cannot perform a {requestedTxnType} against an uncaptured transaction."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:77
+msgctxt "cashier-validation-error"
+msgid "Cannot perform a {requestedTxnType} against an already-captured transaction."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:78
+msgctxt "cashier-validation-error"
+msgid "Cannot perform a {requestedTxnType} against an already-void transaction."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:79
+msgctxt "cashier-validation-error"
+msgid ""
+"Invalid nickname length ({nicknameLength}). Max number of permitted characters is 20.\tCard nickname exceeds the max number of "
+"permitted characters(20)."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:80
+msgctxt "cashier-validation-error"
+msgid ""
+"Card nickname is invalid. Only latin alphanumeric characters, spaces and . – ‘ are permitted.\tCard nickname contains characters that "
+"are not permitted."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:81
+msgctxt "cashier-validation-error"
+msgid "Expiry date should be MMYY. Expiry date must match: MMYY format."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:82
+msgctxt "cashier-validation-error"
+msgid "Start date should be MMYY. Start date must match: MMYY format."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:83
+msgctxt "cashier-validation-error"
+msgid ""
+"startDate and clearStartDate can not be specified in the same request. StartDate and ClearStartDate are both specified in the same "
+"time."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:84
+msgctxt "cashier-validation-error"
+msgid "Start date after expiry. StartDate and Expiry are both specified at the same time and start date is after the expiry date."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:85
+msgctxt "cashier-validation-error"
+msgid "Issue number must be between 0 and 9. Issue number must be between 0 and 9"
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:86
+msgctxt "cashier-validation-error"
+msgid ""
+"issueNumber and clearIssueNumber can not be specified in the same request. IssueNumber and ClearIssueNumber are both specified in the "
+"same time."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:87
+msgctxt "cashier-validation-error"
+msgid "One payment method should be specified."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:88
+msgctxt "cashier-validation-error"
+msgid "token should be set / cardToken must be specified."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:89
+msgctxt "cashier-validation-error"
+msgid ""
+"Address field exceeds max length. Line 1 / Line 2 / Line 3 / Line 4 / City / Country / Postal Code / Region field length exceeds 255 "
+"characters ."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:90
+msgctxt "cashier-validation-error"
+msgid "Unrecognised address country . Address country is not a valid country in the system ."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:91
+msgctxt "cashier-validation-error"
+msgid "Unrecognised address country code . Address country code is not a valid country code in the system ."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:92
+msgctxt "cashier-validation-error"
+msgid ""
+"Cannot register a payment method for a guest transaction . A payment method cannot be registered when a customer is not also being "
+"registered."
+msgstr ""
+
+#: ../includes/api/errors/cashier-validation.php:93
+msgctxt "cashier-validation-error"
+msgid "Invalid date of birth “{dateOfBirth}”, it must be in the format “yyyyMMdd”. The date of birth must match: yyyyMMdd format"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:52
+msgctxt "hosted-cashier-error"
+msgid "Authentication Failed"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:53
+msgctxt "hosted-cashier-error"
+msgid "Authorisation Failed"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:54
+msgctxt "hosted-cashier-error"
+msgid "Invalid Resource Path"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:55
+msgctxt "hosted-cashier-error"
+msgid "No customer-card domain configured"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:56
+msgctxt "hosted-cashier-error"
+msgid "No return url provided"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:57
+msgctxt "hosted-cashier-error"
+msgid "CSC Address match only"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:58
+msgctxt "hosted-cashier-error"
+msgid "Daily card registrations"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:59
+msgctxt "hosted-cashier-error"
+msgid "Max card register"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:60
+msgctxt "hosted-cashier-error"
+msgid "CSC No data match"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:61
+msgctxt "hosted-cashier-error"
+msgid "Net balance"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:62
+msgctxt "hosted-cashier-error"
+msgid "Customer not found"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:63
+msgctxt "hosted-cashier-error"
+msgid "Invalid installation"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:64
+msgctxt "hosted-cashier-error"
+msgid "Invalid flow provided"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:65
+msgctxt "hosted-cashier-error"
+msgid "No cards registered"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:66
+msgctxt "hosted-cashier-error"
+msgid "Currently you have no registered cards which are available for manage cards."
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:67
+msgctxt "hosted-cashier-error"
+msgid "No cards active"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:68
+msgctxt "hosted-cashier-error"
+msgid "No valid cards for withdrawal"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:69
+msgctxt "hosted-cashier-error"
+msgid "Currently you have no registered cards which are available for withdrawal."
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:70
+msgctxt "hosted-cashier-error"
+msgid "Permission Denied"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:71
+msgctxt "hosted-cashier-error"
+msgid "You do not have permission to perform that action"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:72
+msgctxt "hosted-cashier-error"
+msgid "Session invalid for resumption"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:73
+msgctxt "hosted-cashier-error"
+msgid "No session found"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:74
+msgctxt "hosted-cashier-error"
+msgid "No skin configured"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:75
+msgctxt "hosted-cashier-error"
+msgid "No merchant configured"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:76
+msgctxt "hosted-cashier-error"
+msgid "Skin specified in request not valid"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:77
+msgctxt "hosted-cashier-error"
+msgid "Skin not usable"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:78
+msgctxt "hosted-cashier-error"
+msgid "Callback URL is not valid"
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:79
+msgctxt "hosted-cashier-error"
+msgid "Content type {0} not supported. Content type application/json required."
+msgstr ""
+
+#: ../includes/api/errors/hosted-cashier.php:80
+msgctxt "hosted-cashier-error"
+msgid "Email address provided is not valid"
+msgstr ""
+
+#: ../includes/api/hosted-cashier/hosted-cashier-service.php:81
+msgid "There was a problem with the payment request. Payment processor response was empty."
+msgstr ""
+
+#: ../includes/api/hosted-cashier/hosted-cashier-service.php:98
+#, php-format
+msgid "There was a problem with the payment request. Message: %s."
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:47 ../includes/class-wc-pay360-gateway.php:212
+msgid "Pay360"
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:161
+msgid "Pay360 Hosted(PayPoint)"
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:164
+msgid "Pay360 Hosted + IMA(PayPoint)"
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:177
+msgid "Integration Method"
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:179
+msgid "Choose your integration method and Save. You will be presented with the integration settings."
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:190
+msgid "Enable/Disable"
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:192
+msgid "Enable Pay360"
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:196
+msgid "Test Mode"
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:209
+msgid "Method Title"
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:211
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:215
+msgid "Description"
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:217
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:218
+msgid "Pay with credit or debit card."
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:244
+msgid "Debug Settings"
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:249
+msgid "Debug mode"
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:251
+msgid "Enable Debug Logging"
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:253
+#, php-format
+msgid "Debug log will provide you with most of the data and events generated by the payment process. Logged inside %s."
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:286
+msgid "Thank you for your order, please click the button below to pay."
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:303
+msgid "Please reload the page or contact administrator."
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:332
+msgid "Capture Payment"
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:359
+#, php-format
+msgid "Transaction capture processed successfully. Transaction ID: %s."
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:377
+#, php-format
+msgid "Transaction capture failed. Error Message: %s"
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:395
+msgid "Refunds are not supported in you Pay360 integration type"
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:405
+msgid "Error: Missing Transaction ID. The order does not have all required information to process a refund."
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:424
+#, php-format
+msgid "Refunded %s. Refund ID: %s. %s"
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:431
+#, php-format
+msgid "Credit Note: %s."
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:443
+#, php-format
+msgid "Refund declined. Message: %s. Code: %s"
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:511
+msgid "Password is not set"
+msgstr ""
+
+#: ../includes/class-wc-pay360-gateway.php:513
+msgid "Password is set"
+msgstr ""
+
+#: ../includes/integrations/cashier/class-wc-pay360-cashier.php:38
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:38
+#: ../includes/integrations/hosted-ima/class-wc-pay360-hosted-ima.php:38
+msgid "Installation ID"
+msgstr ""
+
+#: ../includes/integrations/cashier/class-wc-pay360-cashier.php:40
+msgid "Installation ID setup by Pay360 for use with the Cashier or Hosted Cashier API."
+msgstr ""
+
+#: ../includes/integrations/cashier/class-wc-pay360-cashier.php:45
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:45
+msgid "API Username"
+msgstr ""
+
+#: ../includes/integrations/cashier/class-wc-pay360-cashier.php:47
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:47
+msgid "The API Username is provided by Pay360."
+msgstr ""
+
+#: ../includes/integrations/cashier/class-wc-pay360-cashier.php:52
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:52
+msgid "API Password"
+msgstr ""
+
+#: ../includes/integrations/cashier/class-wc-pay360-cashier.php:54
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:54
+msgid "The API Password is provided by Pay360."
+msgstr ""
+
+#: ../includes/integrations/cashier/class-wc-pay360-cashier.php:55
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:55
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:47 ../includes/integrations/hosted/class-wc-pay360-hosted.php:54
+msgid "Password won't appear here."
+msgstr ""
+
+#: ../includes/integrations/cashier/class-wc-pay360-cashier.php:60
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:60
+msgid "Customer Prefix"
+msgstr ""
+
+#: ../includes/integrations/cashier/class-wc-pay360-cashier.php:62
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:62
+msgid ""
+"When we create a customer in the Pay360 system we can add a prefix to the customer ID. This prefix will make sure that there are no "
+"duplicated customers and will help you identify which store is the customer from. Please set a unique Prefix for the store."
+msgstr ""
+
+#: ../includes/integrations/cashier/class-wc-pay360-cashier.php:67
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:74
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:58
+msgid "Transaction Type"
+msgstr ""
+
+#: ../includes/integrations/cashier/class-wc-pay360-cashier.php:69
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:76
+#, php-format
+msgid ""
+"Type of the transaction. %s Capture: will authorize and capture the funds. %s Authorization only: will only authorize the funds and "
+"allow you to capture at a later date. Authorizations expire by default after 7 days. After this time, you won't be able to Capture or "
+"Cancel the request."
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier-response.php:81
+msgid "Pay360 Response Failure. Invalid order id."
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier-response.php:123
+#: ../includes/integrations/hosted/class-wc-pay360-hosted-response.php:67
+msgid "Transaction was successfully Authorized."
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier-response.php:143
+#: ../includes/integrations/hosted/class-wc-pay360-hosted-response.php:80
+msgid "Pay360 payment completed."
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier-response.php:148
+msgid "Pay360 payment failed."
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier-response.php:151
+#, php-format
+msgid " Bank fail code: \"%s\""
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier-response.php:155
+#, php-format
+msgid " Bank fail message: \"%s\""
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:40
+msgid "The installation ID provided by Pay360 for Hosted Cashier."
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:67
+msgid "Use 3D Secure"
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:69
+msgid "Indicates if the transaction should be processed with 3DS. This will override account configuration for 3DS."
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:69
+msgid "Important: Initial configuration required, please contact Pay360 before attempting to use 3DS."
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:87
+msgid "Payment Template Skin"
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:89
+#, php-format
+msgid ""
+"The ID of the skin used to drive look and feel for this session. Go through the %sCustomise hosted look and feel%s guide for more "
+"information."
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:103
+msgid "Enter Your Custom Skin ID"
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:105
+msgid "Enter here your own uploaded skin ID."
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:110
+msgid "Iframe Settings"
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:112
+msgid "In this section you will set the Iframe control settings."
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:116
+msgid "Enable Iframe"
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:118
+msgid ""
+"Enable iframe to have the customer payment form display in an Iframe on your site. If disabled, your customers will be redirected to "
+"Pay360 payment page."
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:124
+msgid "Iframe Width"
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:126
+msgid ""
+"Width of the iframe window. Enter only numbers in pixels (i.e. 700) or you can enter number in percentage but you need to suffix it "
+"with \"%\" (i.e. 55%)."
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:131
+msgid "Iframe Height"
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:133
+msgid ""
+"Height of the iframe window. Entered can be a number in pixels (i.e. 850) or you can enter number in percentage but you need to "
+"suffix it with \"%\" (i.e. 55%)."
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:138
+msgid "Iframe Scroll"
+msgstr ""
+
+#: ../includes/integrations/hosted-cashier/class-wc-pay360-hosted-cashier.php:140
+msgid "Should the iframe be scrollable or not. If scrollable, the customer will be able to scroll to the iframe to reach its borders."
+msgstr ""
+
+#: ../includes/integrations/hosted-ima/class-wc-pay360-hosted-ima-request.php:129
+#, php-format
+msgid "Payment for Order# %s: "
+msgstr ""
+
+#: ../includes/integrations/hosted-ima/class-wc-pay360-hosted-ima-response.php:137
+#, php-format
+msgid "Bank fail message: %s"
+msgstr ""
+
+#: ../includes/integrations/hosted-ima/class-wc-pay360-hosted-ima-response.php:139
+#, php-format
+msgid "Pay360 payment failed. %s"
+msgstr ""
+
+#: ../includes/integrations/hosted-ima/class-wc-pay360-hosted-ima-response.php:194
+#, php-format
+msgid "The installation ID paid to does not match the one set in your store. Installation ID paid to: %s, Store installation ID: %s."
+msgstr ""
+
+#: ../includes/integrations/hosted-ima/class-wc-pay360-hosted-ima.php:40
+msgid "Enter here your preferred installation number, which is obtained via the Merchant Extranet: Account Management > Installations."
+msgstr ""
+
+#: ../includes/integrations/hosted-ima/class-wc-pay360-hosted-ima.php:44
+msgid "Return/Response URL"
+msgstr ""
+
+#: ../includes/integrations/hosted-ima/class-wc-pay360-hosted-ima.php:45
+#, php-format
+msgid "URL to copy: %s"
+msgstr ""
+
+#: ../includes/integrations/hosted-ima/class-wc-pay360-hosted-ima.php:48
+msgid ""
+"The PRN is enabled and configured on a per-installation basis via the Merchant Extranet. Go to <strong>Account Management -> "
+"Installations -> select the relevant (Hosted +IMA) installation -> Copy and Paste the URL to 'Response URL' and to the 'Return URL' "
+"fields</strong>."
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted-request.php:129
+msgid "Cancel"
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted-response.php:88
+#, php-format
+msgid "Pay360 payment failed. Bank fail message: %s"
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted-response.php:91
+#, php-format
+msgid " Bank fail message: %s"
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted-response.php:95
+#, php-format
+msgid " Bank fail code: %s"
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:38
+msgid "Merchant ID"
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:40
+msgid "Enter here your merchant ID. This is Pay360 username (usually six letters followed by two numbers)."
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:44
+msgid "Remote Password"
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:46
+msgid ""
+"Enter here the remote password used for md5 authantication from you to Pay360. The remote password can be configured from within the "
+"Secpay Merchant Extranet (Click on 'Change Remote Passwords' and select 'Remote' from the drop down list)."
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:51
+msgid "Digest Key"
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:53
+msgid ""
+"Enter here the digest key used for md5 authantication from Pay360 to you. The digest key can be configured from within the Secpay "
+"Merchant Extranet (Click on 'Change Remote Passwords' and select 'Digest Key' from the drop down list)."
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:60
+msgid ""
+"Sale - will automatically charge the amount.<br/>Authorization - will only authorize the amount, you will need to manually capture "
+"it, from your Pay360 admin panel."
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:67
+msgid "Payment Page Logo"
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:69
+msgid ""
+"Your logo must be 750 pixels in width by 100 pixels in height and must be sent to support@paypoint.net with your account ID and a "
+"message to tell them to add this logo to your payment page. Once they have uploaded the image to their secure servers and let you "
+"know it is available, you can paste the absolute URL link to it. Example: https://www.secpay.com/users/abcdef01/logo.jpg"
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:73
+msgid "Send Confirmation Email to Cardholder"
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:75
+msgid "Enable if you want Pay360 to send an order confirmation email to the cardholder."
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:79
+msgid "3D Secure Settings"
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:81
+msgid "Settings to enable and setup Pay360 3D secure feature. You need to enable this feature with Pay360 as well."
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:84
+msgid "Enable 3D Secure"
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:87
+msgid "This option will send the required information to Pay360 in order to take advantage of its 3D Secure feature."
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:90
+msgid "Merchant Name"
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:93
+msgid "Enter here the merchant name to be displayed on the authentication page. Up to 25 characters."
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:96
+msgid "Merchant URL"
+msgstr ""
+
+#: ../includes/integrations/hosted/class-wc-pay360-hosted.php:99
+msgid ""
+"Enter here a fully qualified URL of your merchant website. Please enter the URL with the http:// in front. ( Example: http://www."
+"example.com )"
+msgstr ""
+
+#: ../templates/pay360/iframe.php:24
+#, php-format
+msgid ""
+"Your browser does not support iframes.\n"
+"\t\t\t %sClick Here%s to get redirected to Pay360 payment page. "
+msgstr ""
+
+#: ../woocommerce-paypoint-gateway.php:188
+msgid "Settings"
+msgstr ""
+
+#: ../woocommerce-paypoint-gateway.php:189
+msgid "Support"
+msgstr ""

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4367</OrderId>
+  <OrderTime>13:32:08</OrderTime>
+  <OrderDate>2020-10-13</OrderDate>
+  <ShippingFullName>Thomas Willows</ShippingFullName>
+  <ShippingAddress1>Klara Tvärgränd 5</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Stockholm</ShippingCity>
+  <ShippingPostcode>11152</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>3771</Id>
+      <Name>Veggie paketet - 20 måltider</Name>
+      <ProductId>2884</ProductId>
+      <SKU>EPVEG</SKU>
+      <Quantity>1</Quantity>
+      <Price>999</Price>
+      <Subtotal>999</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>899</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001302787</ShipmentNumber>
+</Order>

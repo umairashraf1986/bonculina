@@ -1,0 +1,386 @@
+<?php if (!$error) { ?>
+    <?php if ($applications) { ?>
+<form method="post" action="?page=msunifaun_setup&route=account" class="address">
+    <input type="hidden" name="account_orgno" value="<?php echo $orgNo; ?>" />
+    <input type="hidden" name="account_userid" value="<?php echo $userId; ?>" />
+    <fieldset class="applications">
+        <p><?php echo __("There are <em>at least one</em> application available for you to order.", 'msunifauonline'); ?></p>
+        <p><?php echo __('Select the application you wish to order below.', 'msunifaunonline'); ?></p>
+        <ul class="applicable-applications">
+        <?php
+        // Display list of applicable applications
+        $first = true;
+        foreach ($applications as $application)
+        {
+            // Build array of main products
+            $mainProducts = '';
+            if (!empty($application['mainProducts'])
+                && is_array($application['mainProducts'])
+            ) {
+                foreach ($application['mainProducts']
+                    as $mainProduct
+                ) {
+                    if (!empty($mainProduct['description'])
+                        && is_string($mainProduct['description'])
+                    ) {
+                        $mainProducts .= sprintf(
+                            '<li>%s%s</li>',
+                            $mainProduct['description'],
+                            (!empty($mainProduct['description2'])
+                                && is_string($mainProduct['description2'])
+                                ? $mainProduct['description2']
+                                : '')
+                        );
+                    }
+                }
+            }
+
+            // Build HTML of selectable products
+            $selectableProducts = '';
+            if (!empty($application['selectableProducts'])
+                && is_array($application['selectableProducts'])
+            ) {
+                foreach ($application['selectableProducts']
+                    as $selectableProduct
+                ) {
+                    if (!empty($selectableProduct['code'])
+                        && is_string($selectableProduct['code'])
+                    ) {
+                        // Build list of selectable products
+                        $selectableProducts .= sprintf(
+                            '<li><label>
+                            <input type="checkbox" name="products[%s][%s]" value="1"%s /><span class="code">%s</span>%s</label>',
+                            $application['code'],
+                            $selectableProduct['code'],
+                            (!empty($applicationProducts[$selectableProduct['code']])
+                             ? ' checked="checked"' : ''),
+                             (!empty($selectableProduct['description'])
+                                 ? sprintf(
+                                '%s - %s',
+                                $selectableProduct['code'],
+                                $selectableProduct['description']
+                            ) : $selectableProduct['code']),
+                            (!empty($selectableProduct['description2'])
+                                && is_string($selectableProduct['description2'])
+                                ? '<p class="description2">' . $selectableProduct['description2'] . '</p>'
+                                : '')
+                        );
+
+                        // Build list of available partners here
+                        $partners = '';
+                        if (!empty($selectableProduct['partners'])
+                            && is_array($selectableProduct['partners'])
+                        ) {
+                            foreach ($selectableProduct['partners']
+                                as $partner
+                            ) {
+                                if (!empty($partner['code'])
+                                    && is_string($partner['code'])
+                                    && !empty($partner['name'])
+                                    && is_string($partner['name'])
+                                    && !empty($partner['fields'])
+                                    && is_array($partner['fields'])
+                                ) {
+                                    $partners .= sprintf(
+                                        '<div class="partners"><strong>%s</strong><ul>',
+                                        $partner['name']
+                                    );
+                                    foreach ($partner['fields']
+                                        as $field
+                                    ) {
+                                        if (!empty($field['code'])
+                                            && is_string($field['code'])
+                                        ) {
+                                            $partners .= sprintf(
+                                                '<li><label><span>%s</span><br /><input type="text" class="regular-text" name="partners[%s][%s][%s][%s]" value="%s" /></label></li>',
+                                                ($field['code'] === 'CUSTNO'
+                                                ? __(
+                                                    'Customer Number',
+                                                    'msunifaunonline'
+                                                )
+                                                : $field['code']),
+                                                $application['code'],
+                                                $selectableProduct['code'],
+                                                $partner['code'],
+                                                $field['code'],
+                                                (!empty($applicationProductPartners[$selectableProduct['code']])
+                                                    && !empty($applicationProductPartners[$selectableProduct['code']][$partner['code']])
+                                                    && !empty($applicationProductPartners[$selectableProduct['code']][$partner['code']]['customerNumber'])
+                                                    ? $applicationProductPartners[$selectableProduct['code']][$partner['code']]['customerNumber']
+                                                    : '')
+                                            );
+                                        }
+                                    }
+                                    $partners .= '</ul></div>';
+                                }
+                            }
+                            if (!empty($partners)) {
+                                $selectableProducts .= $partners;
+                            }
+                        }
+
+                        $selectableProducts .= '</li>';
+                    }
+                }
+            }
+
+            printf(
+                '<li>
+                <label>
+                <input required="required" type="radio" value="%s" name="account_application_code"%s />
+                <strong class="name">%s</strong>
+                %s
+                %s
+                </label>
+                %s
+                %s
+                </li>',
+                (!empty($application['code'])
+                    ? $application['code']
+                    : '-'),
+                ((empty($applicationCode) && $first) || $applicationCode == $application['code'] ? ' checked="checked"' : ''),
+                (!empty($application['name'])
+                    ? $application['name']
+                    : '-'),
+                (!empty($application['description'])
+                    ? sprintf(
+                        '<p class="description">%s</p>',
+                        $application['description']
+                ) : ''),
+                (!empty($application['extraDescription'])
+                    ? sprintf(
+                        '<p class="extra-description">%s</p>',
+                        str_replace(
+                            array(
+                                '[b]',
+                                '[/b]',
+                                '[u]',
+                                '[/u]',
+                                '[i]',
+                                '[/i]'
+                            ),
+                            array(
+                                '<span style="font-weight: bold;">',
+                                '</span>',
+                                '<span style="text-decoration: underline;">',
+                                '</span>',
+                                '<span style="font-style: italic;">',
+                                '</span>'
+                            ),
+                            $application['extraDescription']
+                        )
+                ) : ''),
+                (!empty($mainProducts)
+                    ? sprintf(
+                        '<strong>%s</strong><ul class="main-products">%s</ul>',
+                        __(
+                            'Products included:',
+                            'msunifaunonline'
+                        ),
+                        $mainProducts
+                ) : ''),
+                (!empty($selectableProducts)
+                    ? sprintf(
+                        '<div class="selectable-products"><strong>%s</strong><ul>%s</ul></div>',
+                        __(
+                            'Select at least one product:',
+                            'msunifaunonline'
+                        ),
+                        $selectableProducts
+                ) : '')
+            );
+            $first = false;
+        }
+        ?>
+    </ul>
+    </fieldset>
+    <fieldset class="company">
+        <legend><?php echo __('Company', 'msunifaunonline'); ?></legend>
+        <p>
+            <label>
+                <span><?php echo __('Name', 'msunifaunonline'); ?></span>
+                <br /><input required="required" type="text" class="regular-text" name="address[company][name]" value="<?php echo $address['company']['name']; ?>" />
+            </label>
+        </p>
+
+        <p>
+            <label>
+                <span><?php echo __('Organization Number', 'msunifaunonline'); ?></span>
+                <br /><input required="required" type="text" class="regular-text" name="address[company][orgNo]" value="<?php echo $address['company']['orgNo']; ?>" />
+            </label>
+        </p>
+
+        <p>
+            <label>
+                <span><?php echo __('VAT number', 'msunifaunonline'); ?></span>
+                <br /><input required="required" type="text" class="regular-text" name="address[company][vatNo]" value="<?php echo $address['company']['vatNo']; ?>" />
+            </label>
+        </p>
+
+        <fieldset class="delivery-address">
+            <legend><?php echo __('Delivery address', 'msunifaunonline'); ?></legend>
+            <p>
+                <label>
+                    <span><?php echo __('Address 1', 'msunifaunonline'); ?></span>
+                    <br /><input required="required" type="text" class="regular-text" name="address[company][deliveryAddress][address1]" value="<?php echo $address['company']['deliveryAddress']['address1']; ?>" />
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span><?php echo __('ZIP code', 'msunifaunonline'); ?></span>
+                    <br /><input required="required" type="text" class="regular-text" name="address[company][deliveryAddress][zipcode]" value="<?php echo $address['company']['deliveryAddress']['zipcode']; ?>" />
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span><?php echo __('City', 'msunifaunonline'); ?></span>
+                    <br /><input required="required" type="text" class="regular-text" name="address[company][deliveryAddress][city]" value="<?php echo $address['company']['deliveryAddress']['city']; ?>" />
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span><?php echo __('Country', 'msunifaunonline'); ?></span>
+                    <br /><select required="required" name="address[company][deliveryAddress][country]"><?php echo $deliveryAddressCountryPickerHtml; ?></select>
+                </label>
+            </p>
+        </fieldset>
+
+        <p class="postal-address-same-as-delivery-address">
+            <label>
+                <input type="checkbox" name="address[company][postalAddress][sameAsDeliveryAddress]" value="1"<?php echo ($postalSameAsDelivery ? 'checked="checked"' : ''); ?> />
+                <span><?php echo __('Postal address is same as delivery address', 'msuniafunonline'); ?></span>
+            </label>
+        </p>
+
+        <fieldset class="postal-address">
+            <legend><?php echo __('Postal address', 'msunifaunonline'); ?></legend>
+            <p>
+                <label>
+                    <span><?php echo __('Address 1', 'msunifaunonline'); ?></span>
+                    <br /><input required="required" type="text" class="regular-text" name="address[company][postalAddress][address1]" value="<?php echo $address['company']['postalAddress']['address1']; ?>" />
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span><?php echo __('ZIP code', 'msunifaunonline'); ?></span>
+                    <br /><input required="required" type="text" class="regular-text" name="address[company][postalAddress][zipcode]" value="<?php echo $address['company']['postalAddress']['zipcode']; ?>" />
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span><?php echo __('City', 'msunifaunonline'); ?></span>
+                    <br /><input required="required" type="text" class="regular-text" name="address[company][postalAddress][city]" value="<?php echo $address['company']['postalAddress']['city']; ?>" />
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span><?php echo __('Country', 'msunifaunonline'); ?></span>
+                    <br /><select required="required" name="address[company][postalAddress][country]"><?php echo $postalAddressCountryPickerHtml; ?></select>
+                </label>
+            </p>
+        </fieldset>
+
+        <p class="invoice-address-same-as-postal-address">
+            <label>
+                <input type="checkbox" name="address[company][invoiceAddress][sameAsPostalAddress]" value="1"<?php echo ($invoiceSameAsPostal ? 'checked="checked"' : ''); ?> />
+                <span><?php echo __('Invoice address is same as postal address', 'msuniafunonline'); ?></span>
+            </label>
+        </p>
+
+        <fieldset class="invoice-address">
+            <legend><?php echo __('Invoice address', 'msunifaunonline'); ?></legend>
+            <p>
+                <label>
+                    <span><?php echo __('Address 1', 'msunifaunonline'); ?></span>
+                    <br /><input required="required" type="text" class="regular-text" name="address[company][invoiceAddress][address1]" value="<?php echo $address['company']['invoiceAddress']['address1']; ?>" />
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span><?php echo __('ZIP code', 'msunifaunonline'); ?></span>
+                    <br /><input required="required" type="text" class="regular-text" name="address[company][invoiceAddress][zipcode]" value="<?php echo $address['company']['invoiceAddress']['zipcode']; ?>" />
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span><?php echo __('City', 'msunifaunonline'); ?></span>
+                    <br /><input required="required" type="text" class="regular-text" name="address[company][invoiceAddress][city]" value="<?php echo $address['company']['invoiceAddress']['city']; ?>" />
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span><?php echo __('Country', 'msunifaunonline'); ?></span>
+                    <br /><select required="required" name="address[company][invoiceAddress][country]"><?php echo $invoiceAddressCountryPickerHtml; ?></select>
+                </label>
+            </p>
+        </fieldset>
+
+        <p>
+            <label>
+                <span><?php echo __('Invoice E-mail', 'msunifaunonline'); ?></span>
+                <br /><input required="required" type="email" class="regular-text" name="address[company][invoiceEmail]" value="<?php echo $address['company']['invoiceEmail']; ?>" />
+            </label>
+        </p>
+
+        <fieldset class="contact-person">
+            <legend><?php echo __('Contact person', 'msunifaunonline'); ?></legend>
+            <p>
+                <label>
+                    <span><?php echo __('Name', 'msunifaunonline'); ?></span>
+                    <br /><input required="required" type="text" class="regular-text" name="address[company][contact1][name]" value="<?php echo $address['company']['contact1']['name']; ?>"/>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <span><?php echo __('Phone', 'msunifaunonline'); ?></span>
+                    <br /><input required="required" type="text" class="regular-text" name="address[company][contact1][phone]" value="<?php echo $address['company']['contact1']['phone']; ?>" />
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <span><?php echo __('Mobile', 'msunifaunonline'); ?></span>
+                    <br /><input required="required" type="text" class="regular-text" name="address[company][contact1][sms]" value="<?php echo $address['company']['contact1']['sms']; ?>" />
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <span><?php echo __('E-mail', 'msunifaunonline'); ?></span>
+                    <br /><input required="required" type="email" class="regular-text" name="address[company][contact1][email]" value="<?php echo $address['company']['contact1']['email']; ?>"/>
+                </label>
+            </p>
+        </fieldset>
+
+    </fieldset>
+
+    <fieldset class="terms">
+        <legend><?php echo __('Terms', 'msunifaunonline'); ?></legend>
+        <p class="terms">
+            <?php echo $terms['userTerms']; ?>
+        </p>
+        <p class="terms-link">
+            <?php echo $terms['userTermsLink']; ?>
+        </p>
+        <p class="terms-approve">
+            <label>
+                <input required="required" type="checkbox" name="terms_approved" value="1" />
+                <span><?php echo __('I approve with the terms above', 'msunifauonline'); ?></span>
+            </label>
+        </p>
+    </fieldset>
+
+    <input type="submit" class="button button-primary" value="<?php echo __('Complete order', 'msunifauonline'); ?>" />
+    <input type="hidden" name="unifaun_setup_nonce" value="<?php echo wp_create_nonce('unifaun_setup_nonce'); ?>" />
+</form>
+<?php } else { ?>
+<p><?php echo __('Sorry, at the moment there are no applications available for you to order.', 'msunifaunonline'); ?></p>
+<?php } ?>
+<?php } else { ?>
+<p><?php printf(__('Failed with communicating with Unifaun, error: %s', 'msunifaunonline'), $error); ?></p>
+<?php } ?>
+<p>
+    <hr />
+    <a href="?page=msunifaun_setup&route=<?php echo $route; ?>"><?php echo __('Go back', 'msunifaunonline'); ?></a>
+</p>

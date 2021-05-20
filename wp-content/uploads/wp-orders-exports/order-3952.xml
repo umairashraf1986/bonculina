@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>3952</OrderId>
+  <OrderTime>12:24:23</OrderTime>
+  <OrderDate>2020-08-19</OrderDate>
+  <ShippingFullName>Bengt Roland BertilBengt Wågensjö</ShippingFullName>
+  <ShippingAddress1>Teknologgatan 7 Lgh 1301</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Stockholm</ShippingCity>
+  <ShippingPostcode>11360</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>464</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>1069</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001213067</ShipmentNumber>
+</Order>

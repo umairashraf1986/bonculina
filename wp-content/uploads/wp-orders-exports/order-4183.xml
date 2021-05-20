@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4183</OrderId>
+  <OrderTime>11:31:52</OrderTime>
+  <OrderDate>2020-09-30</OrderDate>
+  <ShippingFullName>Henrik Ståhl</ShippingFullName>
+  <ShippingAddress1>Sävsångarvägen 85</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Älta</ShippingCity>
+  <ShippingPostcode>13837</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>2031</Id>
+      <Name>Veggie paketet - 20 måltider</Name>
+      <ProductId>2884</ProductId>
+      <SKU>EPVEG</SKU>
+      <Quantity>1</Quantity>
+      <Price>999</Price>
+      <Subtotal>999</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>999</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001280786</ShipmentNumber>
+</Order>

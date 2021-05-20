@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4188</OrderId>
+  <OrderTime>15:15:19</OrderTime>
+  <OrderDate>2020-09-30</OrderDate>
+  <ShippingFullName>Felix Berglie</ShippingFullName>
+  <ShippingAddress1>Prytzgatan 39</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Mölndal</ShippingCity>
+  <ShippingPostcode>43131</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>2069</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>962</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001281150</ShipmentNumber>
+</Order>

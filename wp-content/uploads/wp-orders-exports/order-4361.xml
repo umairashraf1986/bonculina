@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4361</OrderId>
+  <OrderTime>10:20:37</OrderTime>
+  <OrderDate>2020-10-13</OrderDate>
+  <ShippingFullName>Pontus Bergnor</ShippingFullName>
+  <ShippingAddress1>Hägerneholmsvägen 4</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Täby</ShippingCity>
+  <ShippingPostcode>18760</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>3723</Id>
+      <Name>Coq Au Vin</Name>
+      <ProductId>2835</ProductId>
+      <SKU>226GB90203557</SKU>
+      <Quantity>4</Quantity>
+      <Price>65</Price>
+      <Subtotal>260</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>260</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3724</Id>
+      <Name>Kyckling Tikka Masala</Name>
+      <ProductId>2859</ProductId>
+      <SKU>224GB90203501</SKU>
+      <Quantity>4</Quantity>
+      <Price>55</Price>
+      <Subtotal>220</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>220</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001302121</ShipmentNumber>
+</Order>

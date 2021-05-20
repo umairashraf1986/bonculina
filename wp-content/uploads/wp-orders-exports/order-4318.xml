@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4318</OrderId>
+  <OrderTime>20:30:59</OrderTime>
+  <OrderDate>2020-10-09</OrderDate>
+  <ShippingFullName>Staffan Åberg</ShippingFullName>
+  <ShippingAddress1>Mangårdsvägen 20</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Huddinge</ShippingCity>
+  <ShippingPostcode>14151</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>3404</Id>
+      <Name>Tortellini Panna Prosciutto</Name>
+      <ProductId>2878</ProductId>
+      <SKU>418IT9012813</SKU>
+      <Quantity>4</Quantity>
+      <Price>55</Price>
+      <Subtotal>220</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>198</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3405</Id>
+      <Name>Coq Au Vin</Name>
+      <ProductId>2835</ProductId>
+      <SKU>226GB90203557</SKU>
+      <Quantity>4</Quantity>
+      <Price>65</Price>
+      <Subtotal>260</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>234</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3406</Id>
+      <Name>Marockansk lammgryta</Name>
+      <ProductId>2818</ProductId>
+      <SKU>214GB90203565</SKU>
+      <Quantity>4</Quantity>
+      <Price>65</Price>
+      <Subtotal>260</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>234</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001296394</ShipmentNumber>
+</Order>

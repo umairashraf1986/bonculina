@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4058</OrderId>
+  <OrderTime>05:37:31</OrderTime>
+  <OrderDate>2020-09-14</OrderDate>
+  <ShippingFullName>Helen Tufvesson</ShippingFullName>
+  <ShippingAddress1>Landsvägen 71 Lgh 2103</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Sundbyberg</ShippingCity>
+  <ShippingPostcode>17265</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>1059</Id>
+      <Name>Veggie paketet - 20 måltider</Name>
+      <ProductId>2884</ProductId>
+      <SKU>EPVEG</SKU>
+      <Quantity>1</Quantity>
+      <Price>999</Price>
+      <Subtotal>999</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>999</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001251333</ShipmentNumber>
+</Order>

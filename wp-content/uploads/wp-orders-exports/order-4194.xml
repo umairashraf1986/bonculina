@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4194</OrderId>
+  <OrderTime>19:05:46</OrderTime>
+  <OrderDate>2020-09-30</OrderDate>
+  <ShippingFullName>David Runefelt</ShippingFullName>
+  <ShippingAddress1>Larmvägen 6 C</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Täby</ShippingCity>
+  <ShippingPostcode>18775</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>2143</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>962</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001281303</ShipmentNumber>
+</Order>

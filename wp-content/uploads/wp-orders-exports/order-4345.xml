@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4345</OrderId>
+  <OrderTime>12:50:42</OrderTime>
+  <OrderDate>2020-10-12</OrderDate>
+  <ShippingFullName>Jonas Hed</ShippingFullName>
+  <ShippingAddress1>Fläderstigen 4</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Solna</ShippingCity>
+  <ShippingPostcode>17067</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>3607</Id>
+      <Name>Tagliatellepasta med köttfärssås</Name>
+      <ProductId>2861</ProductId>
+      <SKU>218IT9012802</SKU>
+      <Quantity>4</Quantity>
+      <Price>55</Price>
+      <Subtotal>220</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>220</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3608</Id>
+      <Name>Tortellini Panna Prosciutto</Name>
+      <ProductId>2878</ProductId>
+      <SKU>418IT9012813</SKU>
+      <Quantity>3</Quantity>
+      <Price>55</Price>
+      <Subtotal>165</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>165</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3609</Id>
+      <Name>Chilli Con Carne</Name>
+      <ProductId>2857</ProductId>
+      <SKU>210GB90203555</SKU>
+      <Quantity>4</Quantity>
+      <Price>55</Price>
+      <Subtotal>220</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>220</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3610</Id>
+      <Name>Lasagne</Name>
+      <ProductId>2850</ProductId>
+      <SKU>218IT9012801</SKU>
+      <Quantity>4</Quantity>
+      <Price>65</Price>
+      <Subtotal>260</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>260</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001300108</ShipmentNumber>
+</Order>

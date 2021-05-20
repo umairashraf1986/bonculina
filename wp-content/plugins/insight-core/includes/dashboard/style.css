@@ -1,0 +1,85 @@
+#insight_core_featured_themes .inside {
+    height: 0;
+    overflow: hidden;
+}
+
+#insight_core_featured_themes .inside.slick-slider {
+    height: auto;
+    overflow: auto;
+}
+
+#insight_core_featured_themes .item {
+    display: block;
+    width: 100%;
+    position: relative;
+    outline: none;
+}
+
+#insight_core_featured_themes .item .info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(255, 255, 255, .8);
+    color: #222;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#insight_core_featured_themes .slick-slider {
+    position: relative;
+}
+
+#insight_core_featured_themes .slick-arrow {
+    position: absolute;
+    display: block;
+    bottom: 12px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    overflow: hidden;
+    margin-top: -20px;
+    z-index: 999;
+    padding: 0;
+    font-size: 0;
+    border: none;
+    background-color: transparent;
+    color: #222;
+    outline: none;
+    cursor: pointer;
+    transition: all .35s ease-in-out;
+}
+
+#insight_core_featured_themes .slick-arrow:before {
+    font-size: 16px;
+    font-family: Dashicons;
+}
+
+#insight_core_featured_themes .slick-prev {
+    left: 12px;
+}
+
+#insight_core_featured_themes .slick-prev:before {
+    content: '\f141';
+}
+
+#insight_core_featured_themes .slick-next {
+    left: auto;
+    right: 12px;
+}
+
+#insight_core_featured_themes .slick-next:before {
+    content: '\f139';
+}
+
+#insight_core_featured_themes img {
+    width: 100%;
+    height: auto;
+}

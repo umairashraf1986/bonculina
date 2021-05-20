@@ -1,0 +1,128 @@
+#msunifaun-setup {
+    background-color: #fff;
+    border: 1px #ddd solid;
+    color: #000;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 40px 60px;
+}
+#msunifaun-setup h1 {
+    color: #8c107e;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+#msunifaun-setup h2 {
+    color: #0082dc;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0 0 30px 0;
+}
+#msunifaun-setup .message {
+    color: #000;
+    display: block;
+    font-size: 14px;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+}
+#msunifaun-setup .message.error {
+    background-color: #fbb;
+}
+#msunifaun-setup .message.success {
+    background-color: #bfb;
+}
+#msunifaun-setup ul.areas {
+    margin: 40px 0;
+}
+#msunifaun-setup ul.areas li {
+    border: 1px #ddd solid;
+    padding: 20px;
+    max-width: 250px;
+}
+#msunifaun-setup ul.areas li a {
+    font-weight: bold;
+}
+#msunifaun-setup ul.areas li.account {
+    background: #fff url('../img/iconfinder_add_user_male_2639755.svg') bottom right no-repeat scroll;
+}
+
+/* Applications */
+#msunifaun-setup .applicable-applications {
+    margin-bottom: 20px;
+}
+#msunifaun-setup .applicable-applications > li {
+    background-color: #fff;
+    border: 1px #efefef solid;
+    padding: 20px;
+    transition: background-color 0.2s;
+}
+#msunifaun-setup .applicable-applications > li.selected {
+    background-color: #efefef;
+    border: 1px #ccc solid;
+}
+#msunifaun-setup .applicable-applications .selectable-products {
+    display: none;
+}
+#msunifaun-setup .applicable-applications > li.selected .selectable-products {
+    display: block;
+}
+#msunifaun-setup .applicable-applications .selectable-products .partners {
+    display: none;
+}
+#msunifaun-setup .applicable-applications .selectable-products > ul > li.selected .partners {
+    display: block;
+}
+#msunifaun-setup label > span
+{
+    font-weight: bold;
+}
+#msunifaun-setup fieldset {
+    border: 1px #ddd solid;
+    padding: 0 20px 20px 20px;
+}
+#msunifaun-setup fieldset.terms {
+    margin-bottom: 20px;
+}
+#msunifaun-setup fieldset.postal-address.same-as,
+#msunifaun-setup fieldset.invoice-address.same-as
+{
+    display: none;
+}
+#msunifaun-setup p.terms {
+    font-size: 16px;
+    font-style: italic;
+}
+#msunifaun-setup dl {
+    border: 1px #ddd solid;
+    margin: 40px 0;
+    padding: 20px;
+    overflow: hidden;
+}
+#msunifaun-setup dt {
+    clear: left;
+    float: left;
+    font-weight: bold;
+    padding: 0;
+    width: 200px;
+}
+#msunifaun-setup dd {
+    font-style: italic;
+    float: left;
+    margin: 0;
+    padding: none;
+}
+#msunifaun-setup ul.main-products {
+    list-style: disc inside none;
+    margin: 5px 0 20px 0;
+    padding-left: 15px;
+}
+#msunifaun-setup ul.main-products > li {
+    margin: 0;
+}
+#msunifaun-setup h3.order-confirmation {
+    background: #ffffff url('../img/iconfinder_UI_UX_UIUX_Accept_4470665.svg') center left no-repeat scroll;
+    color: #367A36;
+    padding-left: 40px;
+}

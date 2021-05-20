@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>3962</OrderId>
+  <OrderTime>14:44:30</OrderTime>
+  <OrderDate>2020-08-25</OrderDate>
+  <ShippingFullName>Dag Sigvard Ramén</ShippingFullName>
+  <ShippingAddress1>Sundbro Lundbacken 127</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Bälinge</ShippingCity>
+  <ShippingPostcode>74382</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>571</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>1069</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001221752</ShipmentNumber>
+</Order>

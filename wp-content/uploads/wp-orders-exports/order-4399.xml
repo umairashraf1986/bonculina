@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4399</OrderId>
+  <OrderTime>19:35:00</OrderTime>
+  <OrderDate>2020-10-15</OrderDate>
+  <ShippingFullName>Felicia Shekarabi</ShippingFullName>
+  <ShippingAddress1>Norr Mälarstrand 102</ShippingAddress1>
+  <ShippingAddress2>c/o MODULHUS</ShippingAddress2>
+  <ShippingCity>Stockholm</ShippingCity>
+  <ShippingPostcode>11235</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>4138</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>1069</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001307235</ShipmentNumber>
+</Order>

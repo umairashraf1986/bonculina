@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4417</OrderId>
+  <OrderTime>15:30:48</OrderTime>
+  <OrderDate>2020-10-18</OrderDate>
+  <ShippingFullName>Susanne Berglund</ShippingFullName>
+  <ShippingAddress1>Kocksgatan 3 Lgh 1203</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Stockholm</ShippingCity>
+  <ShippingPostcode>11624</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>4344</Id>
+      <Name>Trendy paketet - 20 måltider</Name>
+      <ProductId>2883</ProductId>
+      <SKU>EPTREN</SKU>
+      <Quantity>1</Quantity>
+      <Price>1099</Price>
+      <Subtotal>1099</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>1099</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001309685</ShipmentNumber>
+</Order>

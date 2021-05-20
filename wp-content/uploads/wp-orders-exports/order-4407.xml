@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4407</OrderId>
+  <OrderTime>17:59:38</OrderTime>
+  <OrderDate>2020-10-17</OrderDate>
+  <ShippingFullName>Daniel Gullå</ShippingFullName>
+  <ShippingAddress1>Hagängsvägen 1</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Upplands Väsby</ShippingCity>
+  <ShippingPostcode>19445</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>4260</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>1069</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001308850</ShipmentNumber>
+</Order>

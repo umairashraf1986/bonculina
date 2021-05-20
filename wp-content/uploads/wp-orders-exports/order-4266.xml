@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4266</OrderId>
+  <OrderTime>15:38:31</OrderTime>
+  <OrderDate>2020-10-05</OrderDate>
+  <ShippingFullName>Jonas Karlsson</ShippingFullName>
+  <ShippingAddress1>Kärrvägen 6</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Tumba</ShippingCity>
+  <ShippingPostcode>14732</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>2908</Id>
+      <Name>Veggie paketet - 20 måltider</Name>
+      <ProductId>2884</ProductId>
+      <SKU>EPVEG</SKU>
+      <Quantity>1</Quantity>
+      <Price>999</Price>
+      <Subtotal>999</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>899</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001288749</ShipmentNumber>
+</Order>

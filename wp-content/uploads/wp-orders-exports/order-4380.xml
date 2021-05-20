@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4380</OrderId>
+  <OrderTime>18:02:37</OrderTime>
+  <OrderDate>2020-10-14</OrderDate>
+  <ShippingFullName>Göran Andersen</ShippingFullName>
+  <ShippingAddress1>Kristallvägen 22 Lgh 1001</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Hägersten</ShippingCity>
+  <ShippingPostcode>12678</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>3937</Id>
+      <Name>Traditionella paketet - 20 måltider</Name>
+      <ProductId>1964</ProductId>
+      <SKU>EPTRAD</SKU>
+      <Quantity>1</Quantity>
+      <Price>1069</Price>
+      <Subtotal>1069</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>962</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001305211</ShipmentNumber>
+</Order>

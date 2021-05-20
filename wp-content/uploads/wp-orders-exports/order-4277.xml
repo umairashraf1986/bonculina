@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4277</OrderId>
+  <OrderTime>14:29:18</OrderTime>
+  <OrderDate>2020-10-06</OrderDate>
+  <ShippingFullName>Elisabeth Ström</ShippingFullName>
+  <ShippingAddress1>Smedjevägen 7</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Rimbo</ShippingCity>
+  <ShippingPostcode>76231</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>3016</Id>
+      <Name>Köttfärslimpa med gräddsås</Name>
+      <ProductId>2853</ProductId>
+      <SKU>223GB90203563</SKU>
+      <Quantity>2</Quantity>
+      <Price>65</Price>
+      <Subtotal>130</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>130</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+    <OrderLineItem>
+      <Id>3017</Id>
+      <Name>Pennepasta med lax</Name>
+      <ProductId>1906</ProductId>
+      <SKU>218IT9012807</SKU>
+      <Quantity>2</Quantity>
+      <Price>65</Price>
+      <Subtotal>130</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>130</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001290932</ShipmentNumber>
+</Order>

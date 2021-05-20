@@ -1,0 +1,71 @@
+/* WooCommerce */
+
+.woocommerce-product-gallery,
+.woocommerce-product-gallery__wrapper {
+	position: relative !important; /* Ensures the gallery containers are relative or the positioning won't work, it is relative by default but some themes may amend it */
+}
+
+.woocommerce-product-gallery__image {
+	position: relative; /* Ensures image containers are relative, not !important as some themes may override this with position absolute, etc */
+}
+
+.woocommerce-product-gallery__trigger {
+	transition: none !important; /* Ensures the changed positions don't get transitioned in */
+}
+
+.product {
+	position: relative; /* Ensures the product container is relative or the positioning won't work, it is relative by default but some themes may amend it, not !important as some themes may change it to position absolute, but would still allow positioning if absolute */
+}
+
+.wc-block-grid__product-onsale {
+	display: none !important; /* Hides the sale flash on product blocks as they do not take the woocommerce_sale_flash filter we have returned false into account */
+}
+
+.wc-block-grid__product-image img {
+	display: block !important; /* Ensures block product images are display block otherwise they are inline and have the small margin below so would cause badge bottom absolute position to be offset */
+}
+
+/* Badge */
+
+.wcpb-product-badges-badge {
+	position: absolute;
+	width: 120px;
+	pointer-events: none;
+	z-index: 10; /* Some themes may set a high z-index on product images, this z-index ensures the badge is displayed on top of the product image, we keep it low as a lot of themes can use lowish z-indexes for sticky headers */
+}
+
+.wcpb-product-badges-badge .wcpb-product-badges-badge-img {
+	all: unset !important; /* Some themes add unwanted CSS to all img elements in the product display, below rules stop this */
+	position: relative !important; /* Stops themes attempting to position this element as they mistakenly think it's the product image causing the badge image to not display at all or positioned incorrectly */
+	display: block !important; /* Ensures img doesn't include the few pixels below which inline img block elements get */
+	width: 100% !important; /* Stops themes overriding this */
+	height: auto !important; /* Stops themes overriding this */
+}
+
+.wcpb-product-badges-badge.wcpb-product-badges-badge-top-left {
+	top: 0;
+	left: 0;
+}
+
+.wcpb-product-badges-badge.wcpb-product-badges-badge-top-right {
+	top: 0;
+	right: 0;
+}
+
+.wcpb-product-badges-badge.wcpb-product-badges-badge-bottom-left {
+	bottom: 0;
+	left: 0;
+}
+
+.wcpb-product-badges-badge.wcpb-product-badges-badge-bottom-right {
+	bottom: 0;
+	right: 0;
+}
+
+/* Theme Specific Tweaks
+
+/* Flatsome */
+
+.theme-flatsome .product-gallery .product-thumbnails .wcpb-product-badges-badge {
+	display: none !important; /* Flatsome uses the woocommerce_single_product_image_thumbnail_html filter for all additional gallery images unlike WooCommerce which just uses it for the main image, therefore we hide the badges in here */
+}

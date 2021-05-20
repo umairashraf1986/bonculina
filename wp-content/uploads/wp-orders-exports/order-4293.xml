@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Order>
+  <OrderId>4293</OrderId>
+  <OrderTime>10:30:45</OrderTime>
+  <OrderDate>2020-10-07</OrderDate>
+  <ShippingFullName>Kent Wogel</ShippingFullName>
+  <ShippingAddress1>Mellanbergsvägen 33</ShippingAddress1>
+  <ShippingAddress2/>
+  <ShippingCity>Tyresö</ShippingCity>
+  <ShippingPostcode>13545</ShippingPostcode>
+  <OrderLineItems>
+    <OrderLineItem>
+      <Id>3132</Id>
+      <Name>Trendy paketet - 20 måltider</Name>
+      <ProductId>2883</ProductId>
+      <SKU>EPTREN</SKU>
+      <Quantity>1</Quantity>
+      <Price>1099</Price>
+      <Subtotal>1099</Subtotal>
+      <SubtotalTax>0</SubtotalTax>
+      <Total>989</Total>
+      <TotalTax>0</TotalTax>
+    </OrderLineItem>
+  </OrderLineItems>
+  <ShipmentNumber>UNI1001292505</ShipmentNumber>
+</Order>
